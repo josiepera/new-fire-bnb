@@ -28,6 +28,7 @@ We rebuilt the Airbnb site with React. We used Express for our server and Postgr
 ![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg)
 ![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg)
 ![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541437548/ERD_tables.jpg)
+![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541438623/App_Structure.jpg)
 
 
 ## Priority Matrix
