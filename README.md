@@ -1,5 +1,6 @@
 
 # squad-airbnb
+![] (https://www.logodesignlove.com/images/identity/airbnb-logo-meaning.jpg)
 
 # Project Overview
 For our Unit 3 project, we are working in a group format to recreate the Airbnb Official Site. For our technologies, we are using HTML, CSS, Bootstrap, and React for the Front-End development, and on the backend, we used Express.js, PostgreSQL, Postman, and Postico to build the server and database.
