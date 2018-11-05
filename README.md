@@ -2,11 +2,12 @@
 # squad-airbnb
 
 # Project Overview
+For our Unit 3 project, we are working in a group format to recreate the Airbnb Official Site. For our technologies, we are using HTML, CSS, Bootstrap, and React for the Front-End development, and on the backend, we used Express.js, PostgreSQL, Postman, and Postico to build the server and database.
 
 
 ## Project Description
 
-We rebuilt the Airbnb site with React. We used Express for our server and PostgreSQL for our database.
+The React web application will include the AirBnb's home page which will include a search form and navgiation routing bar. There will be various routes that the user can take to search listings in New York as well as single listing to view. 
 
 
 ## Project Schedule
