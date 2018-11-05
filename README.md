@@ -109,11 +109,11 @@ render the data and pass it as props
 
 1 Database with 3 tables
 
-Table 1  -  Locations 
+Table 1  -  Listings
 |img|listtitle|citylocale|roomspecs|superhost?|desc|contact|amenities|sleeparange|access|available|reviews|price|
 
 Table 2 - Host info
 |title|citylocale|datejoined|superhost?|desc|contact|policies|cancel|
 
-Table 3 - Listings
+Table 3 - Single Listing
 |img|listtitle|roomspecs|price|superhost?|cancel|
