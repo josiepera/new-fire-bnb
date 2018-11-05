@@ -24,12 +24,12 @@ We rebuilt the Airbnb site with React. We used Express for our server and Postgr
 
 ## Wireframes
 
-![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541434083/MVP_PMVP_Priority_Matrix.jpg)
-![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541432956/Wireframes.jpg)
-![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg)
-![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg)
-![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541437548/ERD_tables.jpg)
-![wireframe](https://res.cloudinary.com/div3mompi/image/upload/v1541438623/App_Structure.jpg)
+https://res.cloudinary.com/div3mompi/image/upload/v1541434083/MVP_PMVP_Priority_Matrix.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541432956/Wireframes.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541437548/ERD_tables.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541438623/App_Structure.jpg
 
 
 ## Priority Matrix
