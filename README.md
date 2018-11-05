@@ -85,6 +85,7 @@ render the data and pass it as props
   }
 }
 
+## Timetable
 
 | Component    | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
