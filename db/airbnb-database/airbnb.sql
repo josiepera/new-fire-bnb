@@ -32,7 +32,7 @@ INSERT INTO listings (url, listing_title, city_location, room_specifics, superho
 
 	I enjoyed staying at Yoni's place. He was very responsive, quick to answer my questions. The neighborhood is nice and quiet and his apartment is very quiet for Manhattan. There are a lot of great restaurants and attractions in the neighborhood. A subway stop is very close by. Literally, at the end of the block you'll find a stop with two major lines. Yoni is kind and gave me all the space I need. His dog, Oreo, is adorable. I recommend.",
 	"60$ per night"
-)
+);
 
 
 INSERT INTO host_info (title, city_location, date_joined, superhost_or_not, description, contact_host, policies, cancellation) VALUES
@@ -72,4 +72,4 @@ INSERT INTO host_info (title, city_location, date_joined, superhost_or_not, desc
 	"Cancellations
 	Strict - Free cancellation for 48 hours
 	After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee."
-)
+);
