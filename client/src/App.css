@@ -86,44 +86,46 @@ li {
   'S S S S';
  margin-left: 10%;
  margin-right: 50%;
- height: 400px;
+ height: 500px;
  grid-gap: 20px;
  border-radius: 5px;
 }
 .book {
   grid-area: H;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 10%;
 }
 .where {
   grid-area: W;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-bottom: 10%;
 
 }
 .check-in {
   grid-area: I;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-bottom: 10%;
 }
 
 .check-out {
   grid-area: O;
-  padding-left: 20px;
-   padding-bottom: 20px;
+  padding-left: 5%;
+  padding-bottom: 10%;
    width: 90%;
 }
 
 .guests {
   grid-area: G;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  width: 90%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+  width: 100%;
 }
 
 input {
-  padding-right: 200px;
+  width: 250px;
 }
+
+
 
 .search {
   grid-area: S;
