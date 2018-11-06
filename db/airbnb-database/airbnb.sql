@@ -1,6 +1,6 @@
-INSERT INTO listings (url, listing_title, city_location, room_specifics, superhost_or_not, description, contact_host, ammenities, sleep_arrange, access, availability, reviews, price) 
+INSERT INTO listings (url, listing_title, city_location, room_specifics, superhost_or_not, description, contact_host, ammenities, sleep_arrange, access, availability, reviews, price) VALUES
 (
-	"https://a0.muscache.com/im/pictures/8b20491f-d0c3-4fc2-bc9c-048a0ee78ef8.jpg?aki_policy=xx_large",
+	"http://the-window.info/wp-content/uploads/2017/03/building-design-wikipedia-beautiful-building-designs.jpg",
 	"Tasteful Room in Charming Two Bedroom Apartment",
 	"New York, NY",
 	"1 guest, 1 bedroom, 1 bed, 1 shared bath",

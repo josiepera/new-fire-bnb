@@ -25,5 +25,5 @@ CREATE TABLE IF NOT EXISTS host_info (
 	description TEXT NOT NULL,
 	contact_host TEXT NOT NULL,
 	policies TEXT NOT NULL,
-	cancellation TEXT NOT NULL,
+	cancellation TEXT NOT NULL
 );
