@@ -3,6 +3,7 @@ const db = require('../db/config');
 const airbnbModels = {};
 
 airbnbModels.findAll = () => {
+
   return db.query(`SELECT * FROM #`);
 };
 
