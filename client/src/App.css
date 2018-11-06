@@ -17,6 +17,10 @@ body {
 
 li {
   list-style-type: none;
+  text-decoration:none;
+  color: white;
+   align-content: center;
+    padding-left: 20px;
 }
 
 .logo {
@@ -35,16 +39,14 @@ li {
     flex-direction: row;
     height: 100%;
     padding: 20px;
+    text-decoration:none;
 
   }
 
-  li {
-    align-content: center;
-    padding-left: 20px;
-  }
 
     ul {
     display: flex;
+    text-decoration:none;
 
 }
 
