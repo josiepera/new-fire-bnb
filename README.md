@@ -1,7 +1,7 @@
 
 # squad-airbnb
 
-# ![](https://www.logodesignlove.com/images/identity/airbnb-logo-meaning.jpg) 
+# ![](https://www.logodesignlove.com/images/identity/airbnb-logo-meaning.jpg)
 
 # Project Overview
 For our Unit 3 project, we are working in a group format to recreate the Airbnb Official Site. For our technologies, we are using HTML, CSS, Bootstrap, and React for the Front-End development, and on the backend, we used Express.js, PostgreSQL, Postman, and Postico to build the server and database.
@@ -9,7 +9,7 @@ For our Unit 3 project, we are working in a group format to recreate the Airbnb 
 
 ## Project Description
 
-The React web application will include the AirBnb's home page which will include a search form and navgiation routing bar. There will be various routes that the user can take to search listings in New York as well as single listing to view. 
+The React web application will include the AirBnb's home page which will include a search form and navigation routing bar. There will be various routes that the user can take to search listings in New York as well as single listing to view.
 
 
 ## Project Schedule
@@ -36,7 +36,7 @@ https://res.cloudinary.com/div3mompi/image/upload/v1541432956/Wireframes.jpg
 Tables:
 https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg
 
-Location Constraints: 
+Location Constraints:
 https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg
 
 ERD Tables:
@@ -109,12 +109,12 @@ render the data and pass it as props
 | Home page    | H  | 4hrs | ? | ?  |
 | Listings page | H | 4hrs | ? | ? |
 | Search page | H | 4hrs | ? | ? |
-| Server Setup | H  | 4hrs| ? | ? |
+| Server Setup | H  | 4hrs| ? | 1hr |
 | Basic Styles | H  | 4hrs| ? | ? |
-| Routes | H | 4hrs | ? | ? |
+| Routes | H | 4hrs | ? | 1hr |
 | Model | H | 4hrs | ? | ?
 | Controller | H | 4hrs | ? | ?
-| DB and Tables | H  | 4hrs | ? | ?
+| DB and Tables | H  | 4hrs | ? | 1hr
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?
 | Adv. Styles  | L | 4hrs | ? | ?
@@ -124,13 +124,10 @@ render the data and pass it as props
 
 ## Database and Tables
 
-1 Database with 3 tables
+1 Database with 2 tables
 
 Table 1  -  Listings
 |img|listtitle|citylocale|roomspecs|superhost?|desc|contact|amenities|sleeparange|access|available|reviews|price|
 
 Table 2 - Host info
 |title|citylocale|datejoined|superhost?|desc|contact|policies|cancel|
-
-Table 3 - Single Listing
-|img|listtitle|roomspecs|price|superhost?|cancel|
