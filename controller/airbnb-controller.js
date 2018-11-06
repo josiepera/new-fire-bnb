@@ -41,9 +41,9 @@ airbnbController.create = (req, res) => {
     contact_host: req.body.contact_host,
     ammenities: req.body.ammenities,
     sleep_arrange: req.body.sleep_arrange,
-    access: $req.body.access,
-    reviews: $req.body.reviews,
-    price: $req.body.price
+    access: req.body.access,
+    reviews: req.body.reviews,
+    price: req.body.price
   })
     .then(airbnb => {
       res.json({
@@ -69,9 +69,9 @@ airbnbController.update = (req, res) => {
       contact_host: req.body.contact_host,
       ammenities: req.body.ammenities,
       sleep_arrange: req.body.sleep_arrange,
-      access: $req.body.access,
-      reviews: $req.body.reviews,
-      price: $req.body.price
+      access: req.body.access,
+      reviews: req.body.reviews,
+      price: req.body.price
     },
     req.params.id,
   )
