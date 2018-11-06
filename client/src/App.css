@@ -2,10 +2,7 @@ body {
   font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.43;
-}
-
-.home {
-  background: url("https://images.unsplash.com/photo-1505410272170-ccbb6934c5c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3c9e268cb2f3793206d7f875b431fb4e&auto=format&fit=crop&w=1050&q=80") no-repeat center center fixed;
+   background: url("https://images.unsplash.com/photo-1505410272170-ccbb6934c5c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3c9e268cb2f3793206d7f875b431fb4e&auto=format&fit=crop&w=1050&q=80") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,6 +11,93 @@ body {
   width: 100%;
 }
 
+.home {
+
+}
+
 li {
-  list-style: none;
+  list-style-type: none;
+}
+
+.logo {
+  height: 10%;
+  width: 10%;
+  padding-left: 20px;
+  grid-area: o;
+}
+
+nav {
+
+  display: grid;
+  grid-template-areas:
+  'o o h e s l'
+  'f f f f f f';
+  grid-gap: 10px;
+}
+
+.host {
+  grid-area: h;
+}
+
+.help {
+  grid-area: e;
+}
+
+.sign-up {
+  grid-area: s;
+}
+
+.login {
+  grid-area: l;
+}
+
+.form {
+  grid-area: f;
+}
+
+.full-form {
+  background-color: white;
+  grid-template-areas:
+  'H H H H'
+  'W W W W'
+  'I I O O'
+  'G G G G'
+  'S S S S';
+ margin-left: 10%;
+ margin-right: 50%;
+ height: 400px;
+ grid-gap: 20px;
+ border-radius: 5px;
+}
+.book {
+  grid-area: H;
+  text-align: center;
+  padding-top: 10px;
+}
+.where {
+  grid-area: W;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.check-in {
+  grid-area: I;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.check-out {
+  grid-area: O;
+  padding-left: 20px;
+   padding-bottom: 20px;
+}
+
+.guests {
+  grid-area: G;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.search {
+  grid-area: S;
+  background-color: #ff2f52;
 }
