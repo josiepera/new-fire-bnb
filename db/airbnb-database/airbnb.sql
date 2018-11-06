@@ -4,7 +4,7 @@ INSERT INTO listings (url, listing_title, city_location, room_specifics, superho
 	"Tasteful Room in Charming Two Bedroom Apartment",
 	"New York, NY",
 	"1 guest, 1 bedroom, 1 bed, 1 shared bath",
-	"Yoni is a Superhost: Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests."
+	"Yoni is a Superhost: Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.",
 	"A comfortable and quiet room with a single bed and furnishings is available in this warm two bedroom in historic Harlem neighborhood. With great morning light, a friendly poodle, and French press coffee, it is down the block from the express subway/metro station, only 15 minutes away from the city center. Senior friendly. A great launching pad to explore the city!
 	
 	The space
