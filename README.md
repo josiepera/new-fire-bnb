@@ -106,7 +106,7 @@ render the data and pass it as props
 
 | Component    | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
-| Home page    | H  | 4hrs | ? | ?  |
+| Home page    | H  | 4hrs | 3hrs | 3hrs  |
 | Listings page | H | 4hrs | ? | ? |
 | Search page | H | 4hrs | ? | ? |
 | Server Setup | H  | 4hrs| 1hr | ? |
