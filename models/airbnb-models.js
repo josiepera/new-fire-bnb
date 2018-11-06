@@ -3,10 +3,18 @@ const db = require('../db/config');
 const airbnbModels = {};
 
 airbnbModels.findAll = () => {
-  return "everything from the db"
+
+  return db.query(`SELECT * FROM #`);
 };
 
 airbnbModels.findById = id => {
-  return "find by id"
+  return db.oneOrNone(
+    `
+    SELECT * FROM #
+    WHERE id = $1
+  `,
+    [id]
+  );
 };
+
 module.exports = airbnbModels;
