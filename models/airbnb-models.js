@@ -1,12 +1,12 @@
 const db = require('../db/config');
 
-const airbnb-models = {};
+const airbnbModels = {};
 
-airbnb-models.findAll = () => {
+airbnbModels.findAll = () => {
   return db.query(`SELECT * FROM #`);
 };
 
-airbnb-models.findById = id => {
+airbnbModels.findById = id => {
   return db.oneOrNone(
     `
     SELECT * FROM #
@@ -16,4 +16,4 @@ airbnb-models.findById = id => {
   );
 };
 
-module.exports = airbnb-models;
+module.exports = airbnbModels;
