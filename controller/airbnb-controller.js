@@ -33,7 +33,7 @@ airbnbController.show = (req, res) => {
 airbnbController.create = (req, res) => {
   Airbnb.create({
     url: req.body.url,
-    listing_title: $2,
+    listing_title: req.body.listing_title,
     city_location: req.body.city_location,
     room_specifics: req.body.room_specifics,
     superhost_or_not: req.body.superhost_or_not,
@@ -41,9 +41,9 @@ airbnbController.create = (req, res) => {
     contact_host: req.body.contact_host,
     ammenities: req.body.ammenities,
     sleep_arrange: req.body.sleep_arrange,
-    access: $req.body.access,
-    reviews: $req.body.reviews,
-    price: $req.body.price
+    access: req.body.access,
+    reviews: req.body.reviews,
+    price: req.body.price
   })
     .then(airbnb => {
       res.json({
@@ -58,10 +58,11 @@ airbnbController.create = (req, res) => {
 };
 
 airbnbController.update = (req, res) => {
+  console.log('hitting controller');
   Airbnb.update(
     {
       url: req.body.url,
-      listing_title: $2,
+      listing_title: req.body.listing_title,
       city_location: req.body.city_location,
       room_specifics: req.body.room_specifics,
       superhost_or_not: req.body.superhost_or_not,
@@ -69,16 +70,16 @@ airbnbController.update = (req, res) => {
       contact_host: req.body.contact_host,
       ammenities: req.body.ammenities,
       sleep_arrange: req.body.sleep_arrange,
-      access: $req.body.access,
-      reviews: $req.body.reviews,
-      price: $req.body.price
+      access: req.body.access,
+      reviews: req.body.reviews,
+      price: req.body.price
     },
     req.params.id,
   )
     .then(airbnb => {
       res.json({
-        message: 'ok',
-        data: icecream,
+        message: 'updated',
+        data: airbnb,
       });
     })
     .catch(err => {
@@ -91,7 +92,7 @@ airbnbController.destroy = (req, res) => {
   Airbnb.destroy(req.params.id)
     .then(airbnb => {
       res.json({
-        message: 'ok',
+        message: 'deleted',
         data: airbnb,
       });
     })
