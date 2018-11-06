@@ -106,12 +106,13 @@ render the data and pass it as props
 
 | Component    | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
-| Home page    | H  | 4hrs | 3hrs | 3hrs  |
+| Home page    | H  | 4hrs | 4hrs | 4hrs  |
+| Header w/ Links   | H  | 1hrs | 1hrs | 1hrs  |
 | Listings page | H | 4hrs | ? | ? |
-| Search page | H | 4hrs | ? | ? |
-| Server Setup | H  | 4hrs| 1hr | ? |
-| Basic Styles | H  | 4hrs| ? | ? |
-| Routes | H | 4hrs | 1hr | ? |
+| Form Component | H | 4hrs | 1hr | ? |
+| Server Setup | H  | 4hrs| ? | 1hr |
+| Basic Styles | H  | 4hrs| 2hr | ? |
+| Routes | H | 4hrs | ? | 1hr |
 | Model | H | 4hrs | ? | ?
 | Controller | H | 4hrs | ? | ?
 | DB and Tables | H  | 4hrs | 1hr | ?
