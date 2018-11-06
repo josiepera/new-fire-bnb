@@ -109,12 +109,12 @@ render the data and pass it as props
 | Home page    | H  | 4hrs | ? | ?  |
 | Listings page | H | 4hrs | ? | ? |
 | Search page | H | 4hrs | ? | ? |
-| Server Setup | H  | 4hrs| ? | ? |
+| Server Setup | H  | 4hrs| ? | 1hr |
 | Basic Styles | H  | 4hrs| ? | ? |
-| Routes | H | 4hrs | ? | ? |
+| Routes | H | 4hrs | ? | 1hr |
 | Model | H | 4hrs | ? | ?
 | Controller | H | 4hrs | ? | ?
-| DB and Tables | H  | 4hrs | ? | ?
+| DB and Tables | H  | 4hrs | ? | 1hr
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?
 | Adv. Styles  | L | 4hrs | ? | ?
@@ -124,13 +124,10 @@ render the data and pass it as props
 
 ## Database and Tables
 
-1 Database with 3 tables
+1 Database with 2 tables
 
 Table 1  -  Listings
 |img|listtitle|citylocale|roomspecs|superhost?|desc|contact|amenities|sleeparange|access|available|reviews|price|
 
 Table 2 - Host info
 |title|citylocale|datejoined|superhost?|desc|contact|policies|cancel|
-
-Table 3 - Single Listing
-|img|listtitle|roomspecs|price|superhost?|cancel|
