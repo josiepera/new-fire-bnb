@@ -61,14 +61,7 @@ class Home extends Component {
               />
           </section>
           <section className="search">
-          <label>
-            Search
-          </label>
-              <button
-                  type= "text"
-                  placeholder= "Search"
-                  name="search"
-              />
+          <input className="search-button" type="submit" value="Search" />
           </section>
         </form>
         </div>
