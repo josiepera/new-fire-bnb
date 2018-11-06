@@ -4,23 +4,23 @@ const airbnbModels = {};
 
 airbnbModels.findAll = () => {
 
-  return db.query(`SELECT * FROM airbnb`);
+  return db.query(`SELECT * FROM listings`);
 };
 
 airbnbModels.findById = id => {
   return db.oneOrNone(
     `
-    SELECT * FROM airbnb
+    SELECT * FROM listings
     WHERE id = $1
   `,
     [id]
   );
 };
 
-airbnbModels.create = airbnb => {
+airbnbModels.create = listings => {
   return db.one(
     `
-    INSERT INTO airbnb
+    INSERT INTO listings
     (url, listing_title, city_location, room_specifics, superhost_or_not, description,
     contact_host, ammenities, sleep_arrange, access, reviews, price)
     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11 $12)
@@ -31,10 +31,10 @@ airbnbModels.create = airbnb => {
   );
 };
 
-airbnbModels.update = (icecream, id) => {
+airbnbModels.update = (listings, id) => {
   return db.one(
     `
-    UPDATE airbnb SET
+    UPDATE listings SET
       url = $1,
       listing_title = $2,
       city_location = $3,
@@ -50,15 +50,15 @@ airbnbModels.update = (icecream, id) => {
     WHERE id = $13
     RETURNING *
   `,
-    [airbnb.url, airbnb.listing_title, airbnb.city_location, airbnb.room_sepcifics,
-    airbnb.superhost_or_not, airbnb.description, airbnb.amentities, ]
+    [listings.url, listings.listing_title, listings.city_location, listings.room_sepcifics,
+    listings.superhost_or_not, listings.description, listings.amentities, ]
   );
 };
 
 airbnbModels.destroy = id => {
   return db.none(
     `
-    DELETE FROM airbnb
+    DELETE FROM listings
     WHERE id = $1
   `,
     [id]
