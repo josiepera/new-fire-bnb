@@ -22,6 +22,9 @@ INSERT INTO listings (url, listing_title, city_location, room_specifics, superho
 	"Contact Host",
 	"Kitchen, Dryer, Wifi, Iron, Washer, Laptop friendly workspace",
 	"1 Bedroom Single Bed",
+	"Accessibility
+	Well-lit path to entrance
+	Wide hallway clearance",
 	"Rosa Valeska
 	October 2018
 
