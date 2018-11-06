@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
        <nav>
-        <a href="https://imgur.com/P18lREH" className="logo"><img className="logo" src="https://i.imgur.com/P18lREH.png" title="source: imgur.com" /></a>
+        <img className="logo" src="https://i.imgur.com/P18lREH.png" title="source: imgur.com" />
         <ul>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/host'>Become a Host</Link></li>
