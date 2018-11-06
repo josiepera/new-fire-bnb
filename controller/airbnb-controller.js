@@ -33,7 +33,7 @@ airbnbController.show = (req, res) => {
 airbnbController.create = (req, res) => {
   Airbnb.create({
     url: req.body.url,
-    listing_title: $2,
+    listing_title: req.body.listing_title,
     city_location: req.body.city_location,
     room_specifics: req.body.room_specifics,
     superhost_or_not: req.body.superhost_or_not,
@@ -61,7 +61,7 @@ airbnbController.update = (req, res) => {
   Airbnb.update(
     {
       url: req.body.url,
-      listing_title: $2,
+      listing_title: req.body.listing_title,
       city_location: req.body.city_location,
       room_specifics: req.body.room_specifics,
       superhost_or_not: req.body.superhost_or_not,
