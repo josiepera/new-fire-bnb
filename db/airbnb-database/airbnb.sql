@@ -1,6 +1,6 @@
 INSERT INTO listings (url, listing_title, city_location, room_specifics, superhost_or_not, description, contact_host, amenities, sleep_arrange, access, reviews, price) VALUES
 (
-	'http://the-window.info/wp-content/uploads/2017/03/building-design-wikipedia-beautiful-building-designs.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/9/96/Vasskertentrance.jpg',
 	'Tasteful Room in Charming Two Bedroom Apartment',
 	'New York, NY',
 	'1 guest, 1 bedroom, 1 bed, 1 shared bath',
