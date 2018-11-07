@@ -3,7 +3,7 @@ const db = require('../db/config');
 const airbnbModels = {};
 
 airbnbModels.findAll = () => {
-//return db.query(`SELECT * FROM listings JOIN host_info ON listings.id = host_info.id; `)
+
   return db.query(`SELECT * FROM listings`);
 };
 
@@ -23,12 +23,11 @@ airbnbModels.create = listings => {
     INSERT INTO listings
     (url, listing_title, city_location, room_specifics, superhost_or_not, description,
     contact_host, amenities, sleep_arrange, access, reviews, price)
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11 $12)
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
     RETURNING *
   `,
-    [airbnb.url, airbnb.listing_title, airbnb.city_location, airbnb.room_sepcifics,
-    airbnb.superhost_or_not, airbnb.description, airbnb.amenities, ]
-
+    [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
+    listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities, listings.sleep_arrange, listings.access, listings.reviews, listings.price]
   );
 };
 
@@ -51,8 +50,9 @@ airbnbModels.update = (listings, id) => {
     WHERE id = $13
     RETURNING *
   `,
-    [listings.url, listings.listing_title, listings.city_location, listings.room_sepcifics,
-    listings.superhost_or_not, listings.description, listings.amenities ]
+  [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
+  listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities, listings.sleep_arrange, listings.access, listings.reviews, listings.price, id],
+
   );
 };
 
