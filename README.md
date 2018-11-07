@@ -113,9 +113,9 @@ render the data and pass it as props
 | Header w/ Links   | H  | 2hrs | 2hrs | 2hrs  |
 | Listings Components | H | 4hrs | 4hrs | 4hrs |
 | Form Component | H | 4hrs | 2hr | ? |
-| Server Setup | H  | 4hrs| ? | 1hr |
+| Server Setup | H  | 4hrs| 2hr | 2hr |
 | Basic Styles | H  | 4hrs| 3hr | ? |
-| Routes | H | 4hrs | ? | 1hr |
+| Routes | H | 4hrs | 2hr | 2hr |
 | Model | H | 4hrs | ? | ?
 | Controller | H | 4hrs | ? | ?
 | DB and Tables | H  | 4hrs | 1hr | ?
