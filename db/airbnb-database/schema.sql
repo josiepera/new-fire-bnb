@@ -18,12 +18,12 @@ CREATE TABLE IF NOT EXISTS listings (
 
 CREATE TABLE IF NOT EXISTS host_info (
 	id SERIAL PRIMARY KEY NOT NULL,
-	title VARCHAR(10000) NOT NULL,
-	city_location VARCHAR(10000) NOT NULL,
+	host_title VARCHAR(10000) NOT NULL,
+	host_city_location VARCHAR(10000) NOT NULL,
 	date_joined VARCHAR(10000) NOT NULL,
-	superhost_or_not VARCHAR(10000) NOT NULL,
-	description VARCHAR(10000) NOT NULL,
-	contact_host VARCHAR(10000) NOT NULL,
+	host_superhost_or_not VARCHAR(10000) NOT NULL,
+	host_description VARCHAR(10000) NOT NULL,
+	host_contact_host VARCHAR(10000) NOT NULL,
 	policies VARCHAR(10000) NOT NULL,
 	cancellation VARCHAR(10000) NOT NULL
 );

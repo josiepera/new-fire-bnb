@@ -38,7 +38,7 @@ INSERT INTO listings (url, listing_title, city_location, room_specifics, superho
 );
 
 
-INSERT INTO host_info (title, city_location, date_joined, superhost_or_not, description, contact_host, policies, cancellation) VALUES
+INSERT INTO host_info (host_title, host_city_location, date_joined, host_superhost_or_not, host_description, host_contact_host, policies, cancellation) VALUES
 (
 	'Hosted by Yoni',
 	'New York, New York, United States',
