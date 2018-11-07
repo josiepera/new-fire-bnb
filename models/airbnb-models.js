@@ -23,11 +23,11 @@ airbnbModels.create = listings => {
     INSERT INTO listings
     (url, listing_title, city_location, room_specifics, superhost_or_not, description,
     contact_host, ammenities, sleep_arrange, access, reviews, price)
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11 $12)
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
     RETURNING *
   `,
-    [airbnb.url, airbnb.listing_title, airbnb.city_location, airbnb.room_sepcifics,
-    airbnb.superhost_or_not, airbnb.description, airbnb.amentities, ]
+    [airbnb.url, airbnb.listing_title, airbnb.city_location, airbnb.room_specifics,
+    airbnb.superhost_or_not, airbnb.description, airbnb.contact_host, airbnb.ammenities, airbnb.sleep_arrange, airbnb.access, airbnb.reviews, airbnb.price]
   );
 };
 
@@ -46,7 +46,7 @@ airbnbModels.update = (listings, id) => {
       sleep_arrange = $9,
       access = $10,
       reviews = $11,
-      price = $12,
+      price = $12
     WHERE id = $13
     RETURNING *
   `,

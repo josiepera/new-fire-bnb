@@ -118,7 +118,7 @@ render the data and pass it as props
 | Routes | H | 4hrs | ? | 1hr |
 | Model | H | 4hrs | ? | ?
 | Controller | H | 4hrs | ? | ?
-| DB and Tables | H  | 4hrs | ? | 1hr
+| DB and Tables | H  | 4hrs | 1hr | ?
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?
 | Adv. Styles  | L | 4hrs | ? | ?
