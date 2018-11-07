@@ -72,13 +72,13 @@ form {
 
 .check-in {
   align-self: center;
-  padding: 0 0 0 10%;
+  padding: 0 2% 0 10%;
   grid-column: span 1;
 }
 
 .check-out {
   align-self: center;
-  padding: 0 10% 0 0;
+  padding: 0 10% 0 2%;
   grid-column: span 1;
 }
 
