@@ -39,7 +39,7 @@ airbnbController.create = (req, res) => {
     superhost_or_not: req.body.superhost_or_not,
     description: req.body.description,
     contact_host: req.body.contact_host,
-    ammenities: req.body.ammenities,
+    amenities: req.body.amenities,
     sleep_arrange: req.body.sleep_arrange,
     access: req.body.access,
     reviews: req.body.reviews,
@@ -67,7 +67,7 @@ airbnbController.update = (req, res) => {
       superhost_or_not: req.body.superhost_or_not,
       description: req.body.description,
       contact_host: req.body.contact_host,
-      ammenities: req.body.ammenities,
+      amenities: req.body.amenities,
       sleep_arrange: req.body.sleep_arrange,
       access: req.body.access,
       reviews: req.body.reviews,
@@ -78,7 +78,7 @@ airbnbController.update = (req, res) => {
     .then(airbnb => {
       res.json({
         message: 'ok',
-        data: icecream,
+        data: airbnb,
       });
     })
     .catch(err => {
