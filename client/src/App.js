@@ -4,6 +4,8 @@ import Home from './Home';
 import Header from './Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Button } from 'reactstrap';
+import ListingsList from './ListingsList';
+import ListingsSingle from './ListingsSingle';
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
         <React.Fragment>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/listings" component={ListingsList} />
+            <Route exact path="/listings/:id" component={ListingsSingle} />
           </Switch>
          </React.Fragment>
       </Router>
