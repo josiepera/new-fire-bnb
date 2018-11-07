@@ -6,7 +6,7 @@ class Form extends Component {
        <div className="full-form">
         <h2 className="book"> Book Unique Homes and Experiences. </h2>
         <form>
-          <div className="where">
+          <section className="where">
               <label>
                 WHERE
               </label>
@@ -16,8 +16,8 @@ class Form extends Component {
                       placeholder= "New York, NY, United States"
                       name="where"
                   />
-           </div>
-              <div className="check-in">
+           </section>
+              <section className="check-in">
               <label>
                   CHECK IN
               </label>
@@ -26,9 +26,9 @@ class Form extends Component {
                       type= "text"
                       placeholder= "mm/dd/yyyy"
                       name="check-in"
-                      />
-              </div>
-              <div className="check-out">
+                  />
+              </section>
+              <section className="check-out">
               <label>
                 CHECK OUT
               </label>
@@ -38,8 +38,8 @@ class Form extends Component {
                       placeholder= "mm/dd/yyyy"
                       name="check-out"
                   />
-              </div>
-          <div className="guests">
+              </section>
+          <section className="guests">
           <label>
             GUESTS
           </label>
@@ -49,10 +49,10 @@ class Form extends Component {
                   placeholder= "1 guest"
                   name="guest"
               />
-          </div>
-          <div className="search">
+          </section>
+          <section className="search">
           <input className="search-button" type="submit" value="Search" />
-          </div>
+          </section>
         </form>
         </div>
       )

@@ -56,35 +56,34 @@ li {
 }
 
 .book {
-  padding: 5% 10%;
-  text-align: left;
+  padding: 5% 8% 0 5%;
 }
 
 form {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
 }
 
 .where {
-  text-align: center;
-  padding: 0 5%;
+  padding: 5% 5%;
   grid-column: span 2;
 }
 
 .check-in {
-  text-align: center;
-  padding: 3% 0;
+  align-self: center;
+  padding: 0 0 0 10%;
+  grid-column: span 1;
 }
 
 .check-out {
-  text-align: center;
-  padding: 3% 0;
+  align-self: center;
+  padding: 0 10% 0 0;
+  grid-column: span 1;
 }
 
 .guests {
-  text-align: center;
-  padding: 3% 5%;
+  padding: 5% 5%;
   grid-column: span 2;
 }
 
@@ -95,7 +94,8 @@ form {
 }
 
 input {
-  width: 75%;
+  line-height: 24px;
+  width: 100%;
 }
 
 .search-button {
