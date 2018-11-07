@@ -12,7 +12,7 @@ airbnbModels.findById = id => {
     SELECT * FROM listings
     JOIN host_info
     ON listings.id = host_info.id
-    WHERE id = $1
+    WHERE listings.id = $1
   `,
     [id]
   );
