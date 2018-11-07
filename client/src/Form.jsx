@@ -52,28 +52,28 @@ class Form extends Component {
                       onChange={(e) => this.handleInputChange(e)}
                   />
            </section>
-          <section className="check-in">
-          <label>
-            CHECK IN
-          </label>
-            <br/>
-              <input
-                  type= "text"
-                  placeholder= "mm/dd/yyyy"
-                  name="check-in"
-              />
-          </section>
-          <section className="check-out">
-          <label>
-            CHECK OUT
-          </label>
-            <br/>
-              <input
-                  type= "text"
-                  placeholder= "mm/dd/yyyy"
-                  name="check-out"
-              />
-          </section>
+              <section className="check-in">
+              <label>
+                  CHECK IN
+              </label>
+                  <br/>
+                    <input
+                      type= "text"
+                      placeholder= "mm/dd/yyyy"
+                      name="check-in"
+                  />
+              </section>
+              <section className="check-out">
+              <label>
+                CHECK OUT
+              </label>
+                <br/>
+                  <input
+                      type= "text"
+                      placeholder= "mm/dd/yyyy"
+                      name="check-out"
+                  />
+              </section>
           <section className="guests">
           <label>
             GUESTS
