@@ -6,7 +6,7 @@ class Form extends Component {
        <div className="full-form">
         <h2 className="book"> Book Unique Homes and Experiences. </h2>
         <form>
-          <section className="where">
+          <div className="where">
               <label>
                 WHERE
               </label>
@@ -16,30 +16,30 @@ class Form extends Component {
                       placeholder= "New York, NY, United States"
                       name="where"
                   />
-           </section>
-          <section className="check-in">
-          <label>
-            CHECK IN
-          </label>
-            <br/>
-              <input
-                  type= "text"
-                  placeholder= "mm/dd/yyyy"
-                  name="check-in"
-              />
-          </section>
-          <section className="check-out">
-          <label>
-            CHECK OUT
-          </label>
-            <br/>
-              <input
-                  type= "text"
-                  placeholder= "mm/dd/yyyy"
-                  name="check-out"
-              />
-          </section>
-          <section className="guests">
+           </div>
+              <div className="check-in">
+              <label>
+                  CHECK IN
+              </label>
+                  <br/>
+                    <input
+                      type= "text"
+                      placeholder= "mm/dd/yyyy"
+                      name="check-in"
+                      />
+              </div>
+              <div className="check-out">
+              <label>
+                CHECK OUT
+              </label>
+                <br/>
+                  <input
+                      type= "text"
+                      placeholder= "mm/dd/yyyy"
+                      name="check-out"
+                  />
+              </div>
+          <div className="guests">
           <label>
             GUESTS
           </label>
@@ -49,10 +49,10 @@ class Form extends Component {
                   placeholder= "1 guest"
                   name="guest"
               />
-          </section>
-          <section className="search">
+          </div>
+          <div className="search">
           <input className="search-button" type="submit" value="Search" />
-          </section>
+          </div>
         </form>
         </div>
       )
