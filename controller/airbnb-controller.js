@@ -77,7 +77,7 @@ airbnbController.update = (req, res) => {
   )
     .then(airbnb => {
       res.json({
-        message: 'ok',
+        message: 'updated',
         data: airbnb,
       });
     })
