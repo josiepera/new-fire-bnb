@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS listings (
 	superhost_or_not VARCHAR(10000) NOT NULL,
 	description VARCHAR(10000) NOT NULL,
 	contact_host VARCHAR(10000) NOT NULL,
-	ammenities VARCHAR(10000) NOT NULL,
+	amenities VARCHAR(10000) NOT NULL,
 	sleep_arrange VARCHAR(10000) NOT NULL,
 	access VARCHAR(10000) NOT NULL,
 	reviews VARCHAR(10000) NOT NULL,
