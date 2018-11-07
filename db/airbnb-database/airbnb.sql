@@ -35,6 +35,30 @@ INSERT INTO listings (url, listing_title, city_location, room_specifics, superho
 
 	I enjoyed staying at this place. He was very responsive, quick to answer my questions. The neighborhood is nice and quiet and his apartment is very quiet for Manhattan. There are a lot of great restaurants and attractions in the neighborhood. A subway stop is very close by. Literally, at the end of the block you will find a stop with two major lines. Yoni is kind and gave me all the space I need. His dog, Oreo, is adorable. I recommend.',
 	'60$ per night'
+)
+(
+'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
+'Cool Room',
+'New York, NY',
+'2 guests, 2 bedroom, 2 beds, 1 shared bath',
+'Dillon is a is a Superhost: Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+'A comfortable appartment for anyone to enjoy',
+'Contact Host',
+'Kitchen, Dryer, Wifi, Iron, Washer, Laptop friendly workspace',
+'2 Bedrooms Single Bed for Each',
+'Accessibility
+Well-lit path to entrance
+wheelchair accessible',
+'Matt Jacobs
+November 2018
+
+I really enjoyed my stay here and the owner was so cool about having us their. 5 out of 5 would book again,
+
+Josie Sanchez
+October 2018
+
+Enjoyed the space myself an my wife really enjoyed the room we were given and the fact that the subway is so close is awesome, 5 out of 5 would books again.',
+'55$ per night'
 );
 
 
@@ -44,6 +68,43 @@ INSERT INTO host_info (host_title, host_city_location, date_joined, host_superho
 	'New York, New York, United States',
 	'Joined in May 2013',
 	'Yoni is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'Native New Yorker living in Harlem with my partner of 5 years and our dog, a miniature poodle, Oreo. That is me on the right and Matthew on the left.
+	Languages: English, Español, עברית
+	Response rate: 100%
+	Response time: within an hour',
+	'Contact Host',
+	'Policies
+	House Rules
+	Not suitable for children and infants
+	No smoking
+	No pets
+	No parties or events
+	Check-in time is flexible
+	Check out by 12PM (noon)
+	More information
+	Please do not bring back any strangers to the apartment. If you have a friend you would like to invite over for a bit, please ask first. LGBTQ and dog friendly are nice.
+
+	Please take your shoes off when entering the apartment.
+
+	Please ask about recycling, laundry, storage, and anything else you may be curious about.
+
+	Do not let the front door slam. It is very heavy and loud.
+
+	Please do not smoke in the apartment.
+
+	If you are the only one in the apartment when you leave, please make sure the lights, fans, and air conditioner are turned off.
+
+	You must also acknowledge
+	Pet(s) live on property',
+	'Cancellations
+	Strict - Free cancellation for 48 hours
+	After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
+)
+(
+	'Hosted by Dillon',
+	'New York, New York, United States',
+	'Joined in July 2014',
+	'Dillon is a is a Superhost: Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
 	'Native New Yorker living in Harlem with my partner of 5 years and our dog, a miniature poodle, Oreo. That is me on the right and Matthew on the left.
 	Languages: English, Español, עברית
 	Response rate: 100%
