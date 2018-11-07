@@ -20,8 +20,8 @@ class Form extends Component {
   handleFormSubmit(e) {
     e.preventDefault();
     axios
-      .get('/listings'), {
-        cityLocation: this.state.listings.city_location
+      .get('/listings', {
+        cityLocation: this.state.city_location
       })
       .then(res => {
         console.log(res);
@@ -49,7 +49,7 @@ class Form extends Component {
                       type= "text"
                       placeholder= "New York, NY, United States"
                       name="where"
-                      value={this.state.listings.city_location}
+                      value={this.state.city_location}
                       onChange={(e) => this.handleInputChange(e)}
                   />
            </section>
