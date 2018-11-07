@@ -1,11 +1,45 @@
 import React, { Component } from 'react';
 
+import axios from 'axios';
+
+import { Redirect } from 'react-router-dom';
+
 class Form extends Component {
+  state = {
+    cityLocation: ''
+  };
+
+  handleInputChange(e) {
+    const name = e.target.name;
+    const value = e.target.value;
+    this.setState({
+      [name]: value,
+    });
+  }
+
+  handleFormSubmit(e) {
+    e.preventDefault();
+    axios
+      .get('/listings'), {
+        cityLocation: this.state.listings.city_location
+      })
+      .then(res => {
+        console.log(res);
+        this.setState({
+          newId: res.data.data.id
+        })
+      })
+      .catch(err => console.log(err));
+      e.target.reset();
+  }
+
+
+
   render () {
     return(
        <div className="full-form">
         <h2 className="book"> Book Unique Homes and Experiences. </h2>
-        <form>
+        <form onSubmit={(e) => this.handleFormSubmit(e)}>
           <section className="where">
               <label>
                 WHERE
@@ -15,6 +49,8 @@ class Form extends Component {
                       type= "text"
                       placeholder= "New York, NY, United States"
                       name="where"
+                      value={this.state.listings.city_location}
+                      onChange={(e) => this.handleInputChange(e)}
                   />
            </section>
           <section className="check-in">
