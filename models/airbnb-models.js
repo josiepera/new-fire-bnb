@@ -28,6 +28,7 @@ airbnbModels.create = listings => {
   `,
     [airbnb.url, airbnb.listing_title, airbnb.city_location, airbnb.room_sepcifics,
     airbnb.superhost_or_not, airbnb.description, airbnb.amenities, ]
+
   );
 };
 

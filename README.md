@@ -18,11 +18,14 @@ The React web application will include the AirBnb's home page which will include
 |--------|----------------------| ----------|
 |Nov 5th | Project Description  | Complete
 |Nov 5th | Wireframes / Priority Matrix | Complete
-|Nov 6th | Core Application Structure   | Incomplete
+|Nov 6th | Core Application Structure   | Complete
 |Nov 7th | Pseudocode / actual code | Incomplete
 |Nov 8th | Initial Clickable Model  | Incomplete
 |Nov 9th | MVP | Incomplete
-|Nov 10th| Present | Incomplete
+|Nov 10th| MVP | Incomplete
+|Nov 11th| Post-MVP| Incomplete
+|Nov 12th| Post-MVP | Incomplete
+|Nov 13th| Present | Incomplete
 
 
 ## Wireframes
@@ -108,14 +111,14 @@ render the data and pass it as props
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
 | Home page    | H  | 4hrs | 4hrs | 4hrs  |
 | Header w/ Links   | H  | 1hrs | 1hrs | 1hrs  |
-| Listings page | H | 4hrs | ? | ? |
+| Listings Components | H | 4hrs | 4hrs | ? |
 | Form Component | H | 4hrs | 1hr | ? |
 | Server Setup | H  | 4hrs| ? | 1hr |
 | Basic Styles | H  | 4hrs| 2hr | ? |
 | Routes | H | 4hrs | ? | 1hr |
 | Model | H | 4hrs | ? | ?
 | Controller | H | 4hrs | ? | ?
-| DB and Tables | H  | 4hrs | ? | 1hr
+| DB and Tables | H  | 4hrs | 1hr | ?
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?
 | Adv. Styles  | L | 4hrs | ? | ?

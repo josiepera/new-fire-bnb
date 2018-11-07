@@ -58,6 +58,7 @@ airbnbController.create = (req, res) => {
 };
 
 airbnbController.update = (req, res) => {
+  console.log('hitting controller');
   Airbnb.update(
     {
       url: req.body.url,
@@ -91,7 +92,7 @@ airbnbController.destroy = (req, res) => {
   Airbnb.destroy(req.params.id)
     .then(airbnb => {
       res.json({
-        message: 'ok',
+        message: 'deleted',
         data: airbnb,
       });
     })
