@@ -1,4 +1,4 @@
-INSERT INTO listings (url, listing_title, city_location, room_specifics, superhost_or_not, description, contact_host, ammenities, sleep_arrange, access, reviews, price) VALUES
+INSERT INTO listings (url, listing_title, city_location, room_specifics, superhost_or_not, description, contact_host, amenities, sleep_arrange, access, reviews, price) VALUES
 (
 	'http://the-window.info/wp-content/uploads/2017/03/building-design-wikipedia-beautiful-building-designs.jpg',
 	'Tasteful Room in Charming Two Bedroom Apartment',
