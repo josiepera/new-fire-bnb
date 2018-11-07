@@ -12,17 +12,6 @@ body {
   width: 100%;
 }
 
-.home {
-
-}
-
-li {
-  list-style-type: none;
-  text-decoration:none;
-  color: white;
-  align-content: center;
-  padding-left: 10px;
-}
 
 a {
   text-decoration:none;
@@ -37,61 +26,29 @@ a:hover {
 }
 
 .logo {
-    display: flex;
-   flex-direction: row;
-   width: 150px;
-   height: 50px;
+    width: 150px;
+    height: 50px;
     padding-left: 15px;
     padding-right: 90px;
-    grid-area: o;
   }
 
  nav {
     display: flex;
-    width:100%;
-   justify-content: space-between;
-   align-content: center;
-    flex-direction: row;
-    height: 100%;
+    justify-content: space-between;
     padding: 20px;
-    text-decoration:none;
-
+    text-decoration: none;
   }
-
 
     ul {
     display: flex;
     text-decoration:none;
+  }
 
-}
-
-nav {
-  display: grid;
-  grid-template-areas:
-  'o o h e s l'
-  'f f f f f f';
-  grid-gap: 10px;
-}
-
-.host {
-  grid-area: h;
-}
-
-.help {
-  grid-area: e;
-}
-
-.sign-up {
-  grid-area: s;
-}
-
-.login {
-  grid-area: l;
-}
-
-.form {
-  grid-area: f;
-}
+  li {
+    list-style-type: none;
+    text-decoration:none;
+    padding-left: 10px;
+  }
 
 .full-form {
   background-color: white;
@@ -107,56 +64,54 @@ nav {
  grid-gap: 20px;
  border-radius: 5px;
 }
+
 .book {
+  padding: 1%;
   grid-area: H;
   text-align: center;
   padding-top: 10%;
 }
+
 .where {
   grid-area: W;
-  padding-left: 5%;
+  text-align: center;
   padding-bottom: 10%;
 
 }
 .check-in {
   grid-area: I;
-  padding-left: 5%;
+  text-align: center;
   padding-bottom: 10%;
 }
 
 .check-out {
   grid-area: O;
-  padding-left: 5%;
+  text-align: center;
   padding-bottom: 10%;
-   width: 90%;
 }
 
 .guests {
   grid-area: G;
-  padding-left: 5%;
+  text-align: center;
   padding-bottom: 10%;
-  width: 100%;
 }
 
 input {
-  width: 250px;
+  margin: 2% 0;
+  width: 75%;
 }
-
-
 
 .search {
   grid-area: S;
   background-color: white;
   padding-bottom: 20px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .search-button {
   background-color: #ff2f52;
-  margin-top: 20px;
-  text-align: center;
- margin-left: 20px;
-  width: 90%;
+  width: 75%;
   color: white;
   font-size: 20px;
   border-radius: 5px;
