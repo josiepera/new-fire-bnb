@@ -116,9 +116,9 @@ render the data and pass it as props
 | Server Setup | H  | 4hrs| 2hr | 2hr |
 | Basic Styles | H  | 4hrs| 3hr | ? |
 | Routes | H | 4hrs | 2hr | 2hr |
-| Model | H | 4hrs | ? | ?
-| Controller | H | 4hrs | ? | ?
-| DB and Tables | H  | 4hrs | 1hr | ?
+| Model | H | 4hrs | 4hrs| ?
+| Controller | H | 4hrs | 4hrs | ?
+| DB and Tables | H  | 4hrs | 6hrs | 6hrs
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?
 | Adv. Styles  | L | 4hrs | ? | ?
