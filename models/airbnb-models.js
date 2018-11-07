@@ -3,14 +3,15 @@ const db = require('../db/config');
 const airbnbModels = {};
 
 airbnbModels.findAll = () => {
-
-  return db.query(`SELECT * FROM listings`);
+  return db.query(`SELECT * FROM listings JOIN host_info ON listings.id = host_info.id`);
 };
 
 airbnbModels.findById = id => {
   return db.oneOrNone(
     `
     SELECT * FROM listings
+    JOIN host_info
+    ON listings.id = host_info.id
     WHERE id = $1
   `,
     [id]
