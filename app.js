@@ -16,7 +16,7 @@ app.get('/', (req,res) => {
 })
 
 const routes = require('./routes/airbnb-routes')
-app.use('/', routes)
+app.use('/listings', routes)
 
 app.use('*', (req,res) => {
   res.status(404).send('Page Not Found!')

@@ -17,8 +17,7 @@ airbnbModels.findById = id => {
   );
 };
 
-airbnbModels.create = airbnb => {
-  console.log(airbnb);
+airbnbModels.create = listings => {
   return db.one(
     `
     INSERT INTO listings
@@ -32,7 +31,7 @@ airbnbModels.create = airbnb => {
   );
 };
 
-airbnbModels.update = (airbnb, id) => {
+airbnbModels.update = (listings, id) => {
   return db.one(
     `
     UPDATE listings SET
@@ -51,8 +50,8 @@ airbnbModels.update = (airbnb, id) => {
     WHERE id = $13
     RETURNING *
   `,
-  [airbnb.url, airbnb.listing_title, airbnb.city_location, airbnb.room_specifics,
-  airbnb.superhost_or_not, airbnb.description, airbnb.contact_host, airbnb.ammenities, airbnb.sleep_arrange, airbnb.access, airbnb.reviews, airbnb.price, id],
+    [listings.url, listings.listing_title, listings.city_location, listings.room_sepcifics,
+    listings.superhost_or_not, listings.description, listings.amentities, ]
   );
 };
 
