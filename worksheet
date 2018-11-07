@@ -1,15 +1,9 @@
-
-# squad-airbnb
-
-# ![](https://www.logodesignlove.com/images/identity/airbnb-logo-meaning.jpg)
-
 # Project Overview
-For our Unit 3 project, we are working in a group format to recreate the Airbnb Official Site. For our technologies, we are using HTML, CSS, Bootstrap, and React for the Front-End development, and on the backend, we used Express.js, PostgreSQL, Postman, and Postico to build the server and database.
 
 
 ## Project Description
 
-The React web application will include the AirBnb's home page which will include a search form and navigation routing bar. There will be various routes that the user can take to search listings in New York as well as single listing to view.
+We rebuilt the Airbnb site with React. We used Express for our server and PostgreSQL for our database.
 
 
 ## Project Schedule
@@ -18,36 +12,21 @@ The React web application will include the AirBnb's home page which will include
 |--------|----------------------| ----------|
 |Nov 5th | Project Description  | Complete
 |Nov 5th | Wireframes / Priority Matrix | Complete
-|Nov 6th | Core Application Structure   | Complete
+|Nov 6th | Core Application Structure   | Incomplete
 |Nov 7th | Pseudocode / actual code | Incomplete
 |Nov 8th | Initial Clickable Model  | Incomplete
 |Nov 9th | MVP | Incomplete
-|Nov 10th| MVP | Incomplete
-|Nov 11th| Post-MVP| Incomplete
-|Nov 12th| Post-MVP | Incomplete
-|Nov 13th| Present | Incomplete
+|Nov 10th| Present | Incomplete
 
 
 ## Wireframes
 
-Priority Matrix:
-https://res.cloudinary.com/div3mompi/image/upload/v1541434083/MVP_PMVP_Priority_Matrix.jpg
-
-Wireframes:
-https://res.cloudinary.com/div3mompi/image/upload/v1541432956/Wireframes.jpg
-
-Tables:
-https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg
-
-Location Constraints:
-https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg
-
-ERD Tables:
-https://res.cloudinary.com/div3mompi/image/upload/v1541437548/ERD_tables.jpg
-
-App Structure:
 https://res.cloudinary.com/div3mompi/image/upload/v1541438623/App_Structure.jpg
-
+https://res.cloudinary.com/div3mompi/image/upload/v1541437548/ERD_tables.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541434083/MVP_PMVP_Priority_Matrix.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541432956/Wireframes.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg
+https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg
 
 ## Priority Matrix
 
@@ -105,20 +84,18 @@ render the data and pass it as props
   }
 }
 
-## Timetable
 
 | Component    | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
-| Home page    | H  | 4hrs | 4hrs | 4hrs  |
-| Header w/ Links   | H  | 1hrs | 1hrs | 1hrs  |
-| Listings Components | H | 4hrs | 4hrs | ? |
-| Form Component | H | 4hrs | 1hr | ? |
-| Server Setup | H  | 4hrs| ? | 1hr |
-| Basic Styles | H  | 4hrs| 2hr | ? |
-| Routes | H | 4hrs | ? | 1hr |
+| Home page    | H  | 4hrs | ? | ?  |
+| Listings page | H | 4hrs | ? | ? |
+| Search page | H | 4hrs | ? | ? |
+| Server Setup | H  | 4hrs| ? | ? |
+| Basic Styles | H  | 4hrs| ? | ? |
+| Routes | H | 4hrs | ? | ? |
 | Model | H | 4hrs | ? | ?
 | Controller | H | 4hrs | ? | ?
-| DB and Tables | H  | 4hrs | 1hr | ?
+| DB and Tables | H  | 4hrs | ? | ?
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?
 | Adv. Styles  | L | 4hrs | ? | ?
@@ -128,10 +105,13 @@ render the data and pass it as props
 
 ## Database and Tables
 
-1 Database with 2 tables
+1 Database with 3 tables
 
-Table 1  -  Listings
+Table 1  -  Locations
 |img|listtitle|citylocale|roomspecs|superhost?|desc|contact|amenities|sleeparange|access|available|reviews|price|
 
 Table 2 - Host info
 |title|citylocale|datejoined|superhost?|desc|contact|policies|cancel|
+
+Table 3 - Listings
+|img|listtitle|roomspecs|price|superhost?|cancel|
