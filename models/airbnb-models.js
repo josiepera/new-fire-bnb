@@ -65,7 +65,7 @@ airbnbModels.update = (listings, id) => {
     RETURNING *
   `,
   [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
-  listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities, listings.sleep_arrange, listings.access, listings.reviews, listings.price, id],
+  listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities, listings.sleep_arrange, listings.access, listings.reviews, listings.price, listings_id],
 
   );
 };
