@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Listings from './Listings';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import HeaderListings from './HeaderListings';
 
 class ListingsList extends Component {
   state = {
@@ -39,6 +40,7 @@ class ListingsList extends Component {
   render() {
     return (
       <div className="listings-list">
+       <HeaderListings/>
         {this.renderListings()}
       </div>
     )
