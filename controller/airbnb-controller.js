@@ -33,6 +33,8 @@ airbnbController.show = (req, res) => {
 airbnbController.create = (req, res, next) => {
   const theData = {
     url: req.body.url,
+    url_two: req.body.url_two,
+    url_three: req.body.url_three,
     listing_title: req.body.listing_title,
     city_location: req.body.city_location,
     room_specifics: req.body.room_specifics,
@@ -90,6 +92,8 @@ airbnbController.update = (req, res) => {
   Airbnb.update(
     {
       url: req.body.url,
+      url_two: req.body.url_two,
+    url_three: req.body.url_three,
       listing_title: req.body.listing_title,
       city_location: req.body.city_location,
       room_specifics: req.body.room_specifics,
