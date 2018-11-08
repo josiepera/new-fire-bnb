@@ -117,3 +117,8 @@ input {
   border-radius: 5px;
   padding: 10px;
 }
+
+.listings {
+  padding: 50px;
+  background: white !important;
+}
