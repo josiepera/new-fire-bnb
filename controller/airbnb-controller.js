@@ -31,7 +31,7 @@ airbnbController.show = (req, res) => {
 };
 
 airbnbController.create = (req, res, next) => {
-  Airbnb.create({
+  const theData = {
     url: req.body.url,
     listing_title: req.body.listing_title,
     city_location: req.body.city_location,
@@ -44,7 +44,8 @@ airbnbController.create = (req, res, next) => {
     access: req.body.access,
     reviews: req.body.reviews,
     price: req.body.price
-  })
+  }
+  Airbnb.create(theData)
     .then(airbnb => {
       // res.json({
       //   message: 'ok',

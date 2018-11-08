@@ -5,7 +5,7 @@ const controller = require('../controller/airbnb-controller')
 
 router.get('/:id', controller.show);
 
-router.get('/')
+router.route('/')
   .post(
     controller.create,
     controller.add

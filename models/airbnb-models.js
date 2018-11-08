@@ -3,7 +3,7 @@ const db = require('../db/config');
 const airbnbModels = {};
 
 airbnbModels.findAll = () => {
-  return db.query(`SELECT * FROM listings JOIN host_info ON listings.id = host_info.id`);
+  return db.query(`SELECT * FROM listings JOIN host_info ON listings.host_id = host_info.id`);
 };
 
 airbnbModels.findById = id => {
@@ -11,26 +11,38 @@ airbnbModels.findById = id => {
     `
     SELECT * FROM listings
     JOIN host_info
-    ON listings.id = host_info.id
+    ON listings.host_id = host_info.id
     WHERE listings.id = $1
   `,
     [id]
   );
 };
 
+// airbnbModels.create = listings => {
+//   return db.one(
+//     `
+//     INSERT INTO listings
+//     (url, listing_title, city_location, room_specifics, superhost_or_not, description,
+//     contact_host, amenities, sleep_arrange, access, reviews, price)
+//     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+//     RETURNING *
+//   `,
+//     [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
+//     listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities,
+//     listings.sleep_arrange, listings.access, listings.reviews, listings.price]
+//   );
+// };
+
 airbnbModels.create = listings => {
   return db.one(
     `
     INSERT INTO listings
     (url, listing_title, city_location, room_specifics, superhost_or_not, description,
-    contact_host, amenities, sleep_arrange, access, reviews, price)
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+    contact_host, amenities, sleep_arrange, access, reviews, price, host_id)
+    VALUES ($/url/, $/listing_title/, $/city_location/, $/room_specifics/, $/superhost_or_not/,
+    $/description/, $/contact_host/, $/amenities/, $/sleep_arrange/, $/access/, $/reviews/, $/price/, $/host_id/)
     RETURNING *
-  `,
-    [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
-    listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities,
-    listings.sleep_arrange, listings.access, listings.reviews, listings.price]
-  );
+  `, listings);
 };
 
 airbnbModels.update = (listings, id) => {
