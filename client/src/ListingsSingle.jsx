@@ -29,7 +29,14 @@ class ListingsSingle extends Component {
         <div className="single-listing">
         <HeaderListings/>
           <div className="list-img">
-            <img src={this.state.listings.url} alt={this.state.listings.listing_title} />
+            <img className="bigImage"
+                 src={this.state.listings.url} alt={this.state.listings.listing_title} />
+             <img
+                className="topSmallImage"
+                src={this.state.listings.url} alt={this.state.listings.listing_title} />
+              <img
+               className="bottomSmallImage"
+               src={this.state.listings.url} alt={this.state.listings.listing_title} />
           </div>
           <div className="listing-info">
             <h1>{this.state.listings.listing_title}</h1>

@@ -200,6 +200,30 @@ label {
 }
 
 .list-img {
-  padding-top: 20px;
+  display: grid;
+  grid-template-areas:
+    'B B B T T T'
+    'B B B S S S';
+  grid-gap: 0;
+  margin-top: 10px;
+  border: 1px solid gray;
+}
+
+.bigImage {
+  grid-area: 'B';
+  width: 700px;
+
+
+}
+
+.topSmallImage{
+  grid-area: 'T';
+  width: 400px;
+}
+
+.bottomSmallImage {
+  grid-area: 'S';
+  width: 400px;
+
 }
 
