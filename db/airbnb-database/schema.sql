@@ -3,6 +3,7 @@
 CREATE TABLE IF NOT EXISTS host_info (
 	id SERIAL PRIMARY KEY NOT NULL,
 	host_title VARCHAR(10000) NOT NULL,
+	host_photo VARCHAR (10000) NOT NULL,
 	host_city_location VARCHAR(10000) NOT NULL,
 	date_joined VARCHAR(10000) NOT NULL,
 	host_superhost_or_not VARCHAR(10000) NOT NULL,

@@ -1,6 +1,7 @@
-INSERT INTO host_info (host_title, host_city_location, date_joined, host_superhost_or_not, host_description, host_contact_host, policies, cancellation) VALUES
+INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, host_superhost_or_not, host_description, host_contact_host, policies, cancellation) VALUES
 (
 	'Hosted by Yoni',
+	'https://upload.wikimedia.org/wikipedia/commons/d/df/Walt_Disney_1946.JPG',
 	'New York, New York, United States',
 	'Joined in May 2013',
 	'Yoni is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
@@ -38,6 +39,7 @@ INSERT INTO host_info (host_title, host_city_location, date_joined, host_superho
 ),
 (
 	'Hosted by Dillon',
+	'https://upload.wikimedia.org/wikipedia/commons/d/d4/N.Tesla.JPG',
 	'New York, New York, United States',
 	'Joined in July 2014',
 	'Dillon is a is a Superhost: Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
