@@ -227,3 +227,31 @@ label {
 
 }
 
+.room-specifics{
+  display: inline-flex;
+}
+
+.guestImg {
+  width: 30px;
+  height: 30px;
+}
+
+.specifics {
+  color: darkslategray;
+  font-weight: 800;
+}
+
+.listing-title {
+  color: darkslategray;
+}
+
+.superhost {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.contactHost {
+  color: darkcyan;
+  font-weight: 800;
+}
+

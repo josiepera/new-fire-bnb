@@ -39,17 +39,22 @@ class ListingsSingle extends Component {
                src={this.state.listings.url} alt={this.state.listings.listing_title} />
           </div>
           <div className="listing-info">
-            <h1>{this.state.listings.listing_title}</h1>
-            <h4 className="city-info">{this.state.listings.city_location}</h4>
+            <h1 className="listing-title">{this.state.listings.listing_title}</h1>
+            <h6 className="city-info">{this.state.listings.city_location}</h6>
             <img src="https://i.imgur.com/K8Yltrb.png" title="source: imgur.com" />
             <img src="https://i.imgur.com/QgQBvtL.png" title="source: imgur.com" />
             <p> {this.state.host_info.host_title} </p>
-            <p>{this.state.listings.room_specifics}</p>
-            <p>{this.state.listings.superhost_or_not}</p>
+            <div className="room-specifics">
+                <img className="guestImg" src="https://i.imgur.com/irChFNX.png" title="source: imgur.com"/>
+                <p className="specifics">{this.state.listings.room_specifics}</p>
+            </div>
+
+            <p className="superhost">{this.state.listings.superhost_or_not}</p>
             <p>{this.state.listings.description}</p>
-            <p>{this.state.listings.contact_host}</p>
-            <p>{this.state.listings.description}</p>
+            <p className="contactHost">{this.state.listings.contact_host}</p>
+            <h6>Amenities </h6>
             <p>{this.state.listings.amenities}</p>
+            <h6> Sleeping Arrangements </h6>
             <p>{this.state.listings.sleep_arrange}</p>
             <p>{this.state.listings.access}</p>
             <p>{this.state.listings.price}</p>
