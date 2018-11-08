@@ -41,4 +41,3 @@ function HeaderListings() {
 }
 
 export default HeaderListings;
-

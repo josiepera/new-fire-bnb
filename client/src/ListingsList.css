@@ -1,4 +1,4 @@
-.dropdown {
+.listings-list {
   background-color: #fff;
 }
 
@@ -10,7 +10,6 @@
 
 .listings > img {
   width: 100%;
-  /* height: 75%; */
   grid-row: span 1;
   grid-column: span 3;
 }

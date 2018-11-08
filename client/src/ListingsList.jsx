@@ -3,6 +3,7 @@ import axios from 'axios';
 import Listings from './Listings';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import HeaderListings from './HeaderListings';
+import './ListingsList.css'
 
 class ListingsList extends Component {
   state = {
