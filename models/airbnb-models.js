@@ -38,12 +38,16 @@ airbnbModels.create = listings => {
     `
     INSERT INTO listings
     (url, listing_title, city_location, room_specifics, superhost_or_not, description,
-    contact_host, amenities, sleep_arrange, access, reviews, price, host_id)
+    contact_host, amenities, sleep_arrange, access, reviews, price)
     VALUES ($/url/, $/listing_title/, $/city_location/, $/room_specifics/, $/superhost_or_not/,
-    $/description/, $/contact_host/, $/amenities/, $/sleep_arrange/, $/access/, $/reviews/, $/price/, $/host_id/)
+    $/description/, $/contact_host/, $/amenities/, $/sleep_arrange/, $/access/, $/reviews/, $/price/)
     RETURNING *
   `, listings);
 };
+
+airbnbModels.add = host_info => {
+  return "host_info added"
+}
 
 airbnbModels.update = (listings, id) => {
   return db.one(
