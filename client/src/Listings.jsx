@@ -6,7 +6,6 @@ import HeaderListings from './HeaderListings';
 const Listings = (props) => {
   return (
     <div className="listings">
-   <HeaderListings/>
      <section className="filters">
          <ul>
             <li className="filter-buttons">Dates</li>

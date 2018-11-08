@@ -17,7 +17,7 @@ class ListingsSingle extends Component {
         this.setState({
           apiDataLoaded: true,
           listings: res.data.data,
-          // host_info: res.data.data,
+          host_info: res.data.data,
         })
       }).catch(err => console.log(err));
   }
@@ -32,8 +32,11 @@ class ListingsSingle extends Component {
             <img src={this.state.listings.url} alt={this.state.listings.listing_title} />
           </div>
           <div className="listing-info">
-            <h4 className="city-info">{this.state.listings.city_location}</h4>
             <h1>{this.state.listings.listing_title}</h1>
+            <h4 className="city-info">{this.state.listings.city_location}</h4>
+            <img src="https://i.imgur.com/K8Yltrb.png" title="source: imgur.com" />
+            <img src="https://i.imgur.com/QgQBvtL.png" title="source: imgur.com" />
+            <p> {this.state.host_info.host_title} </p>
             <p>{this.state.listings.room_specifics}</p>
             <p>{this.state.listings.superhost_or_not}</p>
             <p>{this.state.listings.description}</p>
