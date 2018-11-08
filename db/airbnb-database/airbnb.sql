@@ -75,9 +75,11 @@ INSERT INTO host_info (host_title, host_city_location, date_joined, host_superho
 );
 
 
-INSERT INTO listings (url, listing_title, city_location, room_specifics, superhost_or_not, description, contact_host, amenities, sleep_arrange, access, reviews, price, host_id) VALUES
+INSERT INTO listings (url, url_two, url_three, listing_title, city_location, room_specifics, superhost_or_not, description, contact_host, amenities, sleep_arrange, access, reviews, price, host_id) VALUES
 (
 	'https://upload.wikimedia.org/wikipedia/commons/9/96/Vasskertentrance.jpg',
+	'https://upload.wikimedia.org/wikipedia/en/3/32/Market_house_mon_inside.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/1/1c/Windows%2C_WMH.jpg',
 	'Tasteful Room in Charming Two Bedroom Apartment',
 	'New York, NY',
 	'1 guest, 1 bedroom, 1 bed, 1 shared bath',
@@ -116,6 +118,8 @@ INSERT INTO listings (url, listing_title, city_location, room_specifics, superho
 ),
 (
 'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
+'https://upload.wikimedia.org/wikipedia/commons/3/38/Music_room.jpg',
+'https://upload.wikimedia.org/wikipedia/commons/e/eb/Paneling.jpg',
 'Cool Room',
 'New York, NY',
 '2 guests, 2 bedroom, 2 beds, 1 shared bath',
