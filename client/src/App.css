@@ -110,6 +110,41 @@ input {
 }
 
 .listings {
-  padding: 50px;
+  padding: 10px;
   background: white !important;
+}
+
+.search-picture {
+  height: 18px;
+  width: 18px;
+  display: block;
+  fill: currentcolor;
+}
+
+.search-icon {
+  display: inline-grid;
+}
+
+label {
+  line-height: normal;
+  box-sizing: border-box;
+}
+
+.threehundredhomes {
+  color: darkslategray;
+}
+
+.filter-buttons {
+  padding: 10px;
+  border: 1px solid gray;
+
+}
+
+.filter-buttons:hover {
+  background-color: lightgray !important;
+}
+
+.single-listing {
+   background: white !important;
+   padding: 20px;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Listings from './Listings';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import './ListingsList.css'
+import HeaderListings from './HeaderListings';
 
 class ListingsList extends Component {
   state = {
@@ -40,18 +40,7 @@ class ListingsList extends Component {
   render() {
     return (
       <div className="listings-list">
-          <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-            <DropdownToggle caret>
-              Dropdown
-            </DropdownToggle>
-            <DropdownMenu>
-              <DropdownItem header>Header</DropdownItem>
-              <DropdownItem disabled>Action</DropdownItem>
-              <DropdownItem>Another Action</DropdownItem>
-              <DropdownItem divider />
-              <DropdownItem>Another Action</DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
+       <HeaderListings/>
         {this.renderListings()}
       </div>
     )

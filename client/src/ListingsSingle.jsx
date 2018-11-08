@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link, Redirect } from 'react-router-dom';
-import './ListingsSingle.css'
+import HeaderListings from './HeaderListings';
 
 class ListingsSingle extends Component {
   state = {
@@ -27,6 +27,7 @@ class ListingsSingle extends Component {
     if (this.state.apiDataLoaded) {
       return (
         <div className="single-listing">
+        <HeaderListings/>
           <div className="img">
             <img src={this.state.listings.url} alt={this.state.listings.listing_title} />
           </div>
