@@ -37,9 +37,9 @@ airbnbModels.create = listings => {
   return db.one(
     `
     INSERT INTO listings
-    (url, listing_title, city_location, room_specifics, superhost_or_not, description,
+    (url, url_two, url_three, listing_title, city_location, room_specifics, superhost_or_not, description,
     contact_host, amenities, sleep_arrange, access, reviews, price)
-    VALUES ($/url/, $/listing_title/, $/city_location/, $/room_specifics/, $/superhost_or_not/,
+    VALUES ($/url/, $/url_two/, $/url_three/, $/listing_title/, $/city_location/, $/room_specifics/, $/superhost_or_not/,
     $/description/, $/contact_host/, $/amenities/, $/sleep_arrange/, $/access/, $/reviews/, $/price/)
     RETURNING *
   `, listings);
@@ -54,21 +54,23 @@ airbnbModels.update = (listings, id) => {
     `
     UPDATE listings SET
       url = $1,
-      listing_title = $2,
-      city_location = $3,
-      room_specifics = $4,
-      superhost_or_not = $5,
-      description = $6,
-      contact_host = $7,
-      amenities = $8,
-      sleep_arrange = $9,
-      access = $10,
-      reviews = $11,
-      price = $12
+      url_two = $2,
+      url_three = $3,
+      listing_title = $4,
+      city_location = $5,
+      room_specifics = $6,
+      superhost_or_not = $7,
+      description = $8,
+      contact_host = $9,
+      amenities = $10,
+      sleep_arrange = $11,
+      access = $12,
+      reviews = $13,
+      price = $14
     WHERE id = $13
     RETURNING *
   `,
-  [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
+  [listings.url, listings.url_two, listings.url_three, listings.listing_title, listings.city_location, listings.room_specifics,
   listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities, listings.sleep_arrange, listings.access, listings.reviews, listings.price, listings_id],
 
   );
