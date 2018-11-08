@@ -2,15 +2,19 @@ import React, { Component } from 'react';
 
 import axios from 'axios';
 
+import { Redirect } from 'react-router-dom';
+
 
 class Form extends Component {
   state = {
-    cityLocation: ''
+    cityLocation: '',
+    fireRedirect: false,
   };
 
   handleInputChange(e) {
     const name = e.target.name;
     const value = e.target.value;
+    console.log(value)
     this.setState({
       [name]: value,
     });
@@ -25,7 +29,8 @@ class Form extends Component {
       .then(res => {
         console.log(res);
         this.setState({
-          newId: res.data.data.id
+          newId: res.data.data.id,
+          fireRedirect: true,
         })
       })
       .catch(err => console.log(err));
@@ -89,6 +94,9 @@ class Form extends Component {
           <input className="search-button" type="submit" value="Search" />
           </section>
         </form>
+         {this.state.fireRedirect
+          ? <Redirect push to={`/listings/`} />
+          : ''}
         </div>
       )
   }

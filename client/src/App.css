@@ -106,3 +106,8 @@ input {
   border-radius: 5px;
   padding: 3%;
 }
+
+.listings {
+  padding: 50px;
+  background: white !important;
+}
