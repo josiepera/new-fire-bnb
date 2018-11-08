@@ -262,3 +262,33 @@ label {
   margin-bottom: 10px;
 }
 
+.endDate {
+  margin-bottom: 50px;
+}
+
+.reviews {
+  margin-bottom: 10px;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.contactHosts {
+  background-color: white;
+  color: darkcyan;
+  border: 2px solid darkcyan !important;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 3px;
+
+}
+
+.always {
+  margin-top: 10px;
+}
+
+.report {
+  color: darkcyan;
+}
+

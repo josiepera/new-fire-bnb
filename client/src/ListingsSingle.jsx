@@ -4,6 +4,7 @@ import { Link, Redirect } from 'react-router-dom';
 import HeaderListings from './HeaderListings';
 import DatePicker from "react-datepicker";
 import moment from "moment";
+import MapBox from "./MapBox";
 
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -85,15 +86,37 @@ class ListingsSingle extends Component {
            <DatePicker
                   selected={this.state.endDate}
                   onChange={()=>this.handleChange()}
+                  className="endDate"
                 />
-            <p>{this.state.listings.price}</p>
+                 <p>{this.state.listings.price}</p>
+            <img className="reviews" src="https://i.imgur.com/AqTlLvS.png" title="source: imgur.com" />
+
 
             <div className="review">
               <span className="reviews">Reviews: {this.state.listings.reviews || 'N/A'}</span>
             </div>
           </div>
           <div className="host-info">
-             <h1> This is where the host info can go </h1>
+             <h4> {this.state.host_info.host_title} </h4>
+             <h6> {this.state.host_info.host_city_location} </h6>
+             <h6> {this.state.host_info.date_joined} </h6>
+             <div className="reviewStars">
+            <img src="https://i.imgur.com/0pYzIvZ.png" title="source: imgur.com" />
+             </div>
+              <p className="superhost">{this.state.host_info.superhost_or_not}</p>
+              <p> {this.state.host_info.host_description} </p>
+              <button className="contactHosts"> Contact Host </button>
+              <img className="always" src="https://i.imgur.com/a9YKoL3.png" title="source: imgur.com" />
+              <div className="map">
+                 <MapBox/>
+              <p> Exact Location provided 48 hours after a booking is confirmed. </p>
+              </div>
+            <h5> Policies </h5>
+             <p> {this.state.host_info.policies} </p>
+             <p> {this.state.host_info.cancellation} </p>
+             <img src="https://i.imgur.com/TrSAzLR.png" title="source: imgur.com" />
+             <h6 className="report"> Report Listing </h6>
+
           </div>
         </div>
       )
