@@ -31,6 +31,7 @@ airbnbController.show = (req, res) => {
 };
 
 airbnbController.create = (req, res, next) => {
+  console.log('REQBODY', req.body)
   const theData = {
     url: req.body.url,
     url_two: req.body.url_two,
@@ -45,15 +46,11 @@ airbnbController.create = (req, res, next) => {
     sleep_arrange: req.body.sleep_arrange,
     access: req.body.access,
     reviews: req.body.reviews,
-    price: req.body.price
+    price: req.body.price,
+    host_id: req.body.host_id
   }
   Airbnb.create(theData)
     .then(airbnb => {
-      // res.json({
-      //   message: 'ok',
-      //   data: airbnb,
-      // });
-
       res.locals.data = airbnb;
       next()
     })
@@ -64,7 +61,7 @@ airbnbController.create = (req, res, next) => {
 };
 
 airbnbController.add = (req, res) => {
-  Airbnb.create({
+  Airbnb.add({
     host_title: req.body.host_title ,
     host_city_location: req.body.host_city_location ,
     date_joined: req.body.date_joined,
@@ -87,13 +84,12 @@ airbnbController.add = (req, res) => {
 };
 
 
-airbnbController.update = (req, res) => {
-  console.log('hitting controller');
+airbnbController.update = (req, res, next) => {
   Airbnb.update(
     {
       url: req.body.url,
       url_two: req.body.url_two,
-    url_three: req.body.url_three,
+      url_three: req.body.url_three,
       listing_title: req.body.listing_title,
       city_location: req.body.city_location,
       room_specifics: req.body.room_specifics,
@@ -104,21 +100,44 @@ airbnbController.update = (req, res) => {
       sleep_arrange: req.body.sleep_arrange,
       access: req.body.access,
       reviews: req.body.reviews,
-      price: req.body.price
+      price: req.body.price,
+      host_id: req.body.host_id
     },
-    req.params.id,
-  )
+    req.params.id
+    )
     .then(airbnb => {
-      res.json({
-        message: 'updated',
-        data: airbnb,
-      });
+      res.locals.data = airbnb;
+      next()
     })
     .catch(err => {
       console.log(err);
       res.status(500).json({ err });
     });
 };
+
+airbnbController.updateHost = (req, res) => {
+  Airbnb.updateHost({
+    host_title: req.body.host_title ,
+    host_city_location: req.body.host_city_location ,
+    date_joined: req.body.date_joined,
+    host_superhost_or_not: req.body.host_superhost_or_not,
+    host_description: req.body.host_description,
+    host_contact_host: req.body.host_contact_host,
+    policies: req.body.policies,
+    cancellation: req.body.cancellation
+  },
+  req.params.id)
+   .then(airbnb => {
+      res.json({
+        message: 'ok',
+        data: res.locals.data,
+      });
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json({ err });
+    });
+}
 
 airbnbController.destroy = (req, res) => {
   Airbnb.destroy(req.params.id)
