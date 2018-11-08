@@ -19,7 +19,7 @@ The React web application will include the AirBnb's home page which will include
 |Nov 5th | Project Description  | Complete
 |Nov 5th | Wireframes / Priority Matrix | Complete
 |Nov 6th | Core Application Structure   | Complete
-|Nov 7th | Pseudocode / actual code | Incomplete
+|Nov 7th | Pseudocode / actual code | Complete
 |Nov 8th | Initial Clickable Model  | Incomplete
 |Nov 9th | MVP | Incomplete
 |Nov 10th| MVP | Incomplete
