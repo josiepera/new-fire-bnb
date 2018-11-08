@@ -19,7 +19,7 @@ The React web application will include the AirBnb's home page which will include
 |Nov 5th | Project Description  | Complete
 |Nov 5th | Wireframes / Priority Matrix | Complete
 |Nov 6th | Core Application Structure   | Complete
-|Nov 7th | Pseudocode / actual code | Incomplete
+|Nov 7th | Pseudocode / actual code | Complete
 |Nov 8th | Initial Clickable Model  | Incomplete
 |Nov 9th | MVP | Incomplete
 |Nov 10th| MVP | Incomplete
@@ -112,9 +112,10 @@ render the data and pass it as props
 | Home page    | H  | 4hrs | 4hrs | 4hrs  |
 | Header w/ Links   | H  | 2hrs | 2hrs | 2hrs  |
 | Listings Components | H | 4hrs | 4hrs | 4hrs |
-| Form Component | H | 4hrs | 2hr | ? |
+| ReactStrap | L | 4hrs | 1hrs |  |
+| Form Component | H | 4hrs | 4hr | 4hr |
 | Server Setup | H  | 4hrs| 2hr | 2hr |
-| Basic Styles | H  | 4hrs| 3hr | ? |
+| Basic Styles | H  | 4hrs| 4hr | ? |
 | Routes | H | 4hrs | 2hr | 2hr |
 | Model | H | 4hrs | 4hrs| ?
 | Controller | H | 4hrs | 4hrs | ?
@@ -124,6 +125,7 @@ render the data and pass it as props
 | Adv. Styles  | L | 4hrs | ? | ?
 | Faves        | L  | 4hrs | ? | ?
 | Filters | L | 4hrs | ? | ?
+| Project Management | H | 8hrs | 4hrs | ?
 
 
 ## Database and Tables

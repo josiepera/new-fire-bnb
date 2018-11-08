@@ -30,7 +30,7 @@ airbnbController.show = (req, res) => {
     });
 };
 
-airbnbController.create = (req, res) => {
+airbnbController.create = (req, res, next) => {
   Airbnb.create({
     url: req.body.url,
     listing_title: req.body.listing_title,
@@ -46,9 +46,35 @@ airbnbController.create = (req, res) => {
     price: req.body.price
   })
     .then(airbnb => {
+      // res.json({
+      //   message: 'ok',
+      //   data: airbnb,
+      // });
+
+      res.locals.data = airbnb;
+      next()
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json({ err });
+    });
+};
+
+airbnbController.add = (req, res) => {
+  Airbnb.create({
+    host_title: req.body.host_title ,
+    host_city_location: req.body.host_city_location ,
+    date_joined: req.body.date_joined,
+    host_superhost_or_not: req.body.host_superhost_or_not,
+    host_description: req.body.host_description,
+    host_contact_host: req.body.host_contact_host,
+    policies: req.body.policies,
+    cancellation: req.body.cancellation
+  })
+    .then(airbnb => {
       res.json({
         message: 'ok',
-        data: airbnb,
+        data: res.locals.data,
       });
     })
     .catch(err => {
@@ -56,6 +82,7 @@ airbnbController.create = (req, res) => {
       res.status(500).json({ err });
     });
 };
+
 
 airbnbController.update = (req, res) => {
   console.log('hitting controller');

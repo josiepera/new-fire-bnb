@@ -3,11 +3,18 @@ const router = express.Router()
 
 const controller = require('../controller/airbnb-controller')
 
-router.get('/', controller.index);
-
 router.get('/:id', controller.show);
 
-router.post('/', controller.create);
+router.get('/')
+  .post(
+    controller.create,
+    controller.add
+  )
+
+router.route('/')
+  .get(
+    controller.index
+  )
 
 router.put('/:id', controller.update);
 
