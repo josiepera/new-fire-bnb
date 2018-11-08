@@ -11,9 +11,9 @@ const Listings = (props) => {
       <Link to={`/listings/${props.listings.id}`}>See More</Link>
       </section>
       <section className="price-info">
-      <h5>{props.listing.price}</h5>
-      <p>{props.listing.superhost_or_not} </p>
-      <p> {props.host_info.cancellation} </p>
+      <h5>{props.listings.price}</h5>
+      <p>{props.listings.superhost_or_not} </p>
+
       </section>
     </div>
   )
