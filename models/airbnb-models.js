@@ -3,15 +3,16 @@ const db = require('../db/config');
 const airbnbModels = {};
 
 airbnbModels.findAll = () => {
-
-  return db.query(`SELECT * FROM listings`);
+  return db.query(`SELECT * FROM listings JOIN host_info ON listings.id = host_info.id`);
 };
 
 airbnbModels.findById = id => {
   return db.oneOrNone(
     `
     SELECT * FROM listings
-    WHERE id = $1
+    JOIN host_info
+    ON listings.id = host_info.id
+    WHERE listings.id = $1
   `,
     [id]
   );
@@ -27,7 +28,8 @@ airbnbModels.create = listings => {
     RETURNING *
   `,
     [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
-    listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities, listings.sleep_arrange, listings.access, listings.reviews, listings.price]
+    listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities,
+    listings.sleep_arrange, listings.access, listings.reviews, listings.price]
   );
 };
 
