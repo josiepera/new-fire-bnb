@@ -2,12 +2,18 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { Link, Redirect } from 'react-router-dom';
 import HeaderListings from './HeaderListings';
+import DatePicker from "react-datepicker";
+import moment from "moment";
+
+import "react-datepicker/dist/react-datepicker.css";
 
 class ListingsSingle extends Component {
   state = {
       listings: null,
       host_info: null,
       apiDataLoaded: false,
+      startDate: moment(),
+      endDate: moment()
     }
 
 
@@ -22,6 +28,12 @@ class ListingsSingle extends Component {
       }).catch(err => console.log(err));
   }
 
+ handleChange(date) {
+    this.setState({
+      startDate: date,
+      endDate: date
+    });
+  }
 
   renderListingsOrLoading() {
     if (this.state.apiDataLoaded) {
@@ -55,8 +67,25 @@ class ListingsSingle extends Component {
             <h6>Amenities </h6>
             <p>{this.state.listings.amenities}</p>
             <h6> Sleeping Arrangements </h6>
-            <p>{this.state.listings.sleep_arrange}</p>
+                <div className="sleeping">
+                    <img src="https://i.imgur.com/qqNgCW3.png" title="source: imgur.com" />
+                    <p>{this.state.listings.sleep_arrange}</p>
+                </div>
+
+            <h6> Accessibility </h6>
             <p>{this.state.listings.access}</p>
+            <h6> Availability </h6>
+            <p> Updated today </p>
+            <h6> Start Date </h6>
+            <DatePicker
+                  selected={this.state.startDate}
+                  onChange={()=>this.handleChange()}
+                />
+          <h6> End Date </h6>
+           <DatePicker
+                  selected={this.state.endDate}
+                  onChange={()=>this.handleChange()}
+                />
             <p>{this.state.listings.price}</p>
 
             <div className="review">

@@ -206,7 +206,7 @@ label {
     'B B B S S S';
   grid-gap: 0;
   margin-top: 10px;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
 }
 
 .bigImage {
@@ -253,5 +253,12 @@ label {
 .contactHost {
   color: darkcyan;
   font-weight: 800;
+}
+
+.sleeping {
+  border: solid 1px lightgray;
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
