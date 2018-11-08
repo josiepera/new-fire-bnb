@@ -1,27 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
+ class HeaderListings extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dropdownOpen: false
+    };
+  }
 
+  toggle() {
+    this.setState(prevState => ({
+      dropdownOpen: !prevState.dropdownOpen
+    }));
+  }
 
-function HeaderListings() {
-  return (
-    <React.Fragment>
+  render() {
+    return (
+      <React.Fragment>
      <img src="https://i.imgur.com/4PAHoNj.png" title="source: imgur.com" />
      <section className="dropdown menu">
-         <Dropdown >
+      <Dropdown isOpen={this.state.dropdownOpen} toggle={() =>this.toggle()}>
         <DropdownToggle caret>
           ^
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem header>Home</DropdownItem>
-          <DropdownItem disabled>Invite friends</DropdownItem>
-          <DropdownItem disabled>Airbnb for Work</DropdownItem>
-          <DropdownItem>Refer hosts</DropdownItem>
+          <DropdownItem>Home</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>Invite Friends</DropdownItem>
+          <DropdownItem>Refer Hosts</DropdownItem>
+          <DropdownItem>Airbnb for Work</DropdownItem>
           <DropdownItem divider />
           <DropdownItem>Host a Home</DropdownItem>
           <DropdownItem>Sign Up</DropdownItem>
           <DropdownItem>Login</DropdownItem>
+          <DropdownItem divider />
           <DropdownItem>Help</DropdownItem>
         </DropdownMenu>
       </Dropdown>
@@ -35,10 +49,11 @@ function HeaderListings() {
         </label>
       </form>
      </section>
-    </React.Fragment>
-
-    )
+     </React.Fragment>
+    );
+  }
 }
+
 
 export default HeaderListings;
 

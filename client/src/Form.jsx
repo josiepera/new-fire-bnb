@@ -43,7 +43,7 @@ class Form extends Component {
     return(
        <div className="full-form">
         <h2 className="book"> Book Unique Homes and Experiences. </h2>
-        <form onSubmit={(e) => this.handleFormSubmit(e)}>
+        <form className="home-form" onSubmit={(e) => this.handleFormSubmit(e)}>
           <section className="where">
               <label>
                 WHERE
