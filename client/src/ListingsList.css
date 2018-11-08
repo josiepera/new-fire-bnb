@@ -1,0 +1,16 @@
+.dropdown {
+  background-color: #fff;
+}
+
+.listings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 300px);
+}
+
+.listings > img {
+  width: 100%;
+  /* height: 75%; */
+  grid-row: span 1;
+  grid-column: span 3;
+}

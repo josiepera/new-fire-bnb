@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Listings from './Listings';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import './ListingsList.css'
 
 class ListingsList extends Component {
   state = {
       apiDataLoaded: false,
       apiData: null,
-       dropdownOpen: false,
+      dropdownOpen: false
     }
 
  componentDidMount() {
