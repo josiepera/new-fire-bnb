@@ -28,7 +28,7 @@ class ListingsSingle extends Component {
       return (
         <div className="single-listing">
         <HeaderListings/>
-          <div className="img">
+          <div className="list-img">
             <img src={this.state.listings.url} alt={this.state.listings.listing_title} />
           </div>
           <div className="listing-info">

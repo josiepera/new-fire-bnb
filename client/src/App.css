@@ -53,13 +53,14 @@ li {
   background-color: white;
   margin: 5% 50% 5% 5%;
   border-radius: 5px;
+
 }
 
 .book {
   padding: 5% 8% 0 5%;
 }
 
-form {
+.home-form {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 1fr 1fr;
@@ -120,7 +121,9 @@ input {
 }
 
 .search-icon {
-  display: inline-grid;
+ display: flex;
+ border: solid 1px gray;
+ padding: 10px;
 }
 
 label {
@@ -151,3 +154,52 @@ label {
   background: white !important;
    padding: 20px;
 }
+
+.header-nav {
+ display: flex;
+   align-content: center;
+    flex-direction: row;
+}
+
+.search-icon {
+  transition: box-shadow 200ms ease-in !important;
+    transition-property: box-shadow !important;
+    transition-duration: 200ms !important;
+    transition-timing-function: ease-in !important;
+    transition-delay: 0s !important;
+    border: 1px solid #EBEBEB !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    height: 48px !important;
+}
+
+.head-logo {
+  display: flex;
+  align-content: center;
+  width: 5%;
+  height: 5%;
+}
+
+.dropdown{
+  display: flex;
+  align-content: center;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.search-picture {
+  display: flex;
+  align-content: center;
+}
+.search-input {
+  display: flex;
+  align-content: center;
+  border: none;
+  padding-left: 10px;
+  width: 400px;
+}
+
+.list-img {
+  padding-top: 20px;
+}
+
