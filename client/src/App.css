@@ -122,3 +122,19 @@ input {
   padding: 50px;
   background: white !important;
 }
+
+.search-picture {
+  height: 18px;
+  width: 18px;
+  display: block;
+  fill: currentcolor;
+}
+
+.search-icon {
+  display: inline-grid;
+}
+
+label {
+  line-height: normal;
+  box-sizing: border-box;
+}
