@@ -4,6 +4,7 @@ import Listings from './Listings';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import HeaderListings from './HeaderListings';
 import './ListingsList.css'
+import MapBox from './MapBox'
 
 class ListingsList extends Component {
   state = {
@@ -50,10 +51,11 @@ class ListingsList extends Component {
               <li className="filter-buttons">Price</li>
            </ul>
        </section>
-       <section>
+       <section className="threehundredhomes">
        <img src="https://i.imgur.com/3Bdhpmu.png" title="source: imgur.com" />
-       <h1 className="threehundredhomes"> +300 homes</h1>
+       <h1> +300 homes</h1>
        </section>
+       < MapBox />
         {this.renderListings()}
       </div>
     )

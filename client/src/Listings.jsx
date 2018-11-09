@@ -7,11 +7,7 @@ const Listings = (props) => {
 
     <div className="listings">
 
-      <div className="pics">
-      <img className="mainpic" src={props.listings.url} />
-      <img className="secpic" src={props.listings.url_two} />
-      <img className="thirdpic" src={props.listings.url_three} />
-      </div>
+      <img className="pic" src={props.listings.url} />
 
       <div className="info">
       <h2 className="title">{props.listings.listing_title}</h2>
