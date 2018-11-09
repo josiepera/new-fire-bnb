@@ -1,69 +1,47 @@
+.listings-list {
+  display: flex;
+  flex-flow: row wrap;
+}
 
-body {
-  background-color: #f4f4f4;
+.header-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.filters {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: 12%;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+.map {
+  position: fixed;
+  top: 25%;
+  right: 0;
 }
 
 .listings {
+  width: 66%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
 }
 
-.pics {
-  margin: 8% 0 0 0;
-  position: absolute;
-  left: 0;
-  height: 60%;
-  width: 100%;
-  display: flex;
-  flex-flow: column wrap;
-  grid-column: span 4;
-  grid-row: span 1;
-  cursor: pointer;
-  overflow: hidden;
-}
-
-.mainpic {
+.pic {
   outline: 2px solid black;
-  order: 1;
   width: 50%;
   height: 100%;
-  flex: 0 0 100%;
   filter: brightness(75%);
   transition: all .2s ease-in-out;
 }
 
-.mainpic:hover {
-  filter: brightness(100%);
-  transform: scale(1.1);
-}
-
-.secpic {
-  outline: 2px solid black;
-  order: 2;
-  height: 50%;
-  width: 50%;
-  flex: 0 0 50%;
-  filter: brightness(75%);
-  transition: all .2s ease-in-out;
-}
-
-.secpic:hover {
-  filter: brightness(100%);
-  transform: scale(1.1);
-}
-
-.thirdpic {
-  outline: 2px solid black;
-  order: 3;
-  height: 50%;
-  width: 50%;
-  flex: 0 0 50%;
-  filter: brightness(75%);
-  transition: all .2s ease-in-out;
-}
-
-.thirdpic:hover {
+.pic:hover {
   filter: brightness(100%);
   transform: scale(1.1);
 }
@@ -87,5 +65,13 @@ body {
 }
 
 .super {
+
+}
+
+@media all and (max-width: 910px) {
+
+  .map {
+    visibility: hidden;
+  }
 
 }
