@@ -24,7 +24,7 @@ body {
 }
 
 .mainpic {
-  outline: 1px solid black;
+  outline: 2px solid black;
   order: 1;
   width: 50%;
   height: 100%;
@@ -39,7 +39,7 @@ body {
 }
 
 .secpic {
-  outline: 1px solid black;
+  outline: 2px solid black;
   order: 2;
   height: 50%;
   width: 50%;
@@ -54,7 +54,7 @@ body {
 }
 
 .thirdpic {
-  outline: 1px solid black;
+  outline: 2px solid black;
   order: 3;
   height: 50%;
   width: 50%;
