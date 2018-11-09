@@ -322,7 +322,7 @@ label {
 
 }
 
-..contactHosts:hover {
+.contactHosts:hover {
   color: white;
   background-color: darkcyan;
   border: 2px solid white !important;
@@ -345,6 +345,7 @@ label {
   width: 370px;
   text-align: left;
   padding: 15px;
+  background-color: white;
 
 
 }
@@ -403,7 +404,7 @@ label {
   color: darkcyan;
   font-size: 15px;
   padding-top: 10px;
-   max-height: 500px;
+ max-height: 500px;
 
 }
 
