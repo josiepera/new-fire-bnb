@@ -201,7 +201,7 @@ label {
 }
 
 .list-img {
-  margin: 8% 0 0 0;
+  margin: 3% 0 0 0;
   position: absolute;
   left: 0;
   height: 60%;
@@ -318,6 +318,12 @@ label {
 
 }
 
+..contactHosts:hover {
+  color: white;
+  background-color: darkcyan;
+  border: 2px solid white !important;
+}
+
 .always {
   margin-top: 10px;
 }
@@ -327,7 +333,7 @@ label {
 }
 
 .listing-info {
-  margin-top: 600px;
+  margin-top: 500px;
 }
 
 
