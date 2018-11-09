@@ -18,28 +18,13 @@ airbnbModels.findById = id => {
   );
 };
 
-// airbnbModels.create = listings => {
-//   return db.one(
-//     `
-//     INSERT INTO listings
-//     (url, listing_title, city_location, room_specifics, superhost_or_not, description,
-//     contact_host, amenities, sleep_arrange, access, reviews, price)
-//     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
-//     RETURNING *
-//   `,
-//     [listings.url, listings.listing_title, listings.city_location, listings.room_specifics,
-//     listings.superhost_or_not, listings.description, listings.contact_host, listings.amenities,
-//     listings.sleep_arrange, listings.access, listings.reviews, listings.price]
-//   );
-// };
-
 airbnbModels.add = host_info => {
   return db.one(
     `
      INSERT INTO host_info
-     (host_title, host_city_location, date_joined, host_superhost_or_not,
+     (host_title, host_photo, host_city_location, date_joined, host_superhost_or_not,
      host_description, host_contact_host, policies, cancellation)
-     VALUES ($/host_title/,$/host_city_location/,$/date_joined/,$/host_superhost_or_not/,
+     VALUES ($/host_title/, $/host_photo/, $/host_city_location/,$/date_joined/,$/host_superhost_or_not/,
      $/host_description/,$/host_contact_host/,$/policies/,$/cancellation/)
      RETURNING *
     `, host_info);
@@ -92,17 +77,18 @@ airbnbModels.updateHost = (host_info, id) => {
     `
     UPDATE host_info SET
       host_title = $1,
-      host_city_location = $2,
-      date_joined = $3,
-      host_superhost_or_not = $4,
-      host_description = $5,
-      host_contact_host = $6,
-      policies = $6,
-      cancellation = $7
-    WHERE id = $8
+      host_photo = $2,
+      host_city_location = $3,
+      date_joined = $4,
+      host_superhost_or_not = $5,
+      host_description = $6,
+      host_contact_host = $7,
+      policies = $8,
+      cancellation = $9
+    WHERE id = $10
     RETURNING *
     `,
-    [host_info.host_title, host_info.host_city_location, host_info.date_joined,
+    [host_info.host_title, host_info.host_photo, host_info.host_city_location, host_info.date_joined,
     host_info.host_superhost_or_not, host_info.host_description,
     host_info.host_contact_host, host_info.policies, host_info.cancellation, id]
     )

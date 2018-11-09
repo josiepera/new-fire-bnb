@@ -62,7 +62,8 @@ airbnbController.create = (req, res, next) => {
 
 airbnbController.add = (req, res) => {
   Airbnb.add({
-    host_title: req.body.host_title ,
+    host_title: req.body.host_title,
+    host_photo: req.body.host_photo,
     host_city_location: req.body.host_city_location ,
     date_joined: req.body.date_joined,
     host_superhost_or_not: req.body.host_superhost_or_not,
@@ -117,7 +118,8 @@ airbnbController.update = (req, res, next) => {
 
 airbnbController.updateHost = (req, res) => {
   Airbnb.updateHost({
-    host_title: req.body.host_title ,
+    host_title: req.body.host_title,
+    host_photo: req.body.host_photo,
     host_city_location: req.body.host_city_location ,
     date_joined: req.body.date_joined,
     host_superhost_or_not: req.body.host_superhost_or_not,
