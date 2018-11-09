@@ -5,7 +5,7 @@ const controller = require('../controller/airbnb-controller')
 
 router.get('/:id', controller.show);
 
-router.get('/')
+router.route('/')
   .post(
     controller.create,
     controller.add
@@ -16,7 +16,11 @@ router.route('/')
     controller.index
   )
 
-router.put('/:id', controller.update);
+router.route('/:id')
+  .put(
+    controller.update,
+    controller.updateHost
+    )
 
 router.delete('/:id', controller.destroy);
 
