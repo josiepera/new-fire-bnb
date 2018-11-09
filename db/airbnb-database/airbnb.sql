@@ -171,6 +171,7 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	1
 ),
 (
+<<<<<<< Updated upstream
 		'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
 		'https://upload.wikimedia.org/wikipedia/commons/3/38/Music_room.jpg',
 		'https://upload.wikimedia.org/wikipedia/commons/e/eb/Paneling.jpg',
@@ -209,9 +210,9 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 		2
 ),
 (
-	'https://upload.wikimedia.org/wikipedia/commons/9/96/Vasskertentrance.jpg',
-	'https://upload.wikimedia.org/wikipedia/en/3/32/Market_house_mon_inside.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/1/1c/Windows%2C_WMH.jpg',
+	'https://upload.wikimedia.org/wikipedia/en/6/6d/The_Temple_House_Mezzanine.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/b/bf/Central_Hall_in_2001.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/b/b8/Highsmithvenicecanals.jpg',
 	'"The Country" & the NYC Waterfront!',
 	'New York, NY',
 	'4 guests, 2 bedrooms, 3 beds, 1 bath',
