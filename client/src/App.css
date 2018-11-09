@@ -176,8 +176,8 @@ label {
 .head-logo {
   display: flex;
   align-content: center;
-  width: 5%;
-  height: 5%;
+  width: 60px;
+  height: 60px;
 }
 
 .dropdown{
@@ -326,6 +326,6 @@ label {
 }
 
 .listing-info {
-  margin-top: 600px;
+  margin-top: 400px;
 }
 
