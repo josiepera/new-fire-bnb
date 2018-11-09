@@ -83,48 +83,48 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 	'I love life and appreciate all that has come my way. Every day is a blessing though I never have enough hours in the day to do all I have to do or want to do. While I am not in NYC, where I left an excellent freelance graphic design career working with Conde Nast Publications lastly at Vanity Fair, my husband and I maintain a private reserve in Costa Rica where we cherish and protect acres of primary and secondary rainforest.',
 	'Contact Host',
 	'Policies
-House Rules
-No pets
-No smoking, parties, or events
-Check-in is anytime after 2PM and check out by 11AM
-More information
-The most important thing I want is for you and your family to feel at home and have the best of times during your stay at my place. Let me know anything I can assist you with before arriving and throughout your stay. Its a cool place in a cool neighborhood. I am always nearby, but your privacy is supreme. Here are the rules; I  would appreciate you following:
-1. Respect other occupants that are in the building especially in the hallways, and limit yourselves to my third floor apartment. I know you are on vacation, but try to be noise considerate early in the mornings and after 10 pm at night.
+	House Rules
+	No pets
+	No smoking, parties, or events
+	Check-in is anytime after 2PM and check out by 11AM
+	More information
+	The most important thing I want is for you and your family to feel at home and have the best of times during your stay at my place. Let me know anything I can assist you with before arriving and throughout your stay. Its a cool place in a cool neighborhood. I am always nearby, but your privacy is supreme. Here are the rules; I  would appreciate you following:
+	1. Respect other occupants that are in the building especially in the hallways, and limit yourselves to my third floor apartment. I know you are on vacation, but try to be noise considerate early in the mornings and after 10 pm at night.
 
-2. Please lift your luggage if checking in or out early/late instead of rolling due to the hardwood floors in the hallways and space.
+	2. Please lift your luggage if checking in or out early/late instead of rolling due to the hardwood floors in the hallways and space.
 
-3. Be neat, do your own dishes and beds and respect the nice furnishings we have provided you.
-Please put all food in the refrigerator especially if it is in an opened container or bag. I have no roaches or pest and want to keep it that way!
+	3. Be neat, do your own dishes and beds and respect the nice furnishings we have provided you.
+	Please put all food in the refrigerator especially if it is in an opened container or bag. I have no roaches or pest and want to keep it that way!
 
-4. Separate the recycling from garbage in the appropriate bags we provide. Tuesday night is the night to set out the bottles and rinsed plastic food containers in the clear bags provided. Friday night is garbage night. Either I or my assistant will pass by to pick it up on those nights, if you cannot put it out yourself.
+	4. Separate the recycling from garbage in the appropriate bags we provide. Tuesday night is the night to set out the bottles and rinsed plastic food containers in the clear bags provided. Friday night is garbage night. Either I or my assistant will pass by to pick it up on those nights, if you cannot put it out yourself.
 
-5. Do not leave any appliance on if you are not in the apartment. This includes the portable air conditioners which should be turned off or at least to low when you are out of the apartment.
+	5. Do not leave any appliance on if you are not in the apartment. This includes the portable air conditioners which should be turned off or at least to low when you are out of the apartment.
 
-6. Do not leave the tub running if you are not in the apartment.
+	6. Do not leave the tub running if you are not in the apartment.
 
-7. Do not leave the stove or fireplace going if you are not in the apartment.
+	7. Do not leave the stove or fireplace going if you are not in the apartment.
 
-8. Please contact me or my assistant via airbnb, calling, personal email or simply knock on my door for any doubts, wishes or concerns.
+	8. Please contact me or my assistant via airbnb, calling, personal email or simply knock on my door for any doubts, wishes or concerns.
 
-9. Do not dispose of anything like tampons, diapers, or paper towels in the toilet.
-Only toilet paper please! Use the garbage can in the bathroom for tampons, Q tips, paper towels, diapers etc.
+	9. Do not dispose of anything like tampons, diapers, or paper towels in the toilet.
+	Only toilet paper please! Use the garbage can in the bathroom for tampons, Q tips, paper towels, diapers etc.
 
-10. Do not loose the keys to the house or the apartment. $250 lost key charge.
+	10. Do not loose the keys to the house or the apartment. $250 lost key charge.
 
-11. Please do not leave food out on the counters, top of the refrigerator or table. Put all food items in the refrigerator. With food containers that are put in trash or recycling, make sure they are rinsed. There is a steel garbage can with a lid under the ladder going to the roof in the hallway. Please put your daily garbage tied with a twisty there. Recycling gets put out every Tuesday evening in the clear bags provided. Trash gets put out in black garbage bags on Friday night.
+	11. Please do not leave food out on the counters, top of the refrigerator or table. Put all food items in the refrigerator. With food containers that are put in trash or recycling, make sure they are rinsed. There is a steel garbage can with a lid under the ladder going to the roof in the hallway. Please put your daily garbage tied with a twisty there. Recycling gets put out every Tuesday evening in the clear bags provided. Trash gets put out in black garbage bags on Friday night.
 
-12. Enjoy my space, you are my friend(s), and let me or my wonderful assistant and friend Azul, know anything we can assist you with.
+	12. Enjoy my space, you are my friend(s), and let me or my wonderful assistant and friend Azul, know anything we can assist you with.
 
-12. If you need to have something delivered to you while staying at my place, I will facilitate my postal service address a few blocks up the street so you can be around on the town instead of sitting in the apartment waiting for a package.
+	12. If you need to have something delivered to you while staying at my place, I will facilitate my postal service address a few blocks up the street so you can be around on the town instead of sitting in the apartment waiting for a package.
 
-13. No smoking of any kind in the hallway or apartment please!
+	13. No smoking of any kind in the hallway or apartment please!
 
-14. Do not be drinking, smoking or hanging out on the fire escape. No children ever on roof or fire escape. These are to be used only as a fire escape!
+	14. Do not be drinking, smoking or hanging out on the fire escape. No children ever on roof or fire escape. These are to be used only as a fire escape!
 
-15. As you leave the buildings street door on the first level, make sure the door shuts behind you. I nor anyone else in the building have ever had a theft issue, the neighborhood is super safe, but it is NYC.',
-'Cancellations
-Strict - Free cancellation for 48 hours
-After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
+	15. As you leave the buildings street door on the first level, make sure the door shuts behind you. I nor anyone else in the building have ever had a theft issue, the neighborhood is super safe, but it is NYC.',
+	'Cancellations
+	Strict - Free cancellation for 48 hours
+	After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
 );
 
 
