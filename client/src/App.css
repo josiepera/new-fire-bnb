@@ -1,5 +1,10 @@
+@font-face {
+  font-family: FireBnb;
+  src: url(./Font_Cereal/AirbnbCereal-Medium.ttf);
+}
+
 #root {
-  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: FireBnb, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.43;
   /*background: url('https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f07ed120eeba6a2720aeb6422f566f74&auto=format&fit=crop&w=1050&q=80') no-repeat center center fixed;;*/
@@ -208,7 +213,7 @@ label {
 }
 
 .list-img {
-  margin: 8% 0 0 0;
+  margin: 3% 0 0 0;
   position: absolute;
   left: 0;
   height: 60%;
@@ -325,6 +330,12 @@ label {
 
 }
 
+..contactHosts:hover {
+  color: white;
+  background-color: darkcyan;
+  border: 2px solid white !important;
+}
+
 .always {
   margin-top: 10px;
 }
@@ -334,5 +345,84 @@ label {
 }
 
 .listing-info {
-  margin-top: 400px;
+  margin-top: 600px;
+}
+
+.stickyForm {
+  border: 1px solid rgb(235, 235, 235);
+  width: 370px;
+  text-align: left;
+  padding: 15px;
+
+
+}
+
+.form-center {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.formbooking {
+  color: white;
+  background-color: crimson;
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.report-form {
+  color: darkcyan;
+  text-align: center;
+  position: fixed;
+  right: 16%;
+  padding-top: 10px;
+
+}
+
+.single-right-side {
+  position: fixed;
+  top: 15%;
+  right: 25%;
+  width: 150px;
+  height: 400px;
+  transition: top 0.3s;
+
+  max-height: 500px;
+
+
+}
+
+.single-left-side {
+  position: absolute;
+  left: 10%;
+  width: 50%;
+}
+
+.stickyNav {
+  border-top: 1px solid rgb(235, 235, 235);
+  border-bottom: 1px solid rgb(235, 235, 235);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  color: darkcyan;
+  font-size: 15px;
+  padding-top: 10px;
+   max-height: 500px;
+
+}
+
+.rightStickyNav {
+  display: inline-flex;
+  margin-left: 50%;
+  color: darkslategray;
+}
+
+.downloadIcon {
+  padding-top: 2px;
+  width: 20px;
+  height: 20px;
 }
