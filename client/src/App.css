@@ -162,7 +162,7 @@ label {
    padding: 20px;
 }
 
-.header-nav {
+.navheader {
  display: flex;
    align-content: center;
     flex-direction: row;
@@ -398,6 +398,7 @@ label {
   border-bottom: 1px solid rgb(235, 235, 235);
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 99;
   background-color: white;
@@ -418,4 +419,8 @@ label {
   padding-top: 2px;
   width: 20px;
   height: 20px;
+}
+
+.stickynav1 {
+  background-color: white;
 }
