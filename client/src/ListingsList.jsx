@@ -53,7 +53,7 @@ class ListingsList extends Component {
        </section>
        <section className="threehundredhomes">
        <img src="https://i.imgur.com/3Bdhpmu.png" title="source: imgur.com" />
-       <h1> +300 homes</h1>
+       <h3> +300 homes</h3>
        </section>
        < MapBox />
         {this.renderListings()}

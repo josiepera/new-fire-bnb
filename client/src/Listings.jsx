@@ -11,8 +11,8 @@ const Listings = (props) => {
 
       <div className="info">
       <h2 className="title">{props.listings.listing_title}</h2>
-      <p className="details">🏠 {props.listings.room_specifics}</p>
       <h6 className="price">💵 {props.listings.price}</h6>
+      <p className="details">🏠 {props.listings.room_specifics}</p>
       <p className="super">🌟 {props.listings.superhost_or_not} </p>
       <Link to={`/listings/${props.listings.id}`}>Request to Book</Link>
 
