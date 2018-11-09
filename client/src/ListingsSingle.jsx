@@ -135,6 +135,21 @@ class ListingsSingle extends Component {
             </div>
             <h6 className="report-form"> Report This Listing </h6>
           </div>
+          <div className="stickyNav">
+             <ul>
+               <li> Overview ·</li>
+               <li> Reviews  ·</li>
+               <li> Location · </li>
+               <li> The Host ·</li>
+               <li> Policies </li>
+               <div className="rightStickyNav">
+               <img className="downloadIcon" src="https://i.imgur.com/ZwbKCUss.png" title="source: imgur.com" />
+               <li> Share</li>
+               <img src="https://i.imgur.com/MNC8qnI.png" title="source: imgur.com" />
+               <li> Save </li>
+               </div>
+             </ul>
+          </div>
         </div>
       )
     } else return <p className="loading">Loading...</p>

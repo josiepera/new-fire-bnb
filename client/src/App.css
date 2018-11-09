@@ -338,11 +338,11 @@ label {
 }
 
 .listing-info {
-  margin-top: 540px;
+  margin-top: 600px;
 }
 
 .stickyForm {
-  border: 1px solid gray;
+  border: 1px solid rgb(235, 235, 235);
   width: 370px;
   text-align: left;
   padding: 15px;
@@ -380,7 +380,8 @@ label {
   right: 25%;
   width: 150px;
   height: 400px;
-  margin-top: 10%;
+  transition: top 0.3s;
+
   max-height: 500px;
 
 
@@ -390,6 +391,33 @@ label {
   position: absolute;
   left: 10%;
   width: 50%;
+}
+
+.stickyNav {
+  border-top: 1px solid rgb(235, 235, 235);
+  border-bottom: 1px solid rgb(235, 235, 235);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  color: darkcyan;
+  font-size: 15px;
+  padding-top: 10px;
+   max-height: 500px;
+
+}
+
+.rightStickyNav {
+  display: inline-flex;
+  margin-left: 50%;
+  color: darkslategray;
+}
+
+.downloadIcon {
+  padding-top: 2px;
+  width: 20px;
+  height: 20px;
 }
 
 
