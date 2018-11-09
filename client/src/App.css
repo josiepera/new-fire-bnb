@@ -201,31 +201,64 @@ label {
 }
 
 .list-img {
-  display: grid;
-  grid-template-areas:
-    'B B B T T T'
-    'B B B S S S';
-  grid-gap: 0;
-  margin-top: 10px;
-  border: 1px solid lightgray;
+  margin: 8% 0 0 0;
+  position: absolute;
+  left: 0;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  grid-column: span 4;
+  grid-row: span 1;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .bigImage {
-  grid-area: 'B';
-  width: 700px;
+  outline: 1px solid black;
+  order: 1;
+  width: 50%;
+  height: 100%;
+  flex: 0 0 100%;
+  filter: brightness(75%);
+  transition: all .2s ease-in-out;
+}
 
-
+.bigImage:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
 }
 
 .topSmallImage{
-  grid-area: 'T';
-  width: 400px;
+  outline: 1px solid black;
+  order: 2;
+  height: 50%;
+  width: 50%;
+  flex: 0 0 50%;
+  filter: brightness(75%);
+  transition: all .2s ease-in-out;
+}
+
+.topSmallImage:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
 }
 
 .bottomSmallImage {
-  grid-area: 'S';
-  width: 400px;
+  outline: 1px solid black;
+  order: 3;
+  height: 50%;
+  width: 50%;
+  flex: 0 0 50%;
+  filter: brightness(75%);
+  transition: all .2s ease-in-out;
 
+}
+
+
+.bottomSmallImage:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
 }
 
 .room-specifics{
@@ -292,3 +325,9 @@ label {
 .report {
   color: darkcyan;
 }
+
+.listing-info {
+  margin-top: 600px;
+}
+
+

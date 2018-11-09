@@ -63,7 +63,7 @@ class ListingsSingle extends Component {
             </div>
 
             <p className="superhost">{this.state.listings.superhost_or_not}</p>
-            <p>{this.state.listings.description}</p>
+            <p className="desc">{this.state.listings.description}</p>
             <p className="contactHost">{this.state.listings.contact_host}</p>
             <h6>Amenities </h6>
             <p>{this.state.listings.amenities}</p>
