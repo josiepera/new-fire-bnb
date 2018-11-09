@@ -77,6 +77,7 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 )
 (
 	'Hosted by Maria',
+	'https://upload.wikimedia.org/wikipedia/commons/6/6a/Gal_Gadot_2018_cropped_retouched.jpg',
 	'New York, New York, United States',
 	'Joined in October 2012',
 	'Maria is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
