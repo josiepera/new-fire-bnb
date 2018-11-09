@@ -1,3 +1,4 @@
+
 .listings-list {
   display: flex;
   flex-flow: row wrap;
@@ -11,13 +12,14 @@
   width: 100%;
   z-index: 2;
   background-color: #fff;
+  border-bottom: 1px solid gray;
 }
 
 .filters {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   position: fixed;
-  top: 10%;
+  top: 16%;
   width: 100%;
   z-index: 1;
   background-color: #fff;
@@ -26,20 +28,21 @@
 .threehundredhomes {
   color: darkslategray;
   position: absolute;
-  top: -3%;
+  top: 0;
   width: 100%;
 }
 
-.map {
+.mapwrapper {
   position: fixed;
   top: 33%;
+  margin: 5% 0;
   right: 0;
   width: 33%;
 }
 
 .listings {
   width: 66%;
-  margin: 5% 0;
+  margin: 10% 0 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 1fr;
@@ -73,6 +76,10 @@
   color: black;
   background: #fff;
   border: 1px solid white;
+}
+
+.dropdown > form {
+  padding-top: 5%;
 }
 
 .dropdown-menu.show {
