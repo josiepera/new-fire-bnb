@@ -341,4 +341,31 @@ label {
   margin-top: 500px;
 }
 
+.stickyForm {
+  border: 1px solid gray;
+  width: 30%;
+  text-align: left;
+  padding: 15px;
+}
+
+.form-center {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.formbooking {
+  color: white;
+  background-color: crimson;
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.report-form {
+  color: darkcyan;
+
+}
+
 
