@@ -200,6 +200,95 @@ label {
 }
 
 .list-img {
-  padding-top: 20px;
+  display: grid;
+  grid-template-areas:
+    'B B B T T T'
+    'B B B S S S';
+  grid-gap: 0;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+}
+
+.bigImage {
+  grid-area: 'B';
+  width: 700px;
+
+
+}
+
+.topSmallImage{
+  grid-area: 'T';
+  width: 400px;
+}
+
+.bottomSmallImage {
+  grid-area: 'S';
+  width: 400px;
+
+}
+
+.room-specifics{
+  display: inline-flex;
+}
+
+.guestImg {
+  width: 30px;
+  height: 30px;
+}
+
+.specifics {
+  color: darkslategray;
+  font-weight: 800;
+}
+
+.listing-title {
+  color: darkslategray;
+}
+
+.superhost {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.contactHost {
+  color: darkcyan;
+  font-weight: 800;
+}
+
+.sleeping {
+  border: solid 1px lightgray;
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.endDate {
+  margin-bottom: 50px;
+}
+
+.reviews {
+  margin-bottom: 10px;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.contactHosts {
+  background-color: white;
+  color: darkcyan;
+  border: 2px solid darkcyan !important;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 3px;
+
+}
+
+.always {
+  margin-top: 10px;
+}
+
+.report {
+  color: darkcyan;
 }
 
