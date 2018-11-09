@@ -6,6 +6,16 @@
   top: 30%;
 }
 
+.homelink {
+  height: 5%;
+  width: 5%;
+}
+
+.head-logo {
+  height: 50%;
+  width: 100%;
+}
+
 .header-nav {
   position: fixed;
   top: 0;
@@ -34,7 +44,7 @@
 
 .mapwrapper {
   position: fixed;
-  top: 33%;
+  top: 21%;
   margin: 5% 0;
   right: 0;
   width: 33%;
@@ -72,6 +82,11 @@
   margin: 0 25%;
 }
 
+.dropdown {
+  height: 50%;
+  margin: auto 0;
+}
+
 .dropdown > button {
   color: black;
   background: #fff;
@@ -79,8 +94,9 @@
 }
 
 .dropdown > form {
-  padding-top: 5%;
+  margin: auto 0;
 }
+
 
 .dropdown-menu.show {
   overflow: visible;

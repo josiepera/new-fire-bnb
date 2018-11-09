@@ -11,7 +11,7 @@ class MapBox extends Component {
       height: 400,
       latitude: 40.7128,
       longitude: -74.0060,
-      zoom: 8
+      zoom: 10
     }
   };
 
@@ -40,10 +40,3 @@ class MapBox extends Component {
 }
 
 export default MapBox;
-
-
-
-
-
-
-
