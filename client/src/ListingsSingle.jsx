@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link, Redirect } from 'react-router-dom';
-import HeaderListings from './HeaderListings';
+import HeaderSingleListings from './HeaderSingleListings';
 import DatePicker from "react-datepicker";
 import moment from "moment";
 import MapBox from "./MapBox";
@@ -29,6 +29,8 @@ class ListingsSingle extends Component {
       }).catch(err => console.log(err));
   }
 
+  //windowscrollY window.addEventListener in component did mount   onscroll
+
  handleChange(date) {
     this.setState({
       startDate: date,
@@ -40,16 +42,16 @@ class ListingsSingle extends Component {
     if (this.state.apiDataLoaded) {
       return (
         <div className="single-listing">
-        <HeaderListings/>
+        <HeaderSingleListings/>
           <div className="list-img">
             <img className="bigImage"
                  src={this.state.listings.url} alt={this.state.listings.listing_title} />
              <img
                 className="topSmallImage"
-                src={this.state.listings.url} alt={this.state.listings.listing_title} />
+                src={this.state.listings.url_two} alt={this.state.listings.listing_title} />
               <img
                className="bottomSmallImage"
-               src={this.state.listings.url} alt={this.state.listings.listing_title} />
+               src={this.state.listings.url_three} alt={this.state.listings.listing_title} />
           </div>
             <div className="single-left-side">
                   <div className="listing-info">
@@ -136,7 +138,7 @@ class ListingsSingle extends Component {
             <h6 className="report-form"> Report This Listing </h6>
           </div>
           <div className="stickyNav">
-             <ul>
+             <ul className="stickynav1">
                <li> Overview ·</li>
                <li> Reviews  ·</li>
                <li> Location · </li>
