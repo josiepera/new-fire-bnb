@@ -35,9 +35,14 @@ airbnbModels.create = listings => {
     `
     INSERT INTO listings
     (url, url_two, url_three, listing_title, city_location, room_specifics, superhost_or_not, description,
-    contact_host, amenities, sleep_arrange, access, reviews, price, host_id)
-    VALUES ($/url/, $/url_two/, $/url_three/, $/listing_title/, $/city_location/, $/room_specifics/, $/superhost_or_not/,
-    $/description/, $/contact_host/, $/amenities/, $/sleep_arrange/, $/access/, $/reviews/, $/price/, $/host_id/)
+    space, guest_access, interaction, other,
+    contact_host, amenities_one, amenities_two, amenities_three, amenities_four,
+    sleep_arrange, access, review_one, review_two, review_three, price, host_id)
+    VALUES ($/url/, $/url_two/, $/url_three/, $/listing_title/,
+    $/city_location/, $/room_specifics/, $/superhost_or_not/,
+    $/description/, $/space/, $/guest_access/, $/interaction/, $/other/, $/contact_host/,
+    $/amenities_one/, $/amenities_two/, $/amenities_three/, $/amenities_four/, $/sleep_arrange/,
+    $/access/, $/review_one/, $/review_two/, $/review_three/, $/price/, $/host_id/)
     RETURNING *
   `, listings);
 };
@@ -54,19 +59,31 @@ airbnbModels.update = (listings, id) => {
       room_specifics = $6,
       superhost_or_not = $7,
       description = $8,
-      contact_host = $9,
-      amenities = $10,
-      sleep_arrange = $11,
-      access = $12,
-      reviews = $13,
-      price = $14,
-      host_id = $15
-    WHERE id = $16
+      space = $9,
+      guest_access = $10,
+      interaction = $11,
+      other = $12,
+      contact_host = $13,
+      amenities_one = $14,
+      amenities_two = $15,
+      amenities_three = $16,
+      amenities_four = $17,
+      sleep_arrange = $18,
+      access = $19,
+      review_one = $20,
+      review_two = $21,
+      review_three = $22,
+      price = $23,
+      host_id = $24
+    WHERE id = $25
     RETURNING *
   `,
   [listings.url, listings.url_two, listings.url_three,
   listings.listing_title, listings.city_location, listings.room_specifics,
-  listings.superhost_or_not, listings.description, listings.contact_host,
+  listings.superhost_or_not, listings.description,
+  listings.space, listings.guest_access, listings.interaction, listings.other, listings.contact_host,
+  listings.amenities_one, listings.amenities_two, listings.amenities_three,
+  listings.amenities_four, listings.review_one, listings.review_two, listings.review_three,
   listings.amenities, listings.sleep_arrange, listings.access, listings.reviews,
   listings.price, listings.host_id, id],
   );

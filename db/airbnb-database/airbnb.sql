@@ -171,7 +171,6 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	1
 ),
 (
-<<<<<<< Updated upstream
 		'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
 		'https://upload.wikimedia.org/wikipedia/commons/3/38/Music_room.jpg',
 		'https://upload.wikimedia.org/wikipedia/commons/e/eb/Paneling.jpg',
