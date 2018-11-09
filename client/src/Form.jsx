@@ -84,11 +84,12 @@ class Form extends Component {
             GUESTS
           </label>
              <br/>
-              <input
-                  type= "text"
-                  placeholder= "1 guest"
-                  name="guest"
-              />
+              <select className="guests">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
           </section>
           <section className="search">
           <input className="search-button" type="submit" value="Search" />
