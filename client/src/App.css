@@ -1,4 +1,4 @@
-body {
+#root {
   font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.43;
@@ -25,6 +25,7 @@ a:hover {
 }
 
 .logo {
+  cursor: pointer;
   width: 150px;
   height: 50px;
   padding-left: 15px;
@@ -53,14 +54,14 @@ li {
   background-color: white;
   margin: 5% 50% 5% 5%;
   border-radius: 5px;
-
+  width: 40%;
 }
 
 .book {
   padding: 5% 8% 0 5%;
 }
 
-.home-form {
+.full-form > form {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 1fr 1fr;
@@ -73,13 +74,13 @@ li {
 
 .check-in {
   align-self: center;
-  padding: 0 0 0 10%;
+  padding: 0 2% 0 10%;
   grid-column: span 1;
 }
 
 .check-out {
   align-self: center;
-  padding: 0 10% 0 0;
+  padding: 0 10% 0 2%;
   grid-column: span 1;
 }
 
@@ -291,4 +292,3 @@ label {
 .report {
   color: darkcyan;
 }
-
