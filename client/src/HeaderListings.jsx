@@ -20,13 +20,14 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
     return (
       <React.Fragment>
         <div className="header-nav">
-        <div>
-              <Link to='/'>
-              <img className="head-logo" src="https://i.imgur.com/4PAHoNj.png" title="source: imgur.com" />
-              </Link>
-        </div>
+
 
            <section className="dropdown menu">
+           <div className="homelink">
+                 <Link to='/'>
+                 <img className="head-logo" src="https://i.imgur.com/4PAHoNj.png" title="source: imgur.com" />
+                 </Link>
+           </div>
             <Dropdown isOpen={this.state.dropdownOpen} toggle={() =>this.toggle()}>
               <DropdownToggle className="caret" caret>
 
