@@ -1,15 +1,95 @@
-.listings-list {
-  background-color: #fff;
-}
+
+
 
 .listings {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 300px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.listings > img {
+.pics {
+  margin: 8% 0 0 0;
+  position: absolute;
+  left: 0;
+  height: 60%;
   width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  grid-column: span 4;
   grid-row: span 1;
-  grid-column: span 3;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.mainpic {
+  outline: 1px solid black;
+  order: 1;
+  width: 50%;
+  height: 100%;
+  flex: 0 0 100%;
+  filter: brightness(75%);
+  transition: all .2s ease-in-out;
+}
+
+.mainpic:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.secpic {
+  outline: 1px solid black;
+  order: 2;
+  height: 50%;
+  width: 50%;
+  flex: 0 0 50%;
+  filter: brightness(75%);
+  transition: all .2s ease-in-out;
+}
+
+.secpic:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.thirdpic {
+  outline: 1px solid black;
+  order: 3;
+  height: 50%;
+  width: 50%;
+  flex: 0 0 50%;
+  filter: brightness(75%);
+  transition: all .2s ease-in-out;
+}
+
+.thirdpic:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.info {
+  grid-column: 2 / -1;
+  grid-row: 3 / 4;
+  text-align: left;
+}
+
+.title {
+
+}
+
+.details {
+
+}
+
+.price {
+
+}
+
+.super {
+
+}
+
+.info > a {
+  text-align: center;
+  grid-column: -1 / 2;
+  grid-row: 2 / 4;
 }
