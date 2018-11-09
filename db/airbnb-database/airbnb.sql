@@ -171,6 +171,7 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	1
 ),
 (
+<<<<<<< Updated upstream
 		'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
 		'https://upload.wikimedia.org/wikipedia/commons/3/38/Music_room.jpg',
 		'https://upload.wikimedia.org/wikipedia/commons/e/eb/Paneling.jpg',
@@ -207,6 +208,52 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 		I was plesently surprised by the parks near the building.  It was unfortunate the subway station was not a bit closer but otherwise a pleasent stay, 4 out of 5 would book again.',
 		'55$ per night',
 		2
+=======
+	'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/3/38/Music_room.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/e/eb/Paneling.jpg',
+	'Cool Room',
+	'New York, NY',
+	'2 guests, 2 bedroom, 2 beds, 1 shared bath',
+	'Dillon is a is a Superhost: Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'A comfortable appartment for anyone to enjoy',
+
+	'The space
+	It is a space meant for a coupld of eager guest who like a appartment near some parks and subway station the get around.  Fully furnished for any visitors.',
+
+	'Guest access
+	Guests will be admitted through the appartment entrance at the front of the building please have a valid Id present so we can check the validity of your stay.',
+
+	'Interaction with guests
+	Guests are free to interact with myself I will be there if you need anything thing of me as a concierge for your stay.',
+
+	'Other things to note
+	If you are in need of directions anywhere just ask and I will be there in a heartbeat to answer any questions.',
+	'Contact Host',
+	'Kitchen',
+	'Dryer',
+	'Wifi',
+	'Iron',
+	'2 Bedrooms Single Bed for Each',
+	'Accessibility
+	Well-lit path to entrance
+	wheelchair accessible',
+	'Matt Jacobs
+	November 2018
+
+	I really enjoyed my stay here and the owner was so cool about having us their. 5 out of 5 would book again',
+
+	'Josie Sanchez
+	October 2018
+
+	Enjoyed the space myself an my wife really enjoyed the room we were given and the fact that the subway is so close is awesome, 5 out of 5 would books again.',
+	'Sarah C
+	November 2018
+
+	I was plesently surprised by the parks near the building.  It was unfortunate the subway station was not a bit closer but otherwise a pleasent stay, 4 out of 5 would book again.',
+	'55$ per night',
+	2
+>>>>>>> Stashed changes
 ),
 (
 	'https://upload.wikimedia.org/wikipedia/commons/9/96/Vasskertentrance.jpg',
