@@ -67,9 +67,20 @@ class ListingsSingle extends Component {
 
                     <p className="superhost">{this.state.listings.superhost_or_not}</p>
                     <p className="desc">{this.state.listings.description}</p>
+                    <h6> The Space </h6>
+                    <p className="desc">{this.state.listings.space}</p>
+                    <h6> Guest Access </h6>
+                    <p className="desc">{this.state.listings.guest_access}</p>
+                    <h6> Interaction </h6>
+                    <p className="desc">{this.state.listings.interaction}</p>
+                    <h6> Other </h6>
+                    <p className="desc">{this.state.listings.other}</p>
                     <p className="contactHost">{this.state.listings.contact_host}</p>
                     <h6>Amenities </h6>
-                    <p>{this.state.listings.amenities}</p>
+                    <p>{this.state.listings.amenities_one}</p>
+                    <p>{this.state.listings.amenities_two}</p>
+                    <p>{this.state.listings.amenities_three}</p>
+                    <p>{this.state.listings.amenities_four}</p>
                     <h6> Sleeping Arrangements </h6>
                         <div className="sleeping">
                             <img src="https://i.imgur.com/qqNgCW3.png" title="source: imgur.com" />
@@ -96,7 +107,8 @@ class ListingsSingle extends Component {
 
 
                     <div className="review">
-                      <span className="reviews">Reviews: {this.state.listings.reviews || 'N/A'}</span>
+                      <div className="reviews"> {this.state.listings.review_one}</div>
+                      <div className="reviews">{this.state.listings.review_two}</div>
                     </div>
                   </div>
               <div className="host-info">
