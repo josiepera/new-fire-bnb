@@ -113,6 +113,8 @@ render the data and pass it as props
 | Header w/ Links   | H  | 2hrs | 2hrs | 2hrs  |
 | Listings Components | H | 4hrs | 4hrs | 4hrs |
 | SingleList | H | 4hrs | 5hrs |  |
+| SingleList Sticky Footer | H | 4hrs |  |  |
+| SingleList Sticky Form | H | 4hrs |  |  |
 | ReactStrap | L | 4hrs | 4hrs |  |
 | MapBox API | L | 4hrs | 2hrs | 2hrs |
 | Form Component | H | 4hrs | 4hr | 4hr |
