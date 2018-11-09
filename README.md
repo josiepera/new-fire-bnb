@@ -112,13 +112,18 @@ render the data and pass it as props
 | Home page    | H  | 4hrs | 4hrs | 4hrs  |
 | Header w/ Links   | H  | 2hrs | 2hrs | 2hrs  |
 | Listings Components | H | 4hrs | 4hrs | 4hrs |
-| ReactStrap | L | 4hrs | 1hrs |  |
+| SingleList | H | 4hrs | 5hrs |  |
+| SingleList Sticky Footer | H | 4hrs |  |  |
+| SingleList Sticky Form | H | 4hrs |  |  |
+| ReactStrap | L | 4hrs | 4hrs |  |
+| MapBox API | L | 4hrs | 2hrs | 2hrs |
 | Form Component | H | 4hrs | 4hr | 4hr |
 | Server Setup | H  | 4hrs| 2hr | 2hr |
-| Basic Styles | H  | 4hrs| 4hr | ? |
+| Basic Styles | H  | 4hrs| 4hr | 4hrs|
+| Adv Styles | H  | 4hrs| 3hr | |
 | Routes | H | 4hrs | 2hr | 2hr |
-| Model | H | 4hrs | 4hrs| ?
-| Controller | H | 4hrs | 4hrs | ?
+| Model | H | 4hrs | 9hrs| ?
+| Controller | H | 4hrs | 9hrs | ?
 | DB and Tables | H  | 4hrs | 6hrs | 6hrs
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?

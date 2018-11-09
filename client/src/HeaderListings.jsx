@@ -63,4 +63,3 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
 
 
 export default HeaderListings;
-
