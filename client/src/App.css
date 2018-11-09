@@ -139,11 +139,11 @@ label {
 }
 
 .filter-buttons {
+  line-height: 30px;
   text-align: center;
   cursor: pointer;
-  margin: 1% 2%;
-  padding: 0.5%;
-  width: 9%;
+  margin: 2% 2%;
+  width: 10%;
   border: 1px solid gray;
   border-radius: 5px;
 }

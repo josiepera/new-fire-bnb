@@ -29,7 +29,7 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
            <section className="dropdown menu">
             <Dropdown isOpen={this.state.dropdownOpen} toggle={() =>this.toggle()}>
               <DropdownToggle className="caret" caret>
-                ^
+                
               </DropdownToggle>
               <DropdownMenu>
                 <DropdownItem>Home</DropdownItem>

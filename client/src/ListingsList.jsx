@@ -55,7 +55,9 @@ class ListingsList extends Component {
        <img src="https://i.imgur.com/3Bdhpmu.png" title="source: imgur.com" />
        <h3> +300 homes</h3>
        </section>
+       <div className="mapwrapper">
        < MapBox />
+       </div>
         {this.renderListings()}
       </div>
     )
