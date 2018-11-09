@@ -122,7 +122,9 @@ input {
 }
 
 .search-icon {
-  display: inline-grid;
+ display: flex;
+ border: solid 1px gray;
+ padding: 10px;
 }
 
 label {
@@ -152,4 +154,141 @@ label {
 .listings-list {
   background: white !important;
    padding: 20px;
+}
+
+.header-nav {
+ display: flex;
+   align-content: center;
+    flex-direction: row;
+}
+
+.search-icon {
+  transition: box-shadow 200ms ease-in !important;
+    transition-property: box-shadow !important;
+    transition-duration: 200ms !important;
+    transition-timing-function: ease-in !important;
+    transition-delay: 0s !important;
+    border: 1px solid #EBEBEB !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    height: 48px !important;
+}
+
+.head-logo {
+  display: flex;
+  align-content: center;
+  width: 5%;
+  height: 5%;
+}
+
+.dropdown{
+  display: flex;
+  align-content: center;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.search-picture {
+  display: flex;
+  align-content: center;
+}
+.search-input {
+  display: flex;
+  align-content: center;
+  border: none;
+  padding-left: 10px;
+  width: 400px;
+}
+
+.list-img {
+  display: grid;
+  grid-template-areas:
+    'B B B T T T'
+    'B B B S S S';
+  grid-gap: 0;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+}
+
+.bigImage {
+  grid-area: 'B';
+  width: 700px;
+
+
+}
+
+.topSmallImage{
+  grid-area: 'T';
+  width: 400px;
+}
+
+.bottomSmallImage {
+  grid-area: 'S';
+  width: 400px;
+
+}
+
+.room-specifics{
+  display: inline-flex;
+}
+
+.guestImg {
+  width: 30px;
+  height: 30px;
+}
+
+.specifics {
+  color: darkslategray;
+  font-weight: 800;
+}
+
+.listing-title {
+  color: darkslategray;
+}
+
+.superhost {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.contactHost {
+  color: darkcyan;
+  font-weight: 800;
+}
+
+.sleeping {
+  border: solid 1px lightgray;
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.endDate {
+  margin-bottom: 50px;
+}
+
+.reviews {
+  margin-bottom: 10px;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.contactHosts {
+  background-color: white;
+  color: darkcyan;
+  border: 2px solid darkcyan !important;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 3px;
+
+}
+
+.always {
+  margin-top: 10px;
+}
+
+.report {
+  color: darkcyan;
 }
