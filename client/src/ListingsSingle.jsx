@@ -116,7 +116,7 @@ class ListingsSingle extends Component {
                  <p> {this.state.host_info.policies} </p>
                  <p> {this.state.host_info.cancellation} </p>
                  <img src="https://i.imgur.com/TrSAzLR.png" title="source: imgur.com" />
-                 <h6 className="report"> Report This Listing </h6>
+
               </div>
           </div>
           <div className="single-right-side">

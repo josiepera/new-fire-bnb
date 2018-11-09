@@ -338,14 +338,16 @@ label {
 }
 
 .listing-info {
-  margin-top: 500px;
+  margin-top: 540px;
 }
 
 .stickyForm {
   border: 1px solid gray;
-  width: 30%;
+  width: 370px;
   text-align: left;
   padding: 15px;
+
+
 }
 
 .form-center {
@@ -365,7 +367,29 @@ label {
 
 .report-form {
   color: darkcyan;
+  text-align: center;
+  position: fixed;
+  right: 16%;
+  padding-top: 10px;
 
+}
+
+.single-right-side {
+  position: fixed;
+  top: 15%;
+  right: 25%;
+  width: 150px;
+  height: 400px;
+  margin-top: 10%;
+  max-height: 500px;
+
+
+}
+
+.single-left-side {
+  position: absolute;
+  left: 10%;
+  width: 50%;
 }
 
 
