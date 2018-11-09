@@ -1,5 +1,7 @@
 
-
+body {
+  background-color: #f4f4f4;
+}
 
 .listings {
   display: grid;
@@ -67,8 +69,8 @@
 }
 
 .info {
-  grid-column: 2 / -1;
-  grid-row: 3 / 4;
+  grid-column: 2 / 5;
+  grid-row: 3 / 3;
   text-align: left;
 }
 
@@ -86,10 +88,4 @@
 
 .super {
 
-}
-
-.info > a {
-  text-align: center;
-  grid-column: -1 / 2;
-  grid-row: 2 / 4;
 }
