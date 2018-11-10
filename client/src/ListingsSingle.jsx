@@ -5,6 +5,7 @@ import HeaderSingleListings from './HeaderSingleListings';
 import DatePicker from "react-datepicker";
 import moment from "moment";
 import MapBox from "./MapBox";
+import StickyNav from './StickyNav';
 
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -27,6 +28,10 @@ class ListingsSingle extends Component {
           host_info: res.data.data,
         })
       }).catch(err => console.log(err));
+
+      if (window.scrollY < 597) {
+  window.scroll(0, 0);
+}
   }
 
   //windowscrollY window.addEventListener in component did mount   onscroll
@@ -149,21 +154,7 @@ class ListingsSingle extends Component {
             </div>
             <h6 className="report-form"> Report This Listing </h6>
           </div>
-          <div className="stickyNav">
-             <ul className="stickynav1">
-               <li> Overview ·</li>
-               <li> Reviews  ·</li>
-               <li> Location · </li>
-               <li> The Host ·</li>
-               <li> Policies </li>
-               <div className="rightStickyNav">
-               <img className="downloadIcon" src="https://i.imgur.com/ZwbKCUss.png" title="source: imgur.com" />
-               <li> Share</li>
-               <img src="https://i.imgur.com/MNC8qnI.png" title="source: imgur.com" />
-               <li> Save </li>
-               </div>
-             </ul>
-          </div>
+          <StickyNav/>
         </div>
       )
     } else return <p className="loading">Loading...</p>
