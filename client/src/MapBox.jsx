@@ -7,7 +7,7 @@ let MAPBOX_TOKEN = 'pk.eyJ1Ijoic21jdXJyZXk1MjgiLCJhIjoiY2pvOWNta3l6MWQ2ZDNxcHV4c
 class MapBox extends Component {
    state = {
     viewport: {
-      width: 400,
+      width: 700,
       height: 400,
       latitude: 40.7128,
       longitude: -74.0060,

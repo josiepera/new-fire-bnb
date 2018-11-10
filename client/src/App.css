@@ -426,3 +426,7 @@ align-content: center;
 .stickynav1 {
   background-color: white;
 }
+
+.getFullDetails {
+  color: darkcyan;
+}
