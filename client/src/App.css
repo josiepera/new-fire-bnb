@@ -339,7 +339,7 @@ align-content: center;
 }
 
 .listing-info {
-  margin-top: 600px;
+  margin-top: 540px;
 }
 
 .stickyForm {
@@ -425,4 +425,8 @@ align-content: center;
 
 .stickynav1 {
   background-color: white;
+}
+
+.getFullDetails {
+  color: darkcyan;
 }

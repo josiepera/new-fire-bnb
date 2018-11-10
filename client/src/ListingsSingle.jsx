@@ -6,6 +6,7 @@ import DatePicker from "react-datepicker";
 import moment from "moment";
 import MapBox from "./MapBox";
 import StickyNav from './StickyNav';
+import StickyForm from './StickyForm';
 
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -112,7 +113,9 @@ class ListingsSingle extends Component {
 
 
                     <div className="review">
+                     <img src="https://i.imgur.com/lYSgluF.png" title="source: imgur.com" />
                       <div className="reviews"> {this.state.listings.review_one}</div>
+                      <img src="https://i.imgur.com/ZJGQT3p.png" title="source: imgur.com" />
                       <div className="reviews">{this.state.listings.review_two}</div>
                     </div>
                   </div>
@@ -135,7 +138,7 @@ class ListingsSingle extends Component {
                  <p> {this.state.host_info.policies} </p>
                  <p> {this.state.host_info.cancellation} </p>
                  <img src="https://i.imgur.com/TrSAzLR.png" title="source: imgur.com" />
-
+                 <h6 className="getFullDetails"> Get full details</h6>
               </div>
           </div>
           <div className="single-right-side">
