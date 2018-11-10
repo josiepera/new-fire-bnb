@@ -7,6 +7,7 @@ import moment from "moment";
 import MapBox from "./MapBox";
 import StickyNav from './StickyNav';
 import StickyForm from './StickyForm';
+import MoreHomes from './MoreHomes';
 
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -139,6 +140,8 @@ class ListingsSingle extends Component {
                  <p> {this.state.host_info.cancellation} </p>
                  <img src="https://i.imgur.com/TrSAzLR.png" title="source: imgur.com" />
                  <h6 className="getFullDetails"> Get full details</h6>
+                 <h4> More homes you may like </h4>
+                 <MoreHomes/>
               </div>
           </div>
           <div className="single-right-side">
