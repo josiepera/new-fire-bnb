@@ -430,8 +430,7 @@ align-content: center;
 
 .getFullDetails {
   color: darkcyan;
-  border-bottom: 1px solid rgb(235, 235, 235);
-  padding: 30px;
+
 }
 
 .login, .signup {
@@ -449,12 +448,19 @@ align-content: center;
   padding-bottom: 8px;
 }
 
-.moreHomeCards{
+.moreHomeCards, .moreThings{
   width: 300px;
   height: 300px;
   margin: 20px;
 }
 
-.otherHomes {
+.otherHomes, .otherThings {
   display: inline-flex;
+}
+
+
+.manyHomes, .manyThings {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding: 30px;
+
 }
