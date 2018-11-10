@@ -22,7 +22,7 @@ class Login extends React.Component {
 
       return (
       <div>
-        <li onClick={this.toggle}>Login</li>
+        <li className="login" onClick={this.toggle}>Login</li>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle} close={closeBtn}>Login</ModalHeader>
           <ModalBody>
