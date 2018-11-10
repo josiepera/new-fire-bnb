@@ -430,3 +430,18 @@ align-content: center;
 .getFullDetails {
   color: darkcyan;
 }
+
+.login, .signup {
+   color: black;
+   font-size: 15px;
+}
+
+.login:hover {
+  border-bottom: 3px solid black !important;
+  padding-bottom: 8px;
+}
+
+.signup:hover {
+  border-bottom: 3px solid black !important;
+  padding-bottom: 8px;
+}

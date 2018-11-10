@@ -22,7 +22,7 @@ class SignUp extends React.Component {
 
       return (
       <div>
-        <li onClick={this.toggle}>Sign Up</li>
+        <li className="signup" onClick={this.toggle}>Sign Up</li>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle} close={closeBtn}>Login</ModalHeader>
           <ModalBody>
