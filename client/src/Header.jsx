@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Popup from "reactjs-popup";
+import Login from './Login';
 
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
           <li><Link to='/host'>Become a Host</Link></li>
           <li><Link to='/help'> Help</Link></li>
           <li><Link to='/sign-up'> Sign Up</Link></li>
-          <li><Link to='/login'>Login</Link></li>
+          <li><Login/></li>
         </ul>
       </nav>
     </header>
