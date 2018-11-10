@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
-class Login extends React.Component {
+class SignUp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -22,26 +22,24 @@ class Login extends React.Component {
 
       return (
       <div>
-        <li onClick={this.toggle}>Login</li>
+        <li onClick={this.toggle}>Sign Up</li>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle} close={closeBtn}>Login</ModalHeader>
           <ModalBody>
-          <div className="facebook">
-           Login with Facebook
-          </div>
-          <div className="google">
-           Login with Google
-          </div>
             <form>
              <input placeholder="Email Address"/>
-             <input placeholder="Password"/>
+             <input placeholder="First Name"/>
+             <input placeholder="Last Name"/>
+             <input placeholder="Create a Password"/>
+              <h6> Birthday </h6>
+            <p> To sign up, you must be 18 or older. Other people won’t see your birthday. </p>
+            <input placeholder="mm/dd/yyyy"/>
+            <p> We’ll send you marketing promotions, special offers, inspiration, and policy updates via email.</p>
             </form>
+
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Login</Button>{' '}
-            <h6> Forgot Password? </h6>
-            <h5> Don't have an account? </h5>
-            <h5> Sign up </h5>
+            <Button color="primary" onClick={this.toggle}>Sign Up</Button>{' '}
           </ModalFooter>
         </Modal>
       </div>
@@ -49,4 +47,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login;
+export default SignUp;
