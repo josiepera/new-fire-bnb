@@ -24,7 +24,7 @@ class SignUp extends React.Component {
       <div>
         <li className="signup" onClick={this.toggle}>Sign Up</li>
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle} close={closeBtn}>Login</ModalHeader>
+          <ModalHeader toggle={this.toggle} close={closeBtn}>Sign Up</ModalHeader>
           <ModalBody>
             <form>
              <input placeholder="Email Address"/>

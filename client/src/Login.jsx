@@ -41,7 +41,6 @@ class Login extends React.Component {
             <Button color="primary" onClick={this.toggle}>Login</Button>{' '}
             <h6> Forgot Password? </h6>
             <h5> Don't have an account? </h5>
-            <h5> Sign up </h5>
           </ModalFooter>
         </Modal>
       </div>

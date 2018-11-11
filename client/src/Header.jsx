@@ -12,7 +12,7 @@ function Header() {
         <ul>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/host'>Become a Host</Link></li>
-          <li><Link to='/help'> Help</Link></li>
+          <li><Link to='/help'>Help</Link></li>
           <li><SignUp/></li>
           <li><Login/></li>
         </ul>
