@@ -304,6 +304,35 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 		'Cancellations
 		Moderate - Free cancellation for 48 hours
 		After that, cancel up to 5 days before check-in and get a full refund, minus the service fee.'
+),
+(
+	'Hosted by Jeff And Jessica',
+	'https://upload.wikimedia.org/wikipedia/commons/3/38/Sonny_and_Cher_1971.JPG',
+	'New York, New York, United States',
+	'Joined in July 2014',
+	'Jeff And Jessica is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'Interested in travel and exploration. The world is a wonderful place!!!
+	Response rate: 100%
+	Response time: within a few hours',
+	'Contact Host',
+	'Policies
+	House Rules
+	Not safe or suitable for children (0-12) and pets
+	No smoking, parties, or events
+	Check-in time is 6PM - 12AM (midnight) and check out out by 11AM
+	More information
+	PLEASE include your arrival and departure times in your initial message.
+	We will not accept check ins between 12:01am and 8am.
+
+	Maximum of two guests.
+
+	No smoking of any kind, no noise after say 10pm give or take and no guests other than who is expected. Please send an inquiry before booking so we can confirm that we can accommodate your needs. Thank you.
+
+	You must also acknowledge
+	Pet(s) live on property',
+	'Cancellations
+	Flexible - Free cancellation for 48 hours
+	After that, cancel up to 24 hours before check-in and get a full refund, minus the service fee.'
 );
 
 
@@ -847,4 +876,53 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	Carlos place in Harlem is clean, cozy and stylish. He is friendly and responsive and the overall experience was great! We hope to be back soon.',
 	'$78 per night',
 	8
+),
+(
+	'https://en.wikipedia.org/wiki/Room#/media/File:Japanese_youth_hostel_room.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/5/56/New-bathroom-design-2017.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/9/9e/Mandarin_Oriental_Miami_Mandarin_Suite_living_room.jpg',
+	'Great Apt steps from Central Park',
+	'New York',
+	'2 guests,
+	1 bedroom,
+	1 bed,
+	1 shared bath',
+	'Jeff And Jessica is a Superhost
+	Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'Great apt steps to Central Park Conservatory Gardens. Minutes to several world class museums, restaurants and shops. One of the best public transportation areas in NYC. 2 subways lines and 4 busses will make getting where you want to go a breeze.',
+	'The space
+
+	Great appartment just steps to the Central Park Conservatory Gardens.  Take long leisurly strols through the North woods, walk west to be on the Upper West Side in 20 mintes or south to take in the more cosmopolitan parts of the Park.
+	You are literally 5 to 20 minute walk to some of the best museums in the world.  Or less by bus that stops right on the corner.  Museums include the Guggenheim, Metropolitan, Frick, the Neue Museums and many more  The stretch of 5th Ave where this apartment is located is called Museum Mile.  Also, this is one of the best places to head towards any destination or sightseeing in New York.  WE are 8 minutes from the 2, 3 trains and 5 minutes from the 6 train.
+	2 and 3 subways will get you anywhere in Manhatten in 30-35 minutes.  The 6 train takes you down te east side of the city to the Brooklyn Bridge.',
+	'Guest access
+
+	We have a full kitchen you can use, high speed internet, couch, tv with netflix. No cable but you did not come to NYC to watch TV.',
+	'Interaction with guests
+
+	As born and bred New Yorkers my wife and I can direct you towards just about anything you would want to do. From 5 star to hole in the wall and anywhere in between.',
+	'Other things to note
+
+	We have a lovely and super friendly Labrador, Beagle mix pup that is 40 pounds you probably will not see. But if you want to see her she is ready to be best friends. We provide towels, pillows, sheets, blankets, shampoo, conditioner, soap and a hair dryer. We also have plenty of tour books, tourist and local info, restaurant guides and a subway map to help you get around. We even have a sewing kit.',
+	'Contact Host',
+	'Kitchen',
+	'Laptop friendly workspace',
+	'Wifi',
+	'TV',
+	'Bedroom 1 1 queen bed',
+	'',
+	'JoAnna
+	October 2018
+
+	Pretty new to AirBNB but really happy with this first experience and hosts. They were super nice and friendly. The location was perfect; convenience of subway stations and nice little spots to check out for midnight snacks. The room was set up with many necessities for our arrival and we appreciated it very much. Would def book a stay at this place again. :)',
+	'Kristen
+	October 2018
+
+	Jeff and Jessicas place was perfection-- a more than fair price for an excellent location and cozy accommodations in an adorable apartment. Highlights include a very friendly, quiet dog and tons of trader joes products. Jessica was friendly and welcoming. It is funny that even in a small place it felt like we had tons of privacy.',
+	'Cristina
+	October 2018
+
+	Overall all good experience- we’ve been to Manhattan many times before and wanted to stay uptown to explore and do something different... but I will say that we slightly regretted it because it is quite far uptown. Jeff and Jessica were very friendly!!',
+	'$90 per night',
+	9
 );
