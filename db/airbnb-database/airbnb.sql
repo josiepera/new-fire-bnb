@@ -179,6 +179,62 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 		'Cancellations
 		Strict - Free cancellation for 48 hours
 		After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
+),
+(
+	'Hosted by Carol',
+	'https://upload.wikimedia.org/wikipedia/commons/f/fd/Sue_Carol.jpg',
+	'New York, New York, United States',
+	'Joined in May 2012',
+	'Carol is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'I live in Manhattan. Love to walk, go to quaint restaurants, visit local bars, and drink wine. Love reading, going to small music venues, and stand up comedy.
+	Languages: English, Español, Français',
+	'Contact Host',
+	'Policies
+	House Rules
+	No pets
+	No smoking, parties, or events
+	Check-in is anytime after 3PM and check out by 11AM
+	More information
+	* Do not engage in illegal activities anywhere in the loft, including downloads
+
+	* NO drugs
+
+	* NO guests allowed at all other than those booked to stay
+
+	* All guests must be 21+ or accompanied by a parent or guardian
+
+	* Guests are not allowed to book a stay in their city of residence.
+
+	* If you notice anything that presents a danger that could result in damage to the location or to any individuals, please let us know immediately.
+
+	* Shoe-less in apartment
+
+	* Smoking only outside on private balcony with access from private bedroom
+
+	* Do use kitchen, just ensure areas used are clean & put crockery in dishwasher after use
+
+	* Do not leave any food out that will attract pests. We like to be pest-free and intend to stay that way with your help
+
+	* Washer and Dryer are for you to use IF you are staying 3 days or more - use cold water too in the washer - save the planet
+
+	* PLEASE turn off AC and lights when you leave apt (the guide shows you how)
+
+	* PLEASE ensure windows are closed when you turn on AC
+
+	* $60.00 for loss of keys
+
+	* Guests take full responsibility for any accidents, injuries, or illnesses that occur while on the premises . By accepting this reservation, it is agreed that all guests are expressly assuming the risk of any harm arising from their use of the premises. Guests recognize that they may personally purchase insurance to protect themselves in such events
+
+	* ONLY DO THINGS TO MAKE YOUR MOTHER PROUD
+
+	* ABSOLUTELY MUST ENJOY YOUR VISIT!!
+
+	You must also acknowledge
+	No parking on property - There is a municipal car park very near to us
+	Security Deposit - if you damage the home, you may be charged up to $250',
+	'Cancellations
+	Strict - Free cancellation for 48 hours
+	After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
 );
 
 
@@ -412,4 +468,124 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	Tim was a truly fantastic host – – accommodating, welcoming, informative, and very helpful. Tim’s place was exactly as described and absolutely perfect for our New York vacation. The location is fantastic, The accommodation was very comfortable and had everything we needed. And, I am a stickler for cleanliness, and it more than met expectations! I highly recommend staying at Tim’s.',
 	'$69 per night',
 	5
+),
+(
+	'https://upload.wikimedia.org/wikipedia/commons/2/2b/Avant_Garde_living_room_2.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/6/6e/Modern_Bathroom_Designs.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/1/18/Door_open%3B_empty_bed_with_pillow_and_side_pillow_02.jpg',
+	'Manhattan Lux Loft.Like.Love.Lots.Look!',
+	'New York',
+	'5 guests,
+	1 bedroom,
+	3 beds,
+	2 private baths',
+	'Carol is a Superhost
+	Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'Downtown, the best bit of Manhattan. One of, if not the, LARGEST space on Airbnb in NYC. Your Own PRIVATE Bathroom & PRIVATE Bedroom, a Terrace off the bedroom, near to subways/buses, restaurants, bars, real luxury right in the middle of things. Just read our 400+ 5-STAR REVIEWS and you will see why we are SUPER-HOSTS and why you will just love this place, like other guests, I promise.
+
+	Si, hablo bien espanol, Français parlé assez bien.',
+	'The space
+
+	Downtown Manhattan, .. just like you see it in the films. Only so much better in real life !!
+
+	All the details are below so that will see all that you will experience on your trip to the Big Apple - there are lots of things you will love when you stay here, but PLEASE PLEASE (did I say please?) try to read all the way to the end of the description, including sleeping arrangements, information on the area, getting around and the frequently asked questions. I know it is a bit of a novel, but it is well worth it and, from experience, it makes sure you understand everything in detail and ensures you will have the best stay that you can. Anything at all that you are not sure about, if you are new to Airbnb for example, just ask and I will get back asap and clarify.
+
+	• Very spacious loft apartment ( about 2000 sq feet, 188 sq m, at last measure - so very BIG for New York) in the center of arguably the coolest area of the city (please do not argue ), modern, minimalist furniture , very open, very clean, I take great pride in having a spotless living environment (that goes for the host too). A Massive space that gets flooded with light via a wall of windows. Just take a look at the pictures. High security. Walking distance to subways & museums. Friendly building and very safe neighborhood.
+
+	• Your own PRIVATE bathroom - Large, spacious, with Jacuzzi Bath, Shower, Hairdryer, Kohler fixtures. Fresh towels etc. Fully-stocked. All the shampoo and things you will ever need. Just for you.
+
+	• Your own PRIVATE bedroom - Queen Bed for 2, firm and soft pillows for every type of sleeper, linens, towels, Large Flat Screen TV, Netflix, Amazon TV etc, Wardrobe. Again only for you.
+
+	• Large kitchen - Open concept with an area to eat and with everything you need to design a gourmet feast, top of the line GE appliances, Microwave, Toaster, Kettle , Dishwasher, stainless steel counter top etc. Make any food you want - if it is really good, give me some. Make coffee there in the morning - always available -- you have your very own little coffee bar.
+
+	• Very large living area, Real Fireplace, WiFi, Surround sound HDTV with HDMI hook-up and Roku TV, Bose sound system with iPhone/iPod hook-up, the best choice in music (in my opinion, most not consulted). Sit.... Enjoy
+
+	• Large dining area - seats lots, great views over the city and over the Williamsburg Bridge. Eat foods mentioned above (probably while seated, although one can never be sure).
+
+	• Natural brick walls (as opposed to unnatural I suppose) and a lovely Merbeau wooden floor, both of which look good (but do not say much).
+
+	• Floor to ceiling windows throughout - bathed in sun (when the sun is out, mainly, of course)
+
+	• Outside secluded seating area and balcony - you access directly from your room - very secluded (sometimes I cannot find it)
+
+	• Full air conditioning / heating in the room and in rest of loft - be hot, be cool (most likely one at a time)
+
+	• Bosch Washer and Dryer - for you to use - we like to reserve that for guests who stay for 3 nights or longer - being kind to the world too, we try to use cold water as well where possible.
+
+	• Keyed Private elevator entrance directly into Loft - of course you have your own key (or stairs if u have the energy - does not seem so popular, strangely)
+
+	• Printer / Scanner available. Pens and paper too, if you are a traditionalist.(although we draw the line at camel hair brushes, I am sure you understand). And there is a universal power adapter for you to use to charge your gadgets too.
+
+	• The building is a very smart development, a recently renovated 7-story apartment block with original brick facade, great views of the city skyline. Quiet, lovely, village feel, with parks and pedestrian areas just outside, but close enough to get anywhere very easily. I think I am allowed to say it is authentic.
+
+	• This is a very large and comfortable space that you will be free to enjoy as you wish (this is your vacation after all). You will have lots of privacy and as well as the city, you have Books, Music (great as mentioned above), Roku TV with lots of channels and an online DVR and more .... or just relax and chat. Up to you. We provide the following publications too
+
+	New York Times
+	New York Magazine
+
+	so you can feel a bit like a New Yorker
+
+	• Located in the heart of Downtown - food (some of the best in the city), drink, fun, shopping all very, very close. A very cool residential neighborhood just a short trip to all the action. Perfect location for exploring both sides of the river too, as very close to Brooklyn and Williamsburg. One of the most historic neighborhoods in the U.S. (perhaps the most). We are only a few minutes away from the walkway along the East River, it has a great view of the Brooklyn bridge and Manhattan Bridge. Nearly opposite the Tenement Museum (which is really great). TV, Film and general interest media all the time (become a star - or an extra anyway) ,music clubs and comedy left right and center and Alphabet City, Ludlow Street , East Village, Chinatown and Soho all in spitting distance - and I can not spit far. Direct Access to cabs just outside building.
+
+	• Food shopping wise, it is 3 blocks from a Whole Foods and a couple of blocks from the Essex Street Market. Great food shopping if you want.
+
+	I hope everything is covered - email if you need more information. I hope to see you soon and I hope I can be part of your visit to this unique place.',
+	'Guest access
+
+	Guests have access to all they want - the rest of the Loft , the eat-in kitchen, the dining room, living room, their own private bathroom and bedroom of course and the back deck (hanging from rooftop negotiable) Enjoy.',
+	'Interaction with guests
+
+	As much or as little as you like. A detailed analysis of the days adventures or limited to semaphore and sign language -- you choose. Of course, ask us as many questions as you would like about what to see and do in New York (We love to talk about that!)',
+	'Other things to note
+
+	FREQUENTLY ASKED QUESTIONS
+
+	Some answers to some common questions asked by prospective guests:
+
+	• My calendar is ALWAYS updated, so if the apartment is listed as available, then it is. I work hard to make sure that all my information is as accurate and clear as is possible. If you could try to make sure you read the entire listing as it not only answers most questions, but also makes the stay here much more enjoyable - as I have found in my time welcoming many many guests from all over the world.
+
+	• If you are getting here early or late, I am happy to accommodate. If you get here early, for example (before the room is ready at 3 pm), you will be able to check in, get the keys, and leave your bags and enjoy the city and the room will be available at the check in time - if the room is ready earlier I will of course inform you. This works for when you are leaving too, for example if you flight takes off late. In this case I am happy to have you leave your bags and take the keys and return simply to pick up the bags to get to the airport or train station etc on time. It is all part of the service with no charge so you dont have to pay to store stuff, lug it around with you and you get chance to enjoy the city till the last moment.
+
+	• Once you enter the dates and number of guests, AirBnb will give you an accurate price and show all costs including AirBnb fees. If you want to see how the total is calculated, the area on the right of the screen under the pictures shows the total and will detail what the breakdown is - you can get access to this easily via drop-down next to the total price, giving you a clear picture of all that you will be charged.
+
+	• I do not give preset weekly discounts but, if you are planning to stay for a longish time, I am prepared to offer special prices, so please do email and ask.
+
+	• I never charge for cleaning (unless you specifically want me to, of course). I think this a little unfair and the place is always kept very very clean.
+
+	• You will have lots of privacy, I sleep in a area of the Loft with a separate bathroom and entertainment area. You will not keep me awake, nor will you need to tip-toe around. You effectively have a private apartment, but with a great guide to the city right there, to make sure that you can get tips and tricks from a local about things to do during your stay, making sure you can you explore NY properly, know hidden places to visit and the best and most up to date places to go (and dare I say it avoid all traps that await the tourist)
+
+	• I have recently made the loft available to more guests than the 2 we usually have staying in the Queen Bed in the guest bedroom - previous guests have told me that they would love to bring friends or children with them and having stayed here, they said that the place is more than comfortable and spacious enough to do so.
+
+	I have therefore added the use of the Queen size sofa-bed, together with the use of one of our two (depending what size you want) top-notch Airbeds that we have used in the past (to popular acclaim), both of which I have been told are extremely comfortable. The sofa-bed etc will be screened off to make it as a separate bedroom and there is enough space in the loft so that you can decide where to put either of the airbeds. The site makes this clear with simple icons that show you options for use of beds, but if there are any questions please ask.
+
+	I have made the price for these extra beds (sofa-bed or the air-bed) substantially lower than the bedroom and, if you do wish to use them, the pricing for and reservation of them will be automatic (for example if you specify 3 or more people, that third person will be taking the sofa bed).
+
+	NOTE: It will be assumed that, if there are 2 people staying, they will be sharing the bed in the bedroom. If there are 3, 4 or 5 people staying, it will be assumed that there will be two people to each bed -- if either of these are NOT the case please let me know as this means that we will need to use more beds and there will a small incremental charges for this, primarily for extra time setting up and for usage of sheets, washing etc . I am however always happy to discuss exactly what you need , via an email or two, to make it work.
+
+	I urge you to contact me before you book , if you are not clear about anything or there are any questions that you have that you do feel are not covered.
+
+	See you soon, I hope.',
+	'Contact Host',
+	'Elevator',
+	'Kitchen',
+	'Indoor fireplace',
+	'Wifi',
+	'Bedroom 1 1 queen bed, Common spaces 1 sofa bed 1 air mattress',
+	'Accessibility
+	Step-free access to the home’s entrance
+	Wide doorway to the home’s entrance',
+	'Neha
+	November 2018
+
+	My friend and I landed at JFK at 11pm - but Carol was super accommodating and stayed up late to let us in. The apartment is beautiful and super clean. It was spacious, bright and Carol and Matt were both super friendly and fun to chat to - which is a bonus. The location of the apartment is also great, with much happening (especially and most importantly regarding the food scene). I would definitely stay here again and recommend the spot to everyone else. Thanks for helping make a great trip even better!',
+	'Colleen
+	October 2018
+
+	My daughter and I just returned from staying with Carol and Marc. From beginning to end it was a perfect experience. We felt safe and well taken care of. Carol gave us perfect instructions how to go places and got us comfortable with navigating the subway. Their home is comfortable, clean and inviting. Marc has lots of information and great stories. My daughter and I loved sharing a glass of wine with them at night and chatting. Beautiful, cultured, kind people. You will enjoy your stay here. We will miss them.',
+	'Jim
+	October 2018
+
+	The hosts and space are very welcoming! You’ll be glad that you stayed there! Book early and enjoy!',
+	'$153 per night',
+	6
 );
