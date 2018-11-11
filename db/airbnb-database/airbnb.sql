@@ -147,6 +147,38 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 	'Cancellations
 	Moderate - Free cancellation for 48 hours
 	After that, cancel up to 5 days before check-in and get a full refund, minus the service fee.'
+),
+(
+	'Hosted by Tim',
+	'https://upload.wikimedia.org/wikipedia/commons/b/bb/Timothy_Ferriss.jpg',
+	'New York, New York, United States',
+	'Joined in August 2012',
+	'Tim is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'Hey, I’m Tim - a New Yorker with who has lived also in San Francisco, New Orleans and a number of places outside the US as well (from Africa to Europe). I have been hosting for about 3 years now, and it has been a fantastic time! I have met some very cool and interesting people, had some great discussions, and enjoyed helping my guests experience what NYC has to offer. I am in my late 30s, gay, and work as a psychotherapist in Manhattan.
+
+	 I try to create a comfortable space that visitors can enjoy while they explore the city - and I am always happy to give advice or do what I can to make their visit a better experience. Of course I know that you are here on your vacation, so I make sure to be respectful of your relaxation time and privacy as well.
+
+	 If you have questions or would like to book, please send me an inquiry with your dates. Also please tell me a little bit about yourself. I look forward to hearing from you! Oh je parle francais, y hablo espanol tambien. Best, Tim
+	 Languages: Español, Français
+	 Response rate: 100%
+	 Response time: within an hour',
+	 'Contact Host',
+	 'Policies
+		House Rules
+		Not safe or suitable for children (0-12) and pets
+		No smoking, parties, or events
+		Check-in time is flexible and check out by 12PM (noon)
+		Self check-in with lockbox
+		More information
+		Just try not to slam doors if I am still asleep. And ask if you need anything!
+		Best, Tim
+
+		You must also acknowledge
+		Potential for noise
+		Must climb stairs',
+		'Cancellations
+		Strict - Free cancellation for 48 hours
+		After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
 );
 
 
@@ -329,4 +361,55 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	Clean, comfortable place with friendly hosts.',
 	'$65 per night',
 	4
+),
+(
+	'https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel-suite-living-room.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/4/4a/California_Mid-Century_Modern_Home_with_open-beam_ceiling_1960.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/c/cf/Hotel-suite-bedroom.jpg',
+	'Clean Room, Central Location in Manhattan',
+	'New York',
+	'2 guests, 1 bedroom, 1 bed, 1 shared bath',
+	'Tim is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'This apartment is a 1-minute walk from 3 major subway lines, and centrally-located between midtown and downtown - offering easy access to most of NYC’s tourist attractions. It is situated on the border between the young and stylish East Village/Lower East Side neighborhoods, and just steps from countless inexpensive restaurants, cafes, bars, galleries and shops. A memory-foam bed, Netflix, and recent-renovation provide comfort and complete the authentic New York experience!',
+	'The space
+
+	***** To book, please send me an inquiry and tell me a little bit about yourself and your arrival/departure. I am also happy to answer any questions you may have. If you arrive on a Wednesday or Friday I can leave you a key but likely will not be home to clean your room until 6:30pm. I look forward to hearing from you! Best, Tim *****
+
+	Situated in a recently-renovated two-bedroom apartment (shared with me), your private room is furnished with brand-new amenities, including a desk, ultra-comfortable queen-size memory foam mattress, soft towels and a 26" flat screen TV with Netflix. A renovated bathroom is shared with me.
+
+	Your room has a south-facing window with lots of light and a blackout shade. It overlooks a lively corner, which can sometimes be a little noisy (mostly on the weekends). I am happy to provide earplugs for your comfort.
+
+	You will have access to the roof and its fantastic view of the Freedom Tower, the Chrysler Building and more. The room has its own air conditioning during the summer and its own heater during winter.',
+	'Guest access
+
+	My goal is for you to feel at home while you stay with me. Guests have access to the living room, clean bathroom, the kitchen and everything else. Please make yourselves at home and enjoy!',
+	'Interaction with guests
+
+	I am comfortable with any level of interaction. I enjoy meeting and interacting with my guests. I am happy to chat, give advice and offer suggestions on what to do in the city or really anything else.
+
+	Of course, I know that this is your vacation, and I am also happy to give you the privacy you need to enjoy it. I find that my interaction with guests tends to work itself out naturally.',
+	'Other things to note
+
+	Your room comes with a hairdryer, iron and ironing board, a full-length mirror and ultra-fast wifi - any other accommodations you need please let me know!',
+	'Contact Host',
+	'Kitchen',
+	'Laptop friendly workspace',
+	'Wifi',
+	'TV',
+	'Bedroom 1 1 queen bed',
+	'',
+	'Kathleen
+	October 2018
+
+	Close to everything on the lower east side. Famous Katzs deli! Yonah Scimmels knishes, and lots of cool restaurants. The tenement museum is a few blocks away, and is a must see for those that are interested. Tim is a wonderful host; offering a clean, comfortable room, and interesting facts about the lower east side. Tim is truly a genuine, hospitable host.',
+	'Tammer
+	October 2018
+
+	Hospitable, great location, in a word: perfect!',
+	'Rachel
+	October 2018
+
+	Tim was a truly fantastic host – – accommodating, welcoming, informative, and very helpful. Tim’s place was exactly as described and absolutely perfect for our New York vacation. The location is fantastic, The accommodation was very comfortable and had everything we needed. And, I am a stickler for cleanliness, and it more than met expectations! I highly recommend staying at Tim’s.',
+	'$69 per night',
+	5
 );
