@@ -316,7 +316,7 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	'Terra
 	September 2018
 	There is not much beyond five starts that needs to be said. Yoni, Matthew and Oreo are great hosts. Their home is a home; it is lived in and it has the personal touches that screams "someone lives here" while also being tidy, warm and comfortable. I could make any number of tiny complaints that would be personal to me and being in a city far from home and a bed that is not mine, but really those are specific to each person and has no bearing on the space. I absolutely loved staying here and would do so again in a heartbeat. Yoni and Matthew really go above and beyond, communicate well, and make this a fantastic stay. Thank you again!',
-	'60$ per night',
+	'$60 per night',
 	1
 ),
 (
@@ -354,7 +354,7 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 		'Sarah C
 		November 2018
 		I was plesently surprised by the parks near the building.  It was unfortunate the subway station was not a bit closer but otherwise a pleasent stay, 4 out of 5 would book again.',
-		'55$ per night',
+		'$55 per night',
 		2
 ),
 (
@@ -413,7 +413,7 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	September 2018
 
 	Great Brooklyn spot; convenient access to all that is happening in Williamsburg.',
-	'175$ per night',
+	'$175 per night',
 	3
 ),
 (

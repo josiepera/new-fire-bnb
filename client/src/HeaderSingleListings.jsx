@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
- class HeaderListings extends Component {
+ class HeaderSingleListings extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -19,15 +19,14 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
   render() {
     return (
       <React.Fragment>
-        <div className="header-nav">
-
+        <div className="navheader">
+        <div>
+              <Link to='/'>
+              <img className="head-logo" src="https://i.imgur.com/4PAHoNj.png" title="source: imgur.com" />
+              </Link>
+        </div>
 
            <section className="dropdown menu">
-           <div className="homelink">
-                 <Link to='/'>
-                 <img className="head-logo" src="https://i.imgur.com/4PAHoNj.png" title="source: imgur.com" />
-                 </Link>
-           </div>
             <Dropdown isOpen={this.state.dropdownOpen} toggle={() =>this.toggle()}>
               <DropdownToggle className="caret" caret>
 
@@ -63,4 +62,4 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
 }
 
 
-export default HeaderListings;
+export default HeaderSingleListings;
