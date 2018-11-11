@@ -126,6 +126,27 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 	'Cancellations
 	Strict - Free cancellation for 48 hours
 	After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
+),
+(
+	'Hosted by Hernan and Chelsea',
+	'https://upload.wikimedia.org/wikipedia/commons/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg',
+	'New York, New York, United States',
+	'Joined in March 2014',
+	'Hernan & Chelsea is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'We, Hernan and Chelsea, are a couple who loves food, wine, cocktails, traveling and adventure. We descended upon New York to pursue our love of hospitality and fell in love through the hustle and bustle of the city. Hernan is originally from Mexico but has lived in France, Spain, Canada, and lastly, the United States. Chelsea is originally from Texas but has lived all over the United States and has family all around the world. Traveling is our escape from the stress of the city that gives us an opportunity to explore new cultures and people that are unknown. Mainly, traveling gives us an excuse to try new cuisines. Hospitality is our career but it is, also, ingrained in our souls. Our home welcomes you with comfort and warmth.
+	Languages: English, Español, Français
+	Response rate: 94%
+	Response time: within an hour',
+	'Contact Host',
+	'Policies
+	House Rules
+	Not safe or suitable for children (0-12) and pets
+	No smoking, parties, or events
+	Check-in is anytime after 4PM and check out by 12PM (noon)
+	Self check-in with lockbox',
+	'Cancellations
+	Moderate - Free cancellation for 48 hours
+	After that, cancel up to 5 days before check-in and get a full refund, minus the service fee.'
 );
 
 
@@ -266,4 +287,46 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	Great Brooklyn spot; convenient access to all that is happening in Williamsburg.',
 	'175$ per night',
 	3
+),
+(
+	'https://upload.wikimedia.org/wikipedia/commons/a/a0/Main_House_of_Jim_Thompson_photo_D_Ramey_Logan.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/b/b3/Open_fireplace_with_icon.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/3/38/OysterBay_NewYork_Wightman_House_inside.JPG',
+	'Sun-drenched 1BD in Upper East Side',
+	'New York',
+	'2 guests, 1 bedroom, 1 bed, 1 private bath',
+	'Hernan & Chelsea is a Superhost
+	Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'Sun-drenched 1 bedroom with a private bathroom has all the charm of a hotel but with the warmth of home. The room includes a private backyard with a grill and comfy living room & kitchen. 1 block/3 avenues from the bus/train. 40min to Times Square.',
+	'The space
+
+	Sun-drenched 1 bedroom with a private bathroom has all the charm of a hotel but with the warmth of home. The room includes a private backyard with a grill and comfy living room & kitchen. 1 block/3 avenues from the bus/train. 40min to Times Square.',
+	'Guest access
+
+	You will have free access to the apartment. After you check in you are welcome to come and go as you please. You will have access to your room, your private bathroom, a shared kitchen, living room and backyard.',
+	'Interaction with guests
+
+	We are more than happy to answer any and all questions. We do work through out the day but are always available through the airbnb app or phone call.',
+	'',
+	'Contact Host',
+	'Kitchen',
+	'Iron',
+	'Wifi',
+	'Laptop friendly workspace',
+	'Bedroom 1 double bed',
+	'Wide doorway to the home’s entrance   Wide hallway clearance',
+	'Eric
+	October 2018
+
+	Hernan & Chelsea’s place is great. They provide everything you need and will totally give you space. It’s in a great neighborhood with plenty to do nearby, and close to the subway. Loved spending time here.',
+	'Melissa
+	August 2018
+
+	Very clean & a nice place to crash in NY!',
+	'Rodrigo
+	August 2018
+
+	Clean, comfortable place with friendly hosts.',
+	'$65 per night',
+	4
 );
