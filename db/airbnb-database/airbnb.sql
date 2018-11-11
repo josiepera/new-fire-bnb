@@ -275,6 +275,35 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 	'Cancellations
 	Moderate - Free cancellation for 48 hours
 	After that, cancel up to 5 days before check-in and get a full refund, minus the service fee.'
+),
+(
+	'Hosted by Carlos',
+	'https://upload.wikimedia.org/wikipedia/commons/5/54/Santana_2010.jpg',
+	'New York, New York, United States',
+	'Joined in June 2013',
+	'Carlos is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'I am an architect & designer living in NYC, starting a new distribution wine business.
+	 I used to play guitar and sing in rock bands ,still once in a while I play something, I am a vegetarian, I have a big respect for people and animals, I am into outdoors, sports and healthy life style.
+	 love live music concerts, theater, some of my favorite places to travel are Hawaii, Paris, Barcelona, Argentina, Brasil.
+	 Languages: English, Español, Português
+	 Response rate: 100%
+	 Response time: within an hour',
+	 'Contact Host',
+	 'Policies
+		House Rules
+		No smoking, parties, or events
+		Pets are allowed
+		Check-in is anytime after 2PM and check out by 11AM
+		More information
+		Just to make your trip, my apartment and future guest trips enjoyable; there is No smoking inside the apartment, and I also ask that you eat food in the dining table, living room or in the kitchen, but please do not eat in the bedroom.
+		Just always be courteous and clean up after yourself! No smoking or drug use in the house.
+		Parties are not allowed, and visits are allowed just with previous notice.
+
+		You must also acknowledge
+		Security Deposit - if you damage the home, you may be charged up to $120',
+		'Cancellations
+		Moderate - Free cancellation for 48 hours
+		After that, cancel up to 5 days before check-in and get a full refund, minus the service fee.'
 );
 
 
@@ -760,4 +789,62 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	We would definitely stay here again! The room was clean and comfortable and had everything we needed. The location was great and easy to get to. Marco and his mother were easy to communicate with. The mattress was very comfortable.',
 	'$56 per night',
 	7
+),
+(
+	'https://upload.wikimedia.org/wikipedia/commons/7/75/Family-room-700.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/6/63/New_Orleans_June_07_-_Living_Room.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/e/ec/Queens%27_Bedroom_in_2000.jpg',
+	'Designer amazing room in NYC!!',
+	'New York',
+	'2 guests,
+	Studio,
+	1 bed,
+	1 shared bath',
+	'Carlos is a Superhost
+	Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'My apartment is designed with a fresh,clean & contemporary look, soft colors and contemporary furniture makes it comfortable and fun.
+	The location is really convenient, 12-15 minutes from midtown and its considered one of the more vibrant new neighborhoods in NYC.',
+	'The space
+
+	The bedroom is cool and modern designed, to make you feel like in a cool NYC boutique hotel.
+	it has a beautiful decal tree on a taupe color wall, the rest of the walls are a very pale peaceful green that relax after a fun city day.
+	it is furnished with 1 queen-size bed, a chest, and a closet.
+	If you are alone, or a couple, this room can accommodate you guys Perfectly!
+
+	There is one bathrooms shared among the 2 bedrooms. The second bedroom is where I sleep.
+	I am a very quiet & respectful person.
+	I have a very nice kitchen with all of the cooking supplies you would ever need, available for you to use.
+	If you have any further questions, feel free to email me and ask! If you are able to view this listing, then YES it is already available for the dates you are interested, so feel free to make a booking, and hope to see you soon in NYC!',
+	'Guest access
+
+	Heating- AC, WI_FI. and touristic information when is required.
+	A laundromat is right in the corner of my block and they do laundry for you if you need.',
+	'Interaction with guests
+
+	As Much as the guest requires.
+	I always help guest with useful information about the city; concerts, museums,shows free stuff.',
+	'Other things to note
+
+	When you arrive, you will have your own key to the apartment, to enter and leave whenever you want.',
+	'Contact Host',
+	'Elevator',
+	'Iron',
+	'Kitchen',
+	'Laptop friendly workspace',
+	'',
+	'',
+	'Carlos
+	November 2018
+
+	We booked Carlo’s place for my parents and they had a great time. I appreciated Carlo’s hospitality toward my parents, sound advise about places around and care for their wellbeing. I recommend his place and look forward to staying there myself.',
+	'Pamela
+	May 2018
+
+	Carlos and his apartment were sweet - comfortable in all ways. Great location, very close to transport. Showmans is a wonderful old school jazz bar, just 2 blocks away.',
+	'Austin
+	April 2018
+
+	Carlos place in Harlem is clean, cozy and stylish. He is friendly and responsive and the overall experience was great! We hope to be back soon.',
+	'$78 per night',
+	8
 );
