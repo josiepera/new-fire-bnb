@@ -235,6 +235,46 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 	'Cancellations
 	Strict - Free cancellation for 48 hours
 	After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
+),
+(
+	'Hosted by Marco',
+	'https://upload.wikimedia.org/wikipedia/commons/e/eb/Senator_Rubio_official_portrait.jpg',
+	'New York, New York, United States',
+	'Joined in February 2014',
+	'Marco is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'English. Español. Português. Biraz Türkçe biliyorum. مسلم
+
+	 25 Year Old Medical Student.
+
+	 Born and raised in New York City.
+
+	 I have travelled almost all of Europe, parts of Middle East-Asia, and some of Latin America.
+
+	 I believe that travelling and meeting new people is an essential part of being a well-rounded person, and a crucial element for everyone who has ever been curious about the world and its mysteries.
+
+	 After having travelled so much I began to realize the importance of find a comfortable place to stay and the difficulties in finding such a place – as to why I began hosting with AirBnb, to help other fellow travellers find a comfortable place to stay.
+
+	 See you soon!
+	Languages: English, Español, Português, Türkçe',
+	'Contact Host',
+	'Policies
+	House Rules
+	Not safe or suitable for infants (under 2 years) and pets
+	No smoking, parties, or events
+	Check-in time is flexible and check out by 7PM
+	More information
+	No Smoking!!!
+	Social Drinkers Only.
+	No Guests.
+	Please be Clean.
+	No Recreational Drugs!
+
+	You must also acknowledge
+	Potential for noise
+	Must climb stairs',
+	'Cancellations
+	Moderate - Free cancellation for 48 hours
+	After that, cancel up to 5 days before check-in and get a full refund, minus the service fee.'
 );
 
 
@@ -588,4 +628,136 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	The hosts and space are very welcoming! You’ll be glad that you stayed there! Book early and enjoy!',
 	'$153 per night',
 	6
+),
+(
+	'https://upload.wikimedia.org/wikipedia/commons/c/c2/2009-05-16_Main_office_lobby_at_Hampton_Forest_Apartments.jpg',
+	'https://upload.wikimedia.org/wikipedia/en/7/7f/Highdefinition.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/5/56/Door_in_Georgia.jpg',
+	'Home Away from Home-Room in Midtown',
+	'New York',
+	'2 guests,
+	1 bedroom,
+	1 bed,
+	1 private bath',
+	'Marco is a Superhost
+	Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'An old storage room that was recently refitted into a Studio Apartment-size accommodation, equipped with its own bathroom and shower. This location counts with its own entrance and exit to the street, guests have complete and independent access.
+
+	Surrounded by many restaurants, 24-hour minimarkets and pharmacies, bars, pubs and all major train stations.
+
+	More information
+	This accommodation is optimal for couples, or single travellers. If you wish for three people, please contact me to properly accommodate.',
+	'The space
+
+	An old storage room in the basement of our home that was recently refitted into a Studio Apartment-size room, with its own bathroom and shower.
+
+	If you wish to book for three people, please contact me to properly accommodate.
+
+	Television, microwave, air conditioner, heating, mini-fridge, Wi-Fi, a desk, bookshelf, and guests get only copy to door keys and locks.
+
+	A window, A/C and heating, and area to prepare small meals.
+
+	A perfect small, quite, and cozy room with all the essentials and privacy in the heart of the Big Apple.
+
+	Full access to the room, guests will be able to come and go at any hour of the day (or night) as they please.
+
+	Full use of small cooking appliances (small oven, microwave, toaster, etc.)
+
+	Guest will have only copy of keys to the room.
+
+	I am constantly studying and preparing for examinations, but I am more than happy to give any recommendations, suggestions, and tips when it comes to sightseeings in New York, or with help finding a true New York experience.
+
+	Also whenever guests are in need of certain assistances, I am more than ready to help.
+
+	I also remind guests that I offer Free washing and drying, helps save guests from the expensive laundromats (laundromattes)
+
+	Surrounded by many great Italian, Greek, Turkish, Japanese, Mexican, Thai Restaurants & American Dinners.
+
+	Bars and pubs, 24Hour stores and Open-Late restaurants.
+
+	Heart of the City, Center of Hells Kitchen, and true origins of Midtown culture.
+
+	All major subways A/C/E, R/Q/N, 1/2/3, 7, S - 6/5/4 trains only blocks away!
+
+	Many buses that can take you around town.
+	Port Authority only few blocks away.
+
+	Please read the description, and discuss with me before booking.
+
+	Feel free to ask any questions.
+
+	Full Access to the room, and partial access to the rest of my apartment, which is just down the hall.
+
+	Full use of small cooking appliances (small oven, microwave, toaster, etc.)
+
+	Use of washer, whenever not in use.
+
+	Guest will have only copy of keys to the room.
+
+	I am constantly studying and preparing for examinations, but I am more than happy to give any recommendations, suggestions, and tips when it comes to sightseeings in New York, or with help finding a true New York experience.
+
+	Also whenever guests are in need of certain assistances, I am more than ready to help.
+
+	I also remind guests that I offer Free washing and drying, helps save guests from the expensive laundromats (laundromattes)
+
+	Surrounded by many great Italian, Greek, Turkish, Japanese, Mexican, Thai Restaurants & American Dinners.
+
+	Bars and pubs, 24Hour stores and Open-Late restaurants.
+
+	Heart of the City, Center of Hells Kitchen, and true origins of Midtown culture.
+
+	All major subways A/C/E, R/Q/N, 1/2/3, 7, S - 6/5/4 trains only blocks away!
+
+	Many buses that can take you around town.
+	Port Authority only few blocks away.
+
+	Please read the description, and discuss with me before booking.
+
+	Feel free to ask any questions.',
+	'Guest access
+
+	Full and independent access to the accommodation.
+
+	Full use of small cooking appliances (small oven, microwave, toaster, etc.)
+
+	Guest will have only copy of keys to the room.',
+	'Interaction with guests
+
+	I am constantly studying and preparing for examinations, but I am more than happy to give any recommendations, suggestions, and tips when it comes to sightseeings in New York, or with help finding a true New York experience.
+
+	Also whenever guests are in need of certain assistances, I am more than ready to help.
+
+	I also remind guests that I offer Free washing and drying, helps save guests from the expensive laundromats (laundromattes)',
+	'Other things to note
+
+	If you wish to book for three people, please contact me to properly accommodate.
+
+	Please read the description, and discuss with me before booking.
+
+	I invite all to read the reviews posted about me and this accommodation, and I welcome all guests to my location :)
+
+	Feel free to ask any questions.
+
+	I am a Med-Student and I work part-time, so I have to see if I can confirm the dates.',
+	'Contact Host',
+	'Kitchen',
+	'Iron',
+	'Wifi',
+	'Laptop friendly workspace',
+	'Bedroom 1 1 queen bed',
+	'',
+	'Jose
+	August 2018
+
+	Marcos place is about 7 mins away from times square walking. there is plenty to do around and open enough to use a cab or uber. there are shops nearby for anything and good places to eat. the room itself is not huge but more than sufficient for one to enjoy the quick getaway from the city and gave a private place.',
+	'Amy
+	June 2018
+
+	Just as advertised... Clean room, pleasant hosts and nice amenities. Great value. I would stay here again.',
+	'Kathryn
+	June 2018
+
+	We would definitely stay here again! The room was clean and comfortable and had everything we needed. The location was great and easy to get to. Marco and his mother were easy to communicate with. The mattress was very comfortable.',
+	'$56 per night',
+	7
 );
