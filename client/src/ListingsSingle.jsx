@@ -86,10 +86,38 @@ class ListingsSingle extends Component {
                     <p className="desc">{this.state.listings.other}</p>
                     <p className="contactHost">{this.state.listings.contact_host}</p>
                     <h6>Amenities </h6>
-                    <p>{this.state.listings.amenities_one}</p>
-                    <p>{this.state.listings.amenities_two}</p>
-                    <p>{this.state.listings.amenities_three}</p>
-                    <p>{this.state.listings.amenities_four}</p>
+                      <table>
+                       <tr>
+                         <td>
+                         <img src="https://i.imgur.com/gsNntdM.png" title="source: imgur.com" />
+                           </td>
+                        <td> {this.state.listings.amenities_one}
+                        </td>
+                        <td>
+                         <img src="https://i.imgur.com/3iJ0n8A.png" title="source: imgur.com" />
+                        </td>
+                        <td>
+                        {this.state.listings.amenities_three}
+                        </td>
+
+                       </tr>
+
+                       <tr>
+                        <td>
+                         <img src="https://i.imgur.com/uZ8Z0zU.png" title="source: imgur.com" />
+                           </td>
+                        <td> {this.state.listings.amenities_two}
+                        </td>
+                        <td>
+                         <img src="https://i.imgur.com/KPS0wUn.png" title="source: imgur.com" />
+                        </td>
+                        <td>
+                        {this.state.listings.amenities_four}
+                        </td>
+                       </tr>
+
+                      </table>
+
                     <h6> Sleeping Arrangements </h6>
                         <div className="sleeping">
                             <img src="https://i.imgur.com/qqNgCW3.png" title="source: imgur.com" />

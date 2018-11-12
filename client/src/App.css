@@ -464,3 +464,31 @@ align-content: center;
   padding: 30px;
 
 }
+
+.englishButton {
+  position: relative;
+  bottom: 0;
+  right: 50;
+}
+
+.footer {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding-top: 10px;
+  display: inline-flex;
+}
+
+.airbnbFooter, .discoverFooter, .hostingFooter {
+  padding-right: 60px;
+}
+
+td {
+  padding: 5px;
+  border: 30px;
+}
+
+table {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+
