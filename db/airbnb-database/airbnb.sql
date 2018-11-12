@@ -333,6 +333,42 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 	'Cancellations
 	Flexible - Free cancellation for 48 hours
 	After that, cancel up to 24 hours before check-in and get a full refund, minus the service fee.'
+),
+(
+	'Hosted by Brook',
+	'https://upload.wikimedia.org/wikipedia/commons/e/ef/Kelly_Brook_at_2015_TCA_%28cropped%29.jpg',
+	'New York, New York, United States',
+	'Joined in May 2016',
+	'Brook is a Superhost · Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'Hi! My name is Brook I live in New York and work as a financial advisor for my own practice. I love traveling the world - lived in Spain for a year - Brazil, France, Iceland, Roma, Istanbul and a lot more over the last year and looking forward to many more.
+
+	 Very easy going, no maps and no plans kind of a traveller. I appreciate nice, clean spaces to stay in when traveling.
+
+	 Brook supports the Living Wage Pledge
+	 People who clean this host’s listing are paid a living wage. Learn more
+	 Languages: English, Español
+	 Response rate: 100%
+	 Response time: within an hour',
+	 'Contact Host',
+	 'Policies
+		House Rules
+		Not suitable for children and infants
+		No smoking, parties, or events
+		Pets are allowed
+		Check-in time is 4PM - 12AM (midnight) and check out out by 11AM
+		Self check-in with lockbox
+		More information
+		There is a one year old Siberian Husky that lives here, generally he is well behaved but mistakes happen. Please be patient and let me know if an issue arrives. Please note, the "Smoking Allowed" is ONLY on the terrace with the door and windows shut.
+
+		You must also acknowledge
+		Pet(s) live on property - A cute Siberian Husky about 8 months old
+		Potential for noise - Simply because its NYC, but this is a very quiet apartment
+		Must climb stairs - There are about 6 stairs down to the front door
+		Security Deposit - if you damage the home, you may be charged up to $150
+		Some spaces are shared - Shared living room, kitchen, dining room and terrace - Basement apartment',
+		'Cancellations
+		Strict - Free cancellation for 48 hours
+		After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'
 );
 
 
@@ -925,4 +961,66 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	Overall all good experience- we’ve been to Manhattan many times before and wanted to stay uptown to explore and do something different... but I will say that we slightly regretted it because it is quite far uptown. Jeff and Jessica were very friendly!!',
 	'$90 per night',
 	9
+),
+(
+	'https://upload.wikimedia.org/wikipedia/commons/b/b2/Family_room_in_Camarillo%2C_California%2C_USA.jpg',
+	'https://upload.wikimedia.org/wikipedia/commons/6/66/3399_-_Fiescheralp_-_Hotel_Eggishorn.JPG',
+	'https://upload.wikimedia.org/wikipedia/commons/a/a8/Bathroom_in_the_Beamish_Museum_01.JPG',
+	'Garden Flat Next to Central Park w/ Large Terrace',
+	'New York',
+	'2 guests,
+	1 bedroom,
+	1 bed,
+	1 private bath',
+	'Brook is a Superhost
+	Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
+	'A ground floor apartment right next to Central Park & Morningside Park the flat is great for those who want a quick trip to the main tourist destinations but enjoy the quick access to parks and tranquil (and huge!) terrace.
+	You’ll love my place because of the open floor plan of the apartment, exposed brick walls, tall barrel ceilings, and spacious terrace. Bedroom and bathroom are private towards the terrace side of the house. If you like dogs your in for a treat with Mowgli, my Siberian Husky.',
+	'The space
+
+	All check ins will be done through lock box to eliminate timing issues and delays. The key will be available after 3pm unless early check in is requested. Please see lock box details after booking.
+
+	Check out is at 11am. Check in is at 3pm. Please do send flight details and estimated time of arrival to ease the check in process.
+
+	- It is a basement apartment that still gets a lot of light with 3 windows through the main space, 2 in the front room and 3 in the back room (the one for rent) that looks out onto the terrace.
+	- Exposed brick and high barrel ceilings make the space really cool and wide open from the front door to the back hallway
+	-The bathrooms are very nice and modern. The bathroom included is private for just you with a bathtub/shower and single sink. All towels are included (2) and there are large supply shampoo and soap.
+	- The bedroom has 3 windows, a double bed, one closet and a chest of drawers for storage. (Sept 2018: Brand new Parachute bedding and Onsen luxury towels)
+	- The living room is outfitted with a leather Room & Board couch and a 60” TV that has connection to Netflix, HBO, Showtime and Hulu. There is also a sound-bar and Apple wifi network to enjoy fast wifi and bluetooth music
+	- The kitchen is outfitting with stainless steel appliances, marble countertops, plates and cups for both inside and alfresco dining. There is also a washer/dryer combination unit in the kitchen although I would recommend the communal dryers for the building.
+	- The best for last! On the terrace there are quite a few amenities. Theres a sectional couch that can seat up to 6 people, two chaise lounges, a 8 person dining table, a BBQ, and two umbrellas for shade during the day. Lots of plants and good lighting for the night as well. The terrace is definitely yours to enjoy and if you would like to have a few friends over no problem, please just no parties or late night noise, as well as cleaning up would be greatly appreciated.
+	- The entrance is the only odd part about the flat, generally in New York there are main stairs to enter the building, our door is actually under those stairs.
+
+	*NOTE AS WINTER IS COMING, TERRACE MAY NOT BE FULLY FUNCTIONAL*',
+	'Guest access
+
+	As noted this is a private bedroom & private bathroom and not the entire flat. My dog and I will be around throughout your stay to answer any questions (Mowgli answers questions too). You will have access to all parts of the apartment.',
+	'Interaction with guests
+
+	I will be available for any questions throughout your stay. Also do not be a stranger!',
+	'Other things to note
+
+	Early Check In or Late Check Out (Including Bag Drop or Storage) will be an additional $25. Check In before 11am should book an additional night
+	A double air mattress is available for a 3rd person at $40 per night, note there is not space in your room and the mudroom will need to be used for the air mattress',
+	'Contact Host',
+	'Kitchen',
+	'Washer',
+	'Wifi',
+	'Dryer',
+	'Bedroom 1 1 double bed',
+	'',
+	'Saradha
+	November 2018
+
+	Brook’s place is located just near the North entrance of Central Park and has very good commute as it’s located near subway as well... his place is clean, cozy, warm and we felt right at home... his communication was spot on and quick.. his dog mowgli is so friendly, adorable ( all he wants is to pet him) and such a sweetheart... will definitely be back to his place when we are in the area again... thanks again to Brook and Mowgli...',
+	'Patrick
+	October 2018
+
+	It was wonderful being able to call Brook’s place home for a weekend! The apt itself is great! The place was super clean, modern and very welcoming. The room is a great size for 2 people plus luggage. The apartment is very easily to get to via the subway which made exploring the city so convenient, and the neighborhood is quiet and safe!! Brook was a great host! This was our first Airbnb experience and he did a great job of making us feel at home rather than guest! He was easy to communicate with at all times and helped us with some recommendations around the city!',
+	'Eva
+	October 2018
+
+	Beautifully designed home with the most precious dog ever. Brooke gives lightening quick responses (within minutes) and was very helpful, nice, and welcoming. Very close to Central Park and good breakfast spots in Harlem. Highly recommend!',
+	'$70 per night',
+	10
 );
