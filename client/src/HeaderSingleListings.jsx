@@ -32,7 +32,7 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
 
               </DropdownToggle>
               <DropdownMenu>
-                <DropdownItem>Home</DropdownItem>
+                <DropdownItem><Link to='/'>Home</Link></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Invite Friends</DropdownItem>
                 <DropdownItem>Refer Hosts</DropdownItem>

@@ -15,6 +15,7 @@ import 'react-day-picker/lib/style.css';
 import "react-datepicker/dist/react-datepicker.css";
 import StartDate from './StartDate';
 import Reviews from './Reviews';
+import Book from './Book';
 
 class ListingsSingle extends Component {
   constructor(props) {
@@ -204,7 +205,7 @@ class ListingsSingle extends Component {
             <p> Guests</p>
             <input placeholder="1 guest"/>
             <div className="form-center">
-            <button className="formbooking"> Book</button>
+             <Book/>
             <p> You won't be charged yet </p>
             </div>
             <img src="https://i.imgur.com/ec7psMf.png" title="source: imgur.com" />
