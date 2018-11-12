@@ -44,9 +44,6 @@ class ListingsSingle extends Component {
 }
   }
 
-  //windowscrollY window.addEventListener in component did mount   onscroll
-
-
 
  handleDayClick(day, { selected, disabled }) {
     if (disabled) {
@@ -198,6 +195,7 @@ class ListingsSingle extends Component {
               </div>
           </div>
           <div className="single-right-side">
+
             <div className="stickyForm">
             <h6>{this.state.listings.price}</h6>
             <img src="https://i.imgur.com/qRZ6vly.png" title="source: imgur.com" />
