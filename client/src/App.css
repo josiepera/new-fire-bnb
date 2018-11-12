@@ -532,9 +532,14 @@ table {
 .footerbuttons {
   margin: 5px;
 }
-
+.clickNav {
+  list-style-type: none;
+  text-decoration: none;
+}
 .clickNav:hover {
   color: black;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .listingNav {
