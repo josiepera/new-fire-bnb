@@ -12,9 +12,9 @@ import MoreThings from './MoreThings';
 import Footer from './Footer';
 import DayPicker from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
-
 import "react-datepicker/dist/react-datepicker.css";
 import StartDate from './StartDate';
+import Reviews from './Reviews';
 
 class ListingsSingle extends Component {
   constructor(props) {
@@ -162,10 +162,7 @@ class ListingsSingle extends Component {
                               </div>
                      </div>
                   </div>
-
-                    <img className="reviews" src="https://i.imgur.com/AqTlLvS.png" title="source: imgur.com" />
-
-
+                   <Reviews/>
                     <div className="review">
                      <img src="https://i.imgur.com/lYSgluF.png" title="source: imgur.com" />
                       <div className="reviews"> {this.state.listings.review_one}</div>

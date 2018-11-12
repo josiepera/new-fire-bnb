@@ -494,9 +494,34 @@ table {
   display: inline-flex;
 }
 
-.Availability, .Accessibility, .Sleeping, .Amenities, .host-info, .policies {
+.Availability, .Accessibility, .Sleeping, .Amenities, .host-info, .policies, .reviewHeader{
   border-top: 1px solid rgb(235, 235, 235);
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
+.star-svg{
+  background-color:darkcyan;
+}
+.star-svg path{
+  fill: white;
+
+
+}
+
+.reviewHeader {
+  display: inline-flex;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  padding-bottom: 20px;
+}
+
+.fourreviews{
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.searchreviews{
+  margin-left: 170px;
+  width: 180px;
+  padding: 5px;
+}
 
