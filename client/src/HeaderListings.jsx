@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import SignUp from './SignUp';
+import Login from './Login';
 
  class HeaderListings extends Component {
   constructor(props) {
@@ -56,6 +58,13 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
               </label>
             </form>
            </section>
+           <ul className="listingNav">
+          <li className="Hlinks"><Link to='/'>Home</Link></li>
+          <li className="Hlinks"><Link to='/host'>Become a Host</Link></li>
+          <li className="Hlinks"><Link to='/help'> Help</Link></li>
+          <li className="Hlinks"><SignUp/></li>
+          <li className="Hlinks"><Login/></li>
+        </ul>
         </div>
      </React.Fragment>
     );

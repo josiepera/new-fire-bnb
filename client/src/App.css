@@ -50,7 +50,7 @@ ul {
   text-decoration: none;
 }
 
-li {
+.Hlinks {
   list-style-type: none;
   text-decoration: none;
   padding-left: 10px;
@@ -120,6 +120,7 @@ input {
 .listings {
   padding: 10px;
   background: white !important;
+  border: 1px solid rgb(235, 235, 235);
 }
 
 .search-picture {
@@ -141,17 +142,20 @@ label {
 }
 
 .filter-buttons {
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
   cursor: pointer;
-  margin: 2% 2%;
-  width: 10%;
+  margin: 1% 1%;
+  width:  8%;
   border: 1px solid gray;
   border-radius: 5px;
+  padding: 5px;
+  list-style-type: none;
 }
 
 .filter-buttons:hover {
-  background-color: lightgray !important;
+  background-color: darkcyan !important;
+  color: white;
 }
 
 .single-listing {
@@ -371,7 +375,7 @@ align-content: center;
   color: darkcyan;
   text-align: center;
   position: fixed;
-  right: 16%;
+  right: 17%;
   padding-top: 10px;
 
 }
@@ -464,3 +468,78 @@ align-content: center;
   padding: 30px;
 
 }
+
+.englishButton {
+  position: relative;
+  bottom: 0;
+  right: 50;
+}
+
+.footer {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding-top: 10px;
+  display: inline-flex;
+}
+
+.airbnbFooter, .discoverFooter, .hostingFooter {
+  padding-right: 60px;
+}
+
+td {
+  padding: 5px;
+  border: 30px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+.dates {
+  display: inline-flex;
+}
+
+.Availability, .Accessibility, .Sleeping, .Amenities, .host-info, .policies, .reviewHeader{
+  border-top: 1px solid rgb(235, 235, 235);
+  padding-top: 20px;
+}
+
+.star-svg{
+  background-color:darkcyan;
+}
+.star-svg path{
+  fill: white;
+
+
+}
+
+.reviewHeader {
+  display: inline-flex;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  padding-bottom: 20px;
+}
+
+.fourreviews{
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.searchreviews{
+  margin-left: 170px;
+  width: 180px;
+  padding: 5px;
+}
+
+.footerbuttons {
+  margin: 5px;
+}
+
+.clickNav:hover {
+  color: black;
+}
+
+.listingNav {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
