@@ -4,7 +4,7 @@ import Listings from './Listings';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import HeaderListings from './HeaderListings';
 import './ListingsList.css'
-import MapBox from './MapBox'
+import ListingMapBox from './ListingMapBox'
 
 class ListingsList extends Component {
   state = {
@@ -49,6 +49,8 @@ class ListingsList extends Component {
               <li className="filter-buttons">Guests</li>
               <li className="filter-buttons">Home type</li>
               <li className="filter-buttons">Price</li>
+              <li className="filter-buttons">Instant Book</li>
+              <li className="filter-buttons">Trip Type</li>
            </ul>
        </section>
        <section className="threehundredhomes">
@@ -56,7 +58,7 @@ class ListingsList extends Component {
        <h3> +300 homes</h3>
        </section>
        <div className="mapwrapper">
-       < MapBox />
+       < ListingMapBox />
        </div>
         {this.renderListings()}
       </div>

@@ -1,14 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { UncontrolledCarousel } from 'reactstrap';
 
 
 const Listings = (props) => {
+
+   const items = [
+     {
+    src: `${props.listings.url}`
+  },
+  {
+    src: `${props.listings.url_two}`
+  },
+  {
+    src: `${props.listings.url_three}`
+  }
+]
+
   return (
 
     <div className="listings">
-
-      <img className="pic" src={props.listings.url} />
-
+      <UncontrolledCarousel items={items} />
       <div className="info">
       <h2 className="title">{props.listings.listing_title}</h2>
       <h6 className="price">💵 {props.listings.price}</h6>

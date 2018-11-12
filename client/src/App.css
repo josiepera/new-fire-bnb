@@ -141,17 +141,19 @@ label {
 }
 
 .filter-buttons {
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
   cursor: pointer;
-  margin: 2% 2%;
-  width: 10%;
+  margin: 1% 1%;
+  width:  8%;
   border: 1px solid gray;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .filter-buttons:hover {
-  background-color: lightgray !important;
+  background-color: darkcyan !important;
+  color: white;
 }
 
 .single-listing {
