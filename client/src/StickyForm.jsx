@@ -26,7 +26,7 @@ class StickyForm extends Component {
     }
 
     render(){
-        let formHide = this.state.isHide ? 'hide' : '';
+        const formHide = this.state.isHide ? 'hide' : '';
         return (
               <div className={"single-right-side" +formHide}>
             <div className="stickyForm">
