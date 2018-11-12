@@ -46,8 +46,18 @@ function Footer() {
             </div>
         </footer>
         <img src="https://i.imgur.com/cStFxMH.png" title="source: imgur.com" />
-
-            <img className="englishButton" src="https://i.imgur.com/5xNacbR.png" title="source: imgur.com" />
+        <select className="footerbuttons">
+          <option>English </option>
+          <option>French </option>
+          <option>Arabic </option>
+          <option>Spanish </option>
+        </select>
+         <select className="footerbuttons">
+          <option>BHD </option>
+          <option>KWD </option>
+          <option>EUR </option>
+          <option>GBP </option>
+        </select>
     </div>
 
     )

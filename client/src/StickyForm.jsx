@@ -9,7 +9,7 @@ class StickyForm extends Component {
     hideForm = () => {
        const { isHide } = this.state
 
-       window.scrollY < 550 || window.scrollY > 1000 ?
+       window.scrollY > 4009 ?
        !isHide && this.setState({ isHide: true })
        :
        isHide && this.setState({ isHide: false });

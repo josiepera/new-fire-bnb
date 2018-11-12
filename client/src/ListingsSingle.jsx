@@ -182,7 +182,7 @@ class ListingsSingle extends Component {
                      <MapBox/>
                   <p> Exact Location provided 48 hours after a booking is confirmed. </p>
                   </div>
-                <h5 className="policies"> Policies </h5>
+                <h5 className="policies" name="policies"> Policies </h5>
                  <p> {this.state.host_info.policies} </p>
                  <p> {this.state.host_info.cancellation} </p>
                  <img src="https://i.imgur.com/TrSAzLR.png" title="source: imgur.com" />
@@ -204,7 +204,7 @@ class ListingsSingle extends Component {
             <p> Guests</p>
             <input placeholder="1 guest"/>
             <div className="form-center">
-            <button className="formbooking"> Book </button>
+            <button className="formbooking"> Book</button>
             <p> You won't be charged yet </p>
             </div>
             <img src="https://i.imgur.com/ec7psMf.png" title="source: imgur.com" />

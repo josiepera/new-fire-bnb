@@ -371,7 +371,7 @@ align-content: center;
   color: darkcyan;
   text-align: center;
   position: fixed;
-  right: 16%;
+  right: 17%;
   padding-top: 10px;
 
 }
@@ -523,5 +523,13 @@ table {
   margin-left: 170px;
   width: 180px;
   padding: 5px;
+}
+
+.footerbuttons {
+  margin: 5px;
+}
+
+.clickNav:hover {
+  color: black;
 }
 
