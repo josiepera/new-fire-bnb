@@ -32,6 +32,7 @@ class Login extends React.Component {
           <div className="google">
            Login with Google
           </div>
+          <hr />
             <form>
              <input placeholder="Email Address"/>
              <input placeholder="Password"/>

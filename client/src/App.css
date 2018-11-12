@@ -210,6 +210,7 @@ align-content: center;
   border: none;
   padding-left: 10px;
   width: 400px;
+  outline: none;
 }
 
 .list-img {
@@ -547,4 +548,15 @@ table {
   position: absolute;
   top: 30%;
   right: 5%;
+}
+
+.modal-body > form > * {
+  border-radius: 5px;
+  margin: 1% 0;
+  padding: 2%;
+}
+
+.modal-body > form > *:focus {
+  outline: none;
+  border: 1px solid green;
 }
