@@ -12,7 +12,8 @@ function Footer() {
          <p> More places to stay in New York:Apartments · Houses · Bed and breakfasts · Villas · Condominiums</p>
        </div>
         <footer>
-            <div>
+        <div className="footer">
+            <div className="airbnbFooter">
              <h6> Airbnb </h6>
              <p> Careers </p>
              <p> Press</p>
@@ -21,34 +22,42 @@ function Footer() {
              <p> Diversity & Belonging</p>
             </div>
 
-            <div>
+            <div className="discoverFooter">
              <h6> Discover </h6>
              <p> Trust & Safety </p>
              <p> Travel Credit</p>
              <p> Gift Cards</p>
              <p> Airbnb Citizen </p>
              <p> Business Travel </p>
-              <p> Guidebooks </p>
-               <p> Airbnbmag </p>
-                <p> Events </p>
             </div>
 
-            <div>
+            <div className="hostingFooter">
              <h6> Hosting </h6>
              <p> Hospitality </p>
              <p> Community Center</p>
              <p> Open Homes </p>
             </div>
 
-            <div>
+            <div className="termsFooter">
              <p> Terms </p>
              <p> Privacy</p>
              <p> Site Map </p>
             </div>
-            <img src="https://i.imgur.com/cStFxMH.png" title="source: imgur.com" />
-
-            <img src="https://i.imgur.com/5xNacbR.png" title="source: imgur.com" />
+            </div>
         </footer>
+        <img src="https://i.imgur.com/cStFxMH.png" title="source: imgur.com" />
+        <select className="footerbuttons">
+          <option>English </option>
+          <option>French </option>
+          <option>Arabic </option>
+          <option>Spanish </option>
+        </select>
+         <select className="footerbuttons">
+          <option>BHD </option>
+          <option>KWD </option>
+          <option>EUR </option>
+          <option>GBP </option>
+        </select>
     </div>
 
     )

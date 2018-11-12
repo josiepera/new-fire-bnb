@@ -4,14 +4,12 @@ import axios from 'axios';
 class StickyForm extends Component {
     state = {
       isHide: false,
-      listings: null,
-      host_info: null,
        };
 
     hideForm = () => {
        const { isHide } = this.state
 
-       window.scrollY < 550 ?
+       window.scrollY > 4009 ?
        !isHide && this.setState({ isHide: true })
        :
        isHide && this.setState({ isHide: false });
@@ -20,13 +18,6 @@ class StickyForm extends Component {
     }
 
   componentDidMount() {
-    axios.get(`/listings/${this.props.match.params.id}`)
-      .then(res => {
-        this.setState({
-          listings: res.data.data,
-          host_info: res.data.data,
-        })
-      }).catch(err => console.log(err));
       window.addEventListener('scroll', this.hideForm);
 }
 
@@ -39,7 +30,7 @@ class StickyForm extends Component {
         return (
               <div className={"single-right-side" +formHide}>
             <div className="stickyForm">
-            <h6>{this.state.listings.price}</h6>
+            <h6>$60 per night</h6>
             <img src="https://i.imgur.com/qRZ6vly.png" title="source: imgur.com" />
             <p> Dates </p>
             <input placeholder="Check in  &#8594;  Check out"/>
