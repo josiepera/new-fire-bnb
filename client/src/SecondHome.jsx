@@ -9,22 +9,41 @@ class SecondHome extends Component{
           <div className="one">
             <h3>Explore</h3>
             <div className="explore">
+              <Link to='/listings'>
               <img className="thingstodo"  src="https://res.cloudinary.com/jperalta/image/upload/v1541800914/Screen_Shot_2018-11-09_at_4.41.00_PM.png" title="source: cloudinary.com" />
               <img className="thingstodo"  src="https://res.cloudinary.com/jperalta/image/upload/v1541800906/Screen_Shot_2018-11-09_at_4.41.26_PM.png" title="source: cloudinary.com" />
               <img className="thingstodo"  src="https://res.cloudinary.com/jperalta/image/upload/v1541867993/Screen_Shot_2018-11-10_at_11.37.16_AM.png" title="source: cloudinary.com" />
+              </Link>
             </div>
           </div>
           <div className="two">
             <h3>Homes for any kind of trip</h3>
             <p>Find the right home for the right trip</p>
             <div className="explore">
-                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1541998301/Screen_Shot_2018-11-11_at_11.50.46_PM.png" title="source: cloudinary.com" />
-                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1541998315/Screen_Shot_2018-11-11_at_11.50.25_PM.png" title="source: cloudinary.com" />
+                <Link to='/listings'>
+                  <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1541998301/Screen_Shot_2018-11-11_at_11.50.46_PM.png" title="source: cloudinary.com" />
+                </Link>
+                <Link to='/listings'>
+                  <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1541998315/Screen_Shot_2018-11-11_at_11.50.25_PM.png" title="source: cloudinary.com" />
+                </Link>
             </div>
           </div>
           <div className="three">
             <div className="explore">
-              <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1541868251/Screen_Shot_2018-11-10_at_11.41.40_AM.png" title="source: cloudinary.com" />
+              <Link to='/listings'>
+                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1541868251/Screen_Shot_2018-11-10_at_11.41.40_AM.png" title="source: cloudinary.com" />
+              </Link>
+            </div>
+          </div>
+          <div className="four">
+            <div className="explore">
+              <Link to='/listings'>
+              <h3>Experience life in New York</h3>
+                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040117/Screen_Shot_2018-11-12_at_11.26.04_AM.png" title="source: cloudinary.com" />
+                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040130/Screen_Shot_2018-11-12_at_11.25.49_AM.png" title="source: cloudinary.com" />
+                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040175/Screen_Shot_2018-11-12_at_11.25.32_AM.png" title="source: cloudinary.com" />
+                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040222/Screen_Shot_2018-11-12_at_11.25.10_AM.png" title="source: cloudinary.com" />
+              </Link>
             </div>
           </div>
         </div>
