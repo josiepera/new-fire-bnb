@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 class SecondHome extends Component{
   render(){
     return(
         <div className="second">
-
           <div className="one">
             <h3>Explore</h3>
             <div className="explore">
@@ -36,16 +36,15 @@ class SecondHome extends Component{
             </div>
           </div>
           <div className="four">
+            <h3>Experience life in New York</h3>
             <div className="explore">
               <Link to='/listings'>
-              <h3>Experience life in New York</h3>
-                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040117/Screen_Shot_2018-11-12_at_11.26.04_AM.png" title="source: cloudinary.com" />
-                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040130/Screen_Shot_2018-11-12_at_11.25.49_AM.png" title="source: cloudinary.com" />
-                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040175/Screen_Shot_2018-11-12_at_11.25.32_AM.png" title="source: cloudinary.com" />
-                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542040222/Screen_Shot_2018-11-12_at_11.25.10_AM.png" title="source: cloudinary.com" />
+                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542039580/Screen_Shot_2018-11-12_at_11.15.04_AM.png" title="source: cloudinary.com" />
+                <img className="thingstodo" src="https://res.cloudinary.com/jperalta/image/upload/v1542039602/Screen_Shot_2018-11-12_at_11.15.46_AM.png" title="source: cloudinary.com" />
               </Link>
             </div>
           </div>
+          <Footer/>
         </div>
       )
   }

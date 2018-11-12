@@ -4,14 +4,14 @@ import ReactMapGL from 'react-map-gl';
 let MAPBOX_TOKEN = 'pk.eyJ1Ijoic21jdXJyZXk1MjgiLCJhIjoiY2pvOWNta3l6MWQ2ZDNxcHV4cmxkeW8xaCJ9.GGx-HmSOwGAGxGGNzf6zOw'
 
 
-class MapBox extends Component {
+class ListingMapBox extends Component {
    state = {
     viewport: {
       width: 650,
-      height: 400,
+      height: 900,
       latitude: 40.7128,
       longitude: -74.0060,
-      zoom: 10
+      zoom: 11
     }
   };
 
@@ -39,4 +39,4 @@ class MapBox extends Component {
  }
 }
 
-export default MapBox;
+export default ListingMapBox;

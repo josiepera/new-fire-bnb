@@ -1,21 +1,32 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link, Redirect } from 'react-router-dom';
-import HeaderListings from './HeaderListings';
+import HeaderSingleListings from './HeaderSingleListings';
 import DatePicker from "react-datepicker";
 import moment from "moment";
 import MapBox from "./MapBox";
-
+import StickyNav from './StickyNav';
+import StickyForm from './StickyForm';
+import MoreHomes from './MoreHomes';
+import MoreThings from './MoreThings';
+import Footer from './Footer';
+import DayPicker from 'react-day-picker';
+import 'react-day-picker/lib/style.css';
 import "react-datepicker/dist/react-datepicker.css";
+import StartDate from './StartDate';
+import Reviews from './Reviews';
 
 class ListingsSingle extends Component {
-  state = {
+  constructor(props) {
+    super(props);
+    this.handleDayClick = this.handleDayClick.bind(this);
+    this.state = {
       listings: null,
       host_info: null,
       apiDataLoaded: false,
-      startDate: moment(),
-      endDate: moment()
+      selectedDay: undefined,
     }
+  }
 
 
   componentDidMount() {
@@ -27,29 +38,40 @@ class ListingsSingle extends Component {
           host_info: res.data.data,
         })
       }).catch(err => console.log(err));
+
+      if (window.scrollY < 597) {
+  window.scroll(0, 0);
+}
   }
 
- handleChange(date) {
-    this.setState({
-      startDate: date,
-      endDate: date
-    });
+
+ handleDayClick(day, { selected, disabled }) {
+    if (disabled) {
+      // Day is disabled, do nothing
+      return;
+    }
+    if (selected) {
+      // Unselect the day if already selected
+      this.setState({ selectedDay: undefined });
+      return;
+    }
+    this.setState({ selectedDay: day });
   }
 
   renderListingsOrLoading() {
     if (this.state.apiDataLoaded) {
       return (
         <div className="single-listing">
-        <HeaderListings/>
+        <HeaderSingleListings/>
           <div className="list-img">
             <img className="bigImage"
                  src={this.state.listings.url} alt={this.state.listings.listing_title} />
              <img
                 className="topSmallImage"
-                src={this.state.listings.url} alt={this.state.listings.listing_title} />
+                src={this.state.listings.url_two} alt={this.state.listings.listing_title} />
               <img
                className="bottomSmallImage"
-               src={this.state.listings.url} alt={this.state.listings.listing_title} />
+               src={this.state.listings.url_three} alt={this.state.listings.listing_title} />
           </div>
             <div className="single-left-side">
                   <div className="listing-info">
@@ -65,36 +87,84 @@ class ListingsSingle extends Component {
 
                     <p className="superhost">{this.state.listings.superhost_or_not}</p>
                     <p className="desc">{this.state.listings.description}</p>
+                    <h6> The Space </h6>
+                    <p className="desc">{this.state.listings.space}</p>
+                    <h6> Guest Access </h6>
+                    <p className="desc">{this.state.listings.guest_access}</p>
+                    <h6> Interaction </h6>
+                    <p className="desc">{this.state.listings.interaction}</p>
+                    <h6> Other </h6>
+                    <p className="desc">{this.state.listings.other}</p>
                     <p className="contactHost">{this.state.listings.contact_host}</p>
-                    <h6>Amenities </h6>
-                    <p>{this.state.listings.amenities}</p>
-                    <h6> Sleeping Arrangements </h6>
+                    <h5 className="Amenities">Amenities </h5>
+                      <table>
+                       <tr>
+                         <td>
+                         <img src="https://i.imgur.com/gsNntdM.png" title="source: imgur.com" />
+                           </td>
+                        <td> {this.state.listings.amenities_one}
+                        </td>
+                        <td>
+                         <img src="https://i.imgur.com/3iJ0n8A.png" title="source: imgur.com" />
+                        </td>
+                        <td>
+                        {this.state.listings.amenities_three}
+                        </td>
+
+                       </tr>
+
+                       <tr>
+                        <td>
+                         <img src="https://i.imgur.com/uZ8Z0zU.png" title="source: imgur.com" />
+                           </td>
+                        <td> {this.state.listings.amenities_two}
+                        </td>
+                        <td>
+                         <img src="https://i.imgur.com/KPS0wUn.png" title="source: imgur.com" />
+                        </td>
+                        <td>
+                        {this.state.listings.amenities_four}
+                        </td>
+                       </tr>
+
+                      </table>
+
+                    <h5 className="Sleeping"> Sleeping Arrangements </h5>
                         <div className="sleeping">
                             <img src="https://i.imgur.com/qqNgCW3.png" title="source: imgur.com" />
                             <p>{this.state.listings.sleep_arrange}</p>
                         </div>
 
-                    <h6> Accessibility </h6>
+                    <h5 className="Accessibility"> Accessibility </h5>
                     <p>{this.state.listings.access}</p>
-                    <h6> Availability </h6>
+                    <h5 className="Availability"> Availability </h5>
                     <p> Updated today </p>
-                    <h6> Start Date </h6>
-                    <DatePicker
-                          selected={this.state.startDate}
-                          onChange={()=>this.handleChange()}
-                        />
-                  <h6> End Date </h6>
-                   <DatePicker
-                          selected={this.state.endDate}
-                          onChange={()=>this.handleChange()}
-                          className="endDate"
-                        />
-
-                    <img className="reviews" src="https://i.imgur.com/AqTlLvS.png" title="source: imgur.com" />
-
-
+                    <div className="dates">
+                    <div className="StartDate">
+                        <StartDate/>
+                    </div>
+                    <div className="EndDate">
+                        <h6> End Date </h6>
+                        <div>
+                        <DayPicker
+                                  onDayClick={this.handleDayClick}
+                                  selectedDays={this.state.selectedDay}
+                                  disabledDays={{ daysOfWeek: [0, 3, 4] }}
+                                />
+                                {this.state.selectedDay ? (
+                                  <p>You selected {this.state.selectedDay.toLocaleDateString()}</p>
+                                ) : (
+                                  <p>Please select a day.</p>
+                                )}
+                              </div>
+                     </div>
+                  </div>
+                   <Reviews/>
                     <div className="review">
-                      <span className="reviews">Reviews: {this.state.listings.reviews || 'N/A'}</span>
+                     <img src="https://i.imgur.com/lYSgluF.png" title="source: imgur.com" />
+                      <div className="reviews"> {this.state.listings.review_one}</div>
+                      <img src="https://i.imgur.com/ZJGQT3p.png" title="source: imgur.com" />
+                      <div className="reviews">{this.state.listings.review_two}</div>
                     </div>
                   </div>
               <div className="host-info">
@@ -112,14 +182,20 @@ class ListingsSingle extends Component {
                      <MapBox/>
                   <p> Exact Location provided 48 hours after a booking is confirmed. </p>
                   </div>
-                <h5> Policies </h5>
+                <h5 className="policies" name="policies"> Policies </h5>
                  <p> {this.state.host_info.policies} </p>
                  <p> {this.state.host_info.cancellation} </p>
                  <img src="https://i.imgur.com/TrSAzLR.png" title="source: imgur.com" />
-
+                 <h6 className="getFullDetails"> Get full details</h6>
+                 <h4 className="manyHomes"> More homes you may like </h4>
+                 <MoreHomes/>
+                 <h4 className="manyThings"> Things to do near this home </h4>
+                 <MoreThings/>
+                 <Footer/>
               </div>
           </div>
           <div className="single-right-side">
+
             <div className="stickyForm">
             <h6>{this.state.listings.price}</h6>
             <img src="https://i.imgur.com/qRZ6vly.png" title="source: imgur.com" />
@@ -128,28 +204,14 @@ class ListingsSingle extends Component {
             <p> Guests</p>
             <input placeholder="1 guest"/>
             <div className="form-center">
-            <button className="formbooking"> Book </button>
+            <button className="formbooking"> Book</button>
             <p> You won't be charged yet </p>
             </div>
             <img src="https://i.imgur.com/ec7psMf.png" title="source: imgur.com" />
             </div>
             <h6 className="report-form"> Report This Listing </h6>
           </div>
-          <div className="stickyNav">
-             <ul>
-               <li> Overview ·</li>
-               <li> Reviews  ·</li>
-               <li> Location · </li>
-               <li> The Host ·</li>
-               <li> Policies </li>
-               <div className="rightStickyNav">
-               <img className="downloadIcon" src="https://i.imgur.com/ZwbKCUss.png" title="source: imgur.com" />
-               <li> Share</li>
-               <img src="https://i.imgur.com/MNC8qnI.png" title="source: imgur.com" />
-               <li> Save </li>
-               </div>
-             </ul>
-          </div>
+          <StickyNav/>
         </div>
       )
     } else return <p className="loading">Loading...</p>

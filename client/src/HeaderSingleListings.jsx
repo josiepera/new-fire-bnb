@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import SignUp from './SignUp';
-import Login from './Login';
 
- class HeaderListings extends Component {
+ class HeaderSingleListings extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,15 +19,14 @@ import Login from './Login';
   render() {
     return (
       <React.Fragment>
-        <div className="header-nav">
-
+        <div className="navheader">
+        <div>
+              <Link to='/'>
+              <img className="head-logo" src="https://i.imgur.com/4PAHoNj.png" title="source: imgur.com" />
+              </Link>
+        </div>
 
            <section className="dropdown menu">
-           <div className="homelink">
-                 <Link to='/'>
-                 <img className="head-logo" src="https://i.imgur.com/4PAHoNj.png" title="source: imgur.com" />
-                 </Link>
-           </div>
             <Dropdown isOpen={this.state.dropdownOpen} toggle={() =>this.toggle()}>
               <DropdownToggle className="caret" caret>
 
@@ -58,13 +55,6 @@ import Login from './Login';
               </label>
             </form>
            </section>
-           <ul className="listingNav">
-          <li className="Hlinks"><Link to='/'>Home</Link></li>
-          <li className="Hlinks"><Link to='/host'>Become a Host</Link></li>
-          <li className="Hlinks"><Link to='/help'> Help</Link></li>
-          <li className="Hlinks"><SignUp/></li>
-          <li className="Hlinks"><Login/></li>
-        </ul>
         </div>
      </React.Fragment>
     );
@@ -72,4 +62,4 @@ import Login from './Login';
 }
 
 
-export default HeaderListings;
+export default HeaderSingleListings;

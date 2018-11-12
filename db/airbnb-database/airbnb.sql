@@ -132,9 +132,9 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 INSERT INTO listings (url, url_two, url_three, listing_title, city_location, room_specifics, superhost_or_not, description, space, guest_access, interaction, other, contact_host, amenities_one, amenities_two, amenities_three, amenities_four, sleep_arrange, access, review_one, review_two, review_three, price, host_id) VALUES
 
 (
-	'https://upload.wikimedia.org/wikipedia/commons/9/96/Vasskertentrance.jpg',
-	'https://upload.wikimedia.org/wikipedia/en/3/32/Market_house_mon_inside.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/1/1c/Windows%2C_WMH.jpg',
+	'https://i.imgur.com/ALRXAR1.jpg',
+	'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ba2b9dcc1af593a7d93ed9b4ed952ac&auto=format&fit=crop&w=1053&q=80',
+	'https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=986e2dee5c1b488d877ad7ba1afaf2ec&auto=format&fit=crop&w=1050&q=80',
 	'Tasteful Room in Charming Two Bedroom Apartment',
 	'New York, NY',
 	'1 guest, 1 bedroom, 1 bed, 1 shared bath',
@@ -171,9 +171,9 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	1
 ),
 (
-		'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
-		'https://upload.wikimedia.org/wikipedia/commons/3/38/Music_room.jpg',
-		'https://upload.wikimedia.org/wikipedia/commons/e/eb/Paneling.jpg',
+		'https://images.unsplash.com/photo-1501876725168-00c445821c9e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a1a9a1d07a8a1cb53aa3686da2ef497&auto=format&fit=crop&w=1050&q=80',
+		'https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f3619a27d02a9cbafafbb9d94d477160&auto=format&fit=crop&w=1050&q=80',
+		'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9fc409d72ac99c1a6d2590c883ed2f62&auto=format&fit=crop&w=1050&q=80',
 		'Cool Room',
 		'New York, NY',
 		'2 guests, 2 bedroom, 2 beds, 1 shared bath',
@@ -209,9 +209,9 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 		2
 ),
 (
-	'https://upload.wikimedia.org/wikipedia/en/6/6d/The_Temple_House_Mezzanine.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/b/bf/Central_Hall_in_2001.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/b/b8/Highsmithvenicecanals.jpg',
+	'https://images.unsplash.com/photo-1464890100898-a385f744067f?ixlib=rb-0.3.5&s=d440a38866c0afebcffeea9954f09bf8&auto=format&fit=crop&w=1050&q=80',
+	'https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a01717a33db39cbdabd468904b61d22&auto=format&fit=crop&w=1053&q=80',
+	'https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-0.3.5&s=eda6e1eca23a2bd2ee48a3c74f6edfd2&auto=format&fit=crop&w=1050&q=80',
 	'"The Country" & the NYC Waterfront!',
 	'New York, NY',
 	'4 guests, 2 bedrooms, 3 beds, 1 bath',

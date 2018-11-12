@@ -11,23 +11,30 @@
 }
 .one{
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .two{
   margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.four {
+  margin-bottom: 60px;
 }
 .explore{
   display: flex;
   flex-direction: row;
   margin-top: 10px;
   margin-left: -28px;
+  overflow-x: scroll;
 }
 p{
   opacity: .8;
 }
 .explore img{
-  max-height: 100%;
-  max-width: 100%;
+  /* max-height: 100%;
+  max-width: 100%; */
 }
 img{
   border-radius: 5px;
@@ -101,7 +108,7 @@ ul {
   text-decoration: none;
 }
 
-li {
+.Hlinks {
   list-style-type: none;
   text-decoration: none;
   padding-left: 10px;
@@ -143,6 +150,8 @@ li {
 
 .guests {
   padding: 5% 5%;
+  width: 100%;
+  height: 75%;
   grid-column: span 2;
 }
 
@@ -158,6 +167,7 @@ input {
 }
 
 .search-button {
+  cursor: pointer;
   background-color: #ff2f52;
   width: 30%;
   color: white;
@@ -169,6 +179,7 @@ input {
 .listings {
   padding: 10px;
   background: white !important;
+  border: 1px solid rgb(235, 235, 235);
 }
 
 .search-picture {
@@ -190,17 +201,20 @@ label {
 }
 
 .filter-buttons {
+  line-height: 20px;
   text-align: center;
   cursor: pointer;
-  margin: 1% 2%;
-  padding: 0.5%;
-  width: 9%;
+  margin: 1% 1%;
+  width:  8%;
   border: 1px solid gray;
   border-radius: 5px;
+  padding: 5px;
+  list-style-type: none;
 }
 
 .filter-buttons:hover {
-  background-color: lightgray !important;
+  background-color: darkcyan !important;
+  color: white;
 }
 
 .single-listing {
@@ -213,10 +227,10 @@ label {
    padding: 20px;
 }
 
-.header-nav {
+.navheader {
  display: flex;
-   align-content: center;
-    flex-direction: row;
+align-content: center;
+  flex-direction: row;
 }
 
 .search-icon {
@@ -373,7 +387,7 @@ label {
 
 }
 
-..contactHosts:hover {
+.contactHosts:hover {
   color: white;
   background-color: darkcyan;
   border: 2px solid white !important;
@@ -388,7 +402,7 @@ label {
 }
 
 .listing-info {
-  margin-top: 600px;
+  margin-top: 540px;
 }
 
 .stickyForm {
@@ -396,6 +410,7 @@ label {
   width: 370px;
   text-align: left;
   padding: 15px;
+  background-color: white;
 
 
 }
@@ -419,7 +434,7 @@ label {
   color: darkcyan;
   text-align: center;
   position: fixed;
-  right: 16%;
+  right: 17%;
   padding-top: 10px;
 
 }
@@ -431,8 +446,9 @@ label {
   width: 150px;
   height: 400px;
   transition: top 0.3s;
-
+  bottom: 50%;
   max-height: 500px;
+  min-height: 700px;
 
 
 }
@@ -448,13 +464,14 @@ label {
   border-bottom: 1px solid rgb(235, 235, 235);
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 99;
   background-color: white;
   color: darkcyan;
   font-size: 15px;
   padding-top: 10px;
-   max-height: 500px;
+ max-height: 500px;
 
 }
 
@@ -470,6 +487,125 @@ label {
   height: 20px;
 }
 
+.stickynav1 {
+  background-color: white;
+}
+
+.getFullDetails {
+  color: darkcyan;
+
+}
+
+.login, .signup {
+   color: black;
+   font-size: 15px;
+}
+
+.login:hover {
+  border-bottom: 3px solid black !important;
+  padding-bottom: 8px;
+}
+
+.signup:hover {
+  border-bottom: 3px solid black !important;
+  padding-bottom: 8px;
+}
+
+.moreHomeCards, .moreThings{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.otherHomes, .otherThings {
+  display: inline-flex;
+}
+
+
+.manyHomes, .manyThings {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding: 30px;
+
+}
+
+.englishButton {
+  position: relative;
+  bottom: 0;
+  right: 50;
+}
+
+.footer {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding-top: 10px;
+  display: inline-flex;
+}
+
+.airbnbFooter, .discoverFooter, .hostingFooter {
+  padding-right: 60px;
+}
+
+td {
+  padding: 5px;
+  border: 30px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+.dates {
+  display: inline-flex;
+}
+
+.Availability, .Accessibility, .Sleeping, .Amenities, .host-info, .policies, .reviewHeader{
+  border-top: 1px solid rgb(235, 235, 235);
+  padding-top: 20px;
+}
+
+.star-svg{
+  background-color:darkcyan;
+}
+.star-svg path{
+  fill: white;
+
+
+}
+
+.reviewHeader {
+  display: inline-flex;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  padding-bottom: 20px;
+}
+
+.fourreviews{
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.searchreviews{
+  margin-left: 170px;
+  width: 180px;
+  padding: 5px;
+}
+
+.footerbuttons {
+  margin: 5px;
+}
+.clickNav {
+  list-style-type: none;
+  text-decoration: none;
+}
+.clickNav:hover {
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.listingNav {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
 @media only screen and (min-width: 1128px){
   .home {
     height: 100vh !important;
@@ -498,6 +634,6 @@ label {
   display: none;
 }
 .explore{
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 }

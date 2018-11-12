@@ -1,8 +1,19 @@
+
 .listings-list {
   display: flex;
   flex-flow: row wrap;
   position: absolute;
   top: 30%;
+}
+
+.homelink {
+  height: 5%;
+  width: 5%;
+}
+
+.head-logo {
+  height: 50%;
+  width: 100%;
 }
 
 .header-nav {
@@ -11,44 +22,52 @@
   width: 100%;
   z-index: 2;
   background-color: #fff;
+  border-bottom: 1px solid gray;
 }
 
 .filters {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   position: fixed;
-  top: 10%;
+  top: 16%;
   width: 100%;
   z-index: 1;
   background-color: #fff;
 }
 
+.filter-buttons:hover {
+  background-color: darkcyan;
+}
+
 .threehundredhomes {
   color: darkslategray;
   position: absolute;
-  top: -3%;
+  top: 0;
   width: 100%;
+  margin-bottom: 50px;
 }
 
-.map {
+.mapwrapper {
   position: fixed;
-  top: 33%;
+  top: 14%;
+  margin: 5% 0;
   right: 0;
   width: 33%;
+
 }
 
 .listings {
   width: 66%;
-  margin: 5% 0;
+  margin: 5% 0 0 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-auto-rows: 1fr;*/
 }
 
 .pic {
-  outline: 2px solid black;
-  width: 100%;
-  height: 100%;
+  border-radius: 10px;
+  width: 300px;
+  height:300px;
   filter: brightness(75%);
   transition: all .2s ease-in-out;
 }
@@ -61,12 +80,25 @@
 .info {
   margin: 0 7%;
   grid-column: 2 / 3;
-  grid-row: span 1;
+  grid-row: span 3;
   text-align: left;
+}
+
+.secondinfo {
+  grid-column: 3 / 3;
+  grid-row: span 1;
+  border-left: 1px solid rgb(235, 235, 235);
+  padding-left: 20px;
+  padding-top:  20px;
 }
 
 .info > a {
   margin: 0 25%;
+}
+
+.dropdown {
+  height: 50%;
+  margin: auto 0;
 }
 
 .dropdown > button {
@@ -74,6 +106,11 @@
   background: #fff;
   border: 1px solid white;
 }
+
+.dropdown > form {
+  margin: auto 0;
+}
+
 
 .dropdown-menu.show {
   overflow: visible;
