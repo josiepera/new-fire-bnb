@@ -488,7 +488,15 @@ td {
 
 table {
   margin-bottom: 20px;
-  border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.dates {
+  display: inline-flex;
+}
+
+.Availability, .Accessibility, .Sleeping, .Amenities, .host-info, .policies {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding-top: 15px;
 }
 
 
