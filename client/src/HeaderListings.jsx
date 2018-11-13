@@ -59,7 +59,6 @@ import Login from './Login';
             </form>
            </section>
            <ul className="listingNav">
-          <li className="Hlinks"><Link to='/'>Home</Link></li>
           <li className="Hlinks"><Link to='/host'>Become a Host</Link></li>
           <li className="Hlinks"><Link to='/help'> Help</Link></li>
           <li className="Hlinks"><SignUp/></li>

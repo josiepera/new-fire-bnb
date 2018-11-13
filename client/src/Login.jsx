@@ -27,11 +27,12 @@ class Login extends React.Component {
           <ModalHeader toggle={this.toggle} close={closeBtn}>Login</ModalHeader>
           <ModalBody>
           <div className="facebook">
-           Login with Facebook
+          <span className="facebookf">F</span> Login with Facebook
           </div>
           <div className="google">
-           Login with Google
+           <span className="googleg">G</span> Login with Google
           </div>
+          <hr />
             <form>
              <input placeholder="Email Address"/>
              <input placeholder="Password"/>
@@ -40,8 +41,8 @@ class Login extends React.Component {
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Login</Button>{' '}
             <h6> Forgot Password? </h6>
-            <h5> Don't have an account? </h5>
-            <h5> Sign up </h5>
+            <h5> Don't have an account? <a href='#'> Sign up </a> </h5>
+            <hr />
           </ModalFooter>
         </Modal>
       </div>
