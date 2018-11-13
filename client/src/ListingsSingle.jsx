@@ -171,7 +171,9 @@ class ListingsSingle extends Component {
                     </div>
                   </div>
               <div className="host-info">
+              <a id="host">
                  <h4> {this.state.host_info.host_title} </h4>
+                 </a>
                  <h6> {this.state.host_info.host_city_location} </h6>
                  <h6> {this.state.host_info.date_joined} </h6>
                  <div className="reviewStars">
@@ -182,11 +184,15 @@ class ListingsSingle extends Component {
                   <button className="contactHosts"> Contact Host </button>
                   <img className="always" src="https://i.imgur.com/a9YKoL3.png" title="source: imgur.com" />
                   <div className="map">
-
+                  <a href="location">
+                   <h4> Location </h4>
+                   </a>
                      <MapBox/>
                   <p> Exact Location provided 48 hours after a booking is confirmed. </p>
                   </div>
+                  <a id="policies">
                 <h5 className="policies" name="policies"> Policies </h5>
+                </a>
                  <p> {this.state.host_info.policies} </p>
                  <p> {this.state.host_info.cancellation} </p>
                  <img src="https://i.imgur.com/TrSAzLR.png" title="source: imgur.com" />

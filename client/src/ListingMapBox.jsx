@@ -10,7 +10,7 @@ class ListingMapBox extends Component {
       width: 650,
       height: 900,
       latitude: 40.7128,
-      longitude: -74.0060,
+      longitude: -73.9100,
       zoom: 11
     }
   };
