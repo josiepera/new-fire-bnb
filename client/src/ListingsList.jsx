@@ -10,7 +10,8 @@ class ListingsList extends Component {
   state = {
       apiDataLoaded: false,
       apiData: null,
-      dropdownOpen: false
+      dropdownOpen: false,
+      filter: 'all'
     }
 
  componentDidMount() {
@@ -27,11 +28,23 @@ class ListingsList extends Component {
     if (this.state.apiDataLoaded) {
       return this.state.apiData.map(listings => {
         return (
-          <Listings key={listings.id} listings={listings} />
+          <Listings
+          key={listings.id}
+          listings={listings}
+          onFaveToggle={ () => this.props.onFaveToggle(listings) }
+
+  isFave = {() => this.props.listings.includes()}/>
         );
       });
     } else return <p>Loading...</p>
   }
+
+  handleFilterClick(filter) {
+ console.log('setting filter to', filter)
+ this.setState(prevState => ({
+ filter
+ }))
+}
 
     toggle() {
     this.setState(prevState => ({
@@ -40,6 +53,13 @@ class ListingsList extends Component {
   }
 
   render() {
+      // const favorites = this.props.faves
+    const filterall = (this.state.filter) === 'all' ? 'is-active' : ''
+    const filterfaves = (this.state.filter) === 'faves' ? 'is-active' : ''
+    // const filterState = (this.state.filter) === 'faves' ? 'film-list' : 'no-faves'
+
+
+
     return (
       <div className="listings-list">
        <HeaderListings/>
@@ -48,7 +68,8 @@ class ListingsList extends Component {
               <li className="filter-buttons">Dates</li>
               <li className="filter-buttons">Guests</li>
               <li className="filter-buttons">Home type</li>
-              <li className="filter-buttons">Price</li>
+              <li className={`filter-buttons ${filterfaves}`}
+        onClick={() => this.handleFilterClick('faves')}>Price</li>
               <li className="filter-buttons">Instant Book</li>
               <li className="filter-buttons">Trip Type</li>
            </ul>

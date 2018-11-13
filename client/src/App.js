@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import ListingsList from './ListingsList';
 import ListingsSingle from './ListingsSingle';
+import BecomeHost from './BecomeHost';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/listings" component={ListingsList} />
             <Route exact path="/listings/:id" component={ListingsSingle} />
+            <Route exact path="/add" component={BecomeHost} />
           </Switch>
          </React.Fragment>
       </Router>

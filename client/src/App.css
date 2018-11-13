@@ -685,3 +685,23 @@ table {
 }
 
 }
+
+.add {
+  width: 500px;
+  height: 1000px;
+}
+
+
+.becomeHost {
+  background-color: white;
+  border: 1px solid rgb(235, 235, 235);
+  text-align: center;
+  width: 70%;
+  margin-left: 60%;
+  padding: 40px;
+}
+
+.hostSubmit {
+  background-color: crimson;
+  color: white;
+}
