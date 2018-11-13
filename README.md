@@ -123,8 +123,8 @@ render the data and pass it as props
 | Basic Styles | H  | 4hrs| 4hr | 4hrs|
 | Adv Styles | H  | 4hrs| 6hrs | 6hrs |
 | Routes | H | 4hrs | 2hr | 2hr |
-| Model | H | 4hrs | 9hrs| ?
-| Controller | H | 4hrs | 9hrs | ?
+| Model | H | 4hrs | 9hrs| 9hrs
+| Controller | H | 4hrs | 9hrs | 9hrs
 | DB and Tables | H  | 4hrs | 6hrs | 6hrs
 | Auth / login  | M  | 4hrs | ?  | ?
 | User db       | M  | 4hrs | ?  |  ?
