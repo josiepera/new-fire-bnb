@@ -26,11 +26,11 @@ class StickyNav extends Component {
         let navHide = this.state.isHide ? 'hide' : '';
         return (<div className={"stickyNav" +navHide}>
              <ul className="stickynav1">
-               <li className="clickNav"> Overview ·</li>
-               <li className="clickNav"> Reviews  ·</li>
-               <li className="clickNav"> Location · </li>
-               <li className="clickNav"> The Host ·</li>
-               <li className="clickNav"> Policies </li>
+               <li className="clickNav"> <a href="#overview"> Overview </a></li>
+               <li className="clickNav"><a href="#review"> Reviews </a> </li>
+               <li className="clickNav"> <a href="#location">Location </a></li>
+               <li className="clickNav"><a href="#host"> The Host </a> </li>
+               <li className="clickNav"><a href="#policies">Policies </a> </li>
                <div className="rightStickyNav">
                <img className="downloadIcon" src="https://i.imgur.com/ZwbKCUss.png" title="source: imgur.com" />
                <li className="clickNav"> Share</li>
