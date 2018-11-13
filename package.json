@@ -5,12 +5,12 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "cd client && npm run start",
-    "server": "nodemon app.js",
+    "client": "cd client && npm start",
+    "server": "node app.js",
     "start": "node app.js",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "npm install && cd client && npm install --only-dev && npm install && npm run build"
-  },
+ },
   "repository": {
     "type": "git",
     "url": "https://git.generalassemb.ly/dillonbartkus/squad-airbnb.git"
