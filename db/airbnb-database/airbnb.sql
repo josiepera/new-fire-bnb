@@ -1859,9 +1859,9 @@ INSERT INTO host_info (host_title, host_photo, host_city_location, date_joined, 
 INSERT INTO listings (url, url_two, url_three, listing_title, city_location, room_specifics, superhost_or_not, description, space, guest_access, interaction, other, contact_host, amenities_one, amenities_two, amenities_three, amenities_four, sleep_arrange, access, review_one, review_two, review_three, price, host_id) VALUES
 
 (
-	'https://upload.wikimedia.org/wikipedia/commons/9/96/Vasskertentrance.jpg',
-	'https://upload.wikimedia.org/wikipedia/en/3/32/Market_house_mon_inside.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/1/1c/Windows%2C_WMH.jpg',
+	'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7eb3cf84fa5988885f62b3ee0dfac1fe&auto=format&fit=crop&w=973&q=80',
+	'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee7b83f80f90879486ced1b45501ce21&auto=format&fit=crop&w=1049&q=80',
+	'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d2529242e0b4fadad755467e572682a&auto=format&fit=crop&w=1055&q=80',
 	'Tasteful Room in Charming Two Bedroom Apartment',
 	'New York, NY',
 	'1 guest, 1 bedroom, 1 bed, 1 shared bath',
@@ -1898,10 +1898,10 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	1
 ),
 (
-		'https://upload.wikimedia.org/wikipedia/commons/4/41/Wfm_rosenbaum_house_interior.jpg',
-		'https://upload.wikimedia.org/wikipedia/commons/3/38/Music_room.jpg',
-		'https://upload.wikimedia.org/wikipedia/commons/e/eb/Paneling.jpg',
-		'Cool Room',
+		'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9fc409d72ac99c1a6d2590c883ed2f62&auto=format&fit=crop&w=1050&q=80',
+		'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-0.3.5&s=e6edcd5ea442e1089709a0874788291d&auto=format&fit=crop&w=1053&q=80',
+		'https://images.unsplash.com/photo-1519643225200-94e79e383724?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=57a962be8447ae8fbea351abe9262275&auto=format&fit=crop&w=1055&q=80',
+		'Upper West Side Loft',
 		'New York, NY',
 		'2 guests, 2 bedroom, 2 beds, 1 shared bath',
 		'Dillon is a is a Superhost: Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.',
@@ -1936,9 +1936,9 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 		2
 ),
 (
-	'https://upload.wikimedia.org/wikipedia/en/6/6d/The_Temple_House_Mezzanine.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/b/bf/Central_Hall_in_2001.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/b/b8/Highsmithvenicecanals.jpg',
+	'https://images.unsplash.com/photo-1512914890251-2f96a9b0bbe2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be0ba3fc79fc3386e58f6441eb8b46c2&auto=format&fit=crop&w=1051&q=80',
+	'https://images.unsplash.com/photo-1501876725168-00c445821c9e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a1a9a1d07a8a1cb53aa3686da2ef497&auto=format&fit=crop&w=1050&q=80',
+	'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e9870f5fda6394edb521a7cb9559dcfe&auto=format&fit=crop&w=1050&q=80',
 	'"The Country" & the NYC Waterfront!',
 	'New York, NY',
 	'4 guests, 2 bedrooms, 3 beds, 1 bath',
@@ -1995,9 +1995,9 @@ INSERT INTO listings (url, url_two, url_three, listing_title, city_location, roo
 	3
 ),
 (
-	'https://upload.wikimedia.org/wikipedia/commons/a/a0/Main_House_of_Jim_Thompson_photo_D_Ramey_Logan.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/b/b3/Open_fireplace_with_icon.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/3/38/OysterBay_NewYork_Wightman_House_inside.JPG',
+	'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-0.3.5&s=b2794cfb8babd62ddc31864f7b50c0be&auto=format&fit=crop&w=1189&q=80',
+	'https://images.unsplash.com/photo-1512972972907-6d71529c5e92?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a7befde30272e9b33eae6fc4e67352e6&auto=format&fit=crop&w=1051&q=80',
+	'https://images.unsplash.com/photo-1523437275713-4dbf723f62c1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3927daf7209b8320a83a51c0cfdc9b73&auto=format&fit=crop&w=1051&q=80',
 	'Sun-drenched 1BD in Upper East Side',
 	'New York',
 	'2 guests, 1 bedroom, 1 bed, 1 private bath',
