@@ -80,6 +80,13 @@ class ListingsList extends Component {
        </section>
        <div className="mapwrapper">
        < ListingMapBox />
+
+       <div className="pricebox1"> $139 </div>
+       <div className="pricebox2"> $60 </div>
+       <div className="pricebox3"> $100 </div>
+       <div className="pricebox4"> $150 </div>
+       <div className="pricebox5">  $70 </div>
+       <div className="pricebox6"> $200 </div>
        </div>
         {this.renderListings()}
       </div>
