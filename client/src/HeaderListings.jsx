@@ -36,17 +36,17 @@ import Help from './Help';
 
               </DropdownToggle>
               <DropdownMenu>
-                <DropdownItem>Home</DropdownItem>
+                <DropdownItem><Link to='/'>Home</Link></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Invite Friends</DropdownItem>
                 <DropdownItem>Refer Hosts</DropdownItem>
                 <DropdownItem>Airbnb for Work</DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Host a Home</DropdownItem>
-                <DropdownItem>Sign Up</DropdownItem>
-                <DropdownItem>Login</DropdownItem>
+                <DropdownItem><Link to='/add'>Become a Host</Link></DropdownItem>
+                <DropdownItem><SignUp/></DropdownItem>
+                <DropdownItem><Login/></DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Help</DropdownItem>
+                <DropdownItem><Help/></DropdownItem>
               </DropdownMenu>
             </Dropdown>
             <form>

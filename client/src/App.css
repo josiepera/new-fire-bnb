@@ -598,6 +598,7 @@ table {
 .clickNav {
   list-style-type: none;
   text-decoration: none;
+  color: darkcyan !important;
 }
 .clickNav:hover {
   color: black;
