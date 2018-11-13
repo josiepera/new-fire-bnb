@@ -126,11 +126,10 @@ render the data and pass it as props
 | Model | H | 4hrs | 9hrs| 9hrs
 | Controller | H | 4hrs | 9hrs | 9hrs
 | DB and Tables | H  | 4hrs | 6hrs | 6hrs
-| Auth / login  | M  | 4hrs | ?  | ?
-| User db       | M  | 4hrs | ?  |  ?
-| Faves        | L  | 4hrs | ? | ?
-| Filters | L | 4hrs | ? | ?
-| Project Management | H | 8hrs | 4hrs | ?
+| Auth / login  | M  | 4hrs | 10hrs  | 10hrs
+| User db       | M  | 4hrs | 10hrs  |  10hrs
+| Data Creation     | H | 4hrs | 3hrs  |  3hrs
+| Project Management | H | 8hrs | 8hrs | 8hrs
 
 
 ## Database and Tables
