@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import SignUp from './SignUp';
 import Login from './Login';
+import Help from './Help';
 
  class HeaderListings extends Component {
   constructor(props) {
@@ -60,7 +61,7 @@ import Login from './Login';
            </section>
            <ul className="listingNav">
           <li className="Hlinks"><Link to='/add'>Become a Host</Link></li>
-          <li className="Hlinks">Help</li>
+          <li className="Hlinks"><Help/></li>
           <li className="Hlinks"><SignUp/></li>
           <li className="Hlinks"><Login/></li>
         </ul>

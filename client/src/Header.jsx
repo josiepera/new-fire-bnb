@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Login from './Login';
 import SignUp from './SignUp';
+import Help from './Help';
 
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
 
           <li className="Hlinks"><Link to='/'>Home</Link></li>
           <li className="Hlinks"><Link to='/add'>Become a Host</Link></li>
-          <li className="Hlinks"><Link to='/help'> Help</Link></li>
+          <li className="Hlinks"><Help/></li>
           <li className="Hlinks"><SignUp/></li>
           <li className="Hlinks"><Login/></li>
         </ul>
