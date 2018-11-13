@@ -207,7 +207,7 @@ label {
   margin: 1% 1%;
   width:  10%;
   height: 100%;
-  border: 1px solid gray;
+  border: 1px solid rgb(235, 235, 235);
   border-radius: 5px;
   padding: 5px;
   list-style-type: none;
@@ -671,6 +671,7 @@ table {
 
 .done {
   color: white !important;
+}
 
 @media only screen and (max-width: 750px){
   .full-form {

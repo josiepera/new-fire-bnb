@@ -41,11 +41,12 @@
   position: absolute;
   top: 0;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .mapwrapper {
   position: fixed;
-  top: 21%;
+  top: 11%;
   margin: 5% 0;
   right: 0;
   width: 33%;
@@ -53,11 +54,19 @@
 
 .listings {
   width: 66%;
-  margin: 10% 0 0 0;
+  margin: 6% 0 0 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+
 }
+
+.secondinfo {
+  grid-column: 3 / 3;
+  grid-row: span 1;
+  border-left: 1px solid rgb(235, 235, 235);
+  padding-left: 20px;
+  padding-top:  20px;
+  }
 
 .pic {
   outline: 2px solid black;
