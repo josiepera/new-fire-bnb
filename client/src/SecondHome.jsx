@@ -44,7 +44,9 @@ class SecondHome extends Component{
               </Link>
             </div>
           </div>
-          <Footer/>
+          <div className="home-footer">
+            <img className="footer-img" src="https://res.cloudinary.com/jperalta/image/upload/v1542068555/Screen_Shot_2018-11-12_at_7.21.43_PM.png" title="source: cloudinary.com" />
+          </div>
         </div>
       )
   }
